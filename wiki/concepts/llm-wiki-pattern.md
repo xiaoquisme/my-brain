@@ -7,9 +7,10 @@ sources:
   - ../../sources/articles/karpathy-llm-wiki.md
   - ../../sources/articles/garry-tan-gbrain.md
 related:
-  - personal-knowledge-management.md
   - harness-engineering.md
   - coding-agents.md
+  - ../people/andrej-karpathy.md
+  - ../people/garry-tan.md
 ---
 
 ## Summary

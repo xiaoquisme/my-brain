@@ -11,6 +11,8 @@ related:
   - coding-agents.md
   - ashbys-law.md
   - llm-wiki-pattern.md
+  - ../people/birgitta-bockeler.md
+  - ../people/martin-fowler.md
 ---
 
 ## Summary
