@@ -8,8 +8,10 @@ sources:
   - ../../sources/articles/openai-harness-engineering.md
   - ../../sources/articles/anthropic-harness-design-long-running.md
   - ../../sources/articles/anthropic-effective-harnesses-long-running.md
+  - ../../sources/articles/meta-harness-optimization.md
 related:
   - coding-agents.md
+  - meta-harness.md
   - ashbys-law.md
   - llm-wiki-pattern.md
   - ../people/birgitta-bockeler.md
@@ -75,11 +77,22 @@ This directly relates to how we set up this knowledge base:
 - The maintain/lint workflow = a **sensor** (feedback control)
 - The schema constrains the solution space (Ashby's Law)
 
+## Meta-Harness: Automated Harness Optimization
+
+Meta-Harness (Lee et al. 2026) shifts harness engineering from manual craft to automated search:
+
+- **Agent-as-optimizer**: A coding agent iteratively proposes, evaluates, and refines harness code via filesystem access to source, traces, and metrics
+- **Raw execution traces are critical**: Full trace access (50%) dramatically outperforms scores-only (34.6%) — the proposer needs to see *why* things failed
+- **Results**: +7.7 points over SOTA on text classification with 75% fewer tokens; discovered harnesses transfer across unseen models
+- **Implication**: Manual harness engineering becomes the **seed** for automated search rather than the final product
+- See [Meta-Harness](meta-harness.md) for full details
+
 ## Open Questions
 
 - How to measure harness coverage and quality?
 - How to resolve conflicts between contradictory guidance signals?
 - What does a good behaviour harness look like beyond tests?
+- Can automated harness search (Meta-Harness) work for open-ended tasks where evaluation is harder?
 
 ---
 ## Evidence Timeline
@@ -88,3 +101,4 @@ This directly relates to how we set up this knowledge base:
 - **2026-04-07**: Updated with OpenAI's Codex case study — 1M lines, zero handwritten code, 3 engineers in 5 months
 - **2026-04-07**: Updated with Anthropic's multi-agent harness design — GAN-inspired generator-evaluator separation for long-running tasks
 - **2026-04-07**: Updated with Justin Young's session continuity harness — Initializer/Coding agent pattern, feature list as contract, incremental progress
+- **2026-04-07**: Added Meta-Harness section — automated harness search outperforming manual engineering (Lee et al., arXiv:2603.28052)

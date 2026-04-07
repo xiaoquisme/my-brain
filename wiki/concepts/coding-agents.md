@@ -10,6 +10,7 @@ sources:
   - ../../sources/articles/anthropic-effective-harnesses-long-running.md
 related:
   - harness-engineering.md
+  - meta-harness.md
   - llm-wiki-pattern.md
   - ashbys-law.md
   - ../projects/claude-code-workflow.md
@@ -33,6 +34,8 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **Two failure modes for long tasks**: Over-ambition (context exhaustion mid-feature) and premature completion (sees progress, declares done)
 - **Session continuity via files**: progress.txt + feature list JSON + init.sh = structured handoff between agent sessions
 
+- **Meta-Harness**: Automated harness search using a coding agent as optimizer — discovered harnesses outperform hand-engineered solutions and transfer across models (see [Meta-Harness](meta-harness.md))
+
 ## Open Questions
 
 - What's the right level of autonomy for different types of tasks?
@@ -46,3 +49,4 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **2026-04-07**: Updated with OpenAI Codex case study data (1M lines, zero handwritten code)
 - **2026-04-07**: Updated with Anthropic's multi-agent harness, context anxiety finding, and harness simplification insight
 - **2026-04-07**: Updated with Justin Young's session continuity patterns — two failure modes and file-based handoff
+- **2026-04-07**: Added Meta-Harness — automated harness discovery outperforming manual engineering

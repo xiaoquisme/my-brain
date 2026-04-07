@@ -11,6 +11,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Anthropic - Harness Design](sources/articles/anthropic-harness-design-long-running.md) — Multi-agent GAN-inspired harness for long-running tasks
 - [Anthropic - Effective Harnesses](sources/articles/anthropic-effective-harnesses-long-running.md) — Session continuity: feature lists, init scripts, incremental progress
 - [Claude How To Guide](sources/articles/claude-howto-guide.md) — Structured guide to all Claude Code features with templates
+- [Meta-Harness (Lee et al.)](sources/articles/meta-harness-optimization.md) — Automated harness search outperforming manual engineering
 
 ## Concepts
 
@@ -18,6 +19,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Harness Engineering](wiki/concepts/harness-engineering.md) — Feedforward + feedback controls for coding agents
 - [Coding Agents](wiki/concepts/coding-agents.md) — AI agents that autonomously write and modify code
 - [Ashby's Law](wiki/concepts/ashbys-law.md) — Requisite variety: regulator must match system complexity
+- [Meta-Harness](wiki/concepts/meta-harness.md) — Automated search for optimal LLM harness configurations
 
 ## People
 
@@ -28,6 +30,8 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Justin Young](wiki/people/justin-young.md) — Anthropic, session continuity harness for long-running agents
 - [Prithvi Rajasekaran](wiki/people/prithvi-rajasekaran.md) — Anthropic Labs, GAN-inspired multi-agent harness design
 - [luongnv89](wiki/people/luongnv89.md) — Creator of claude-howto tutorial (5,900+ stars)
+- [Chelsea Finn](wiki/people/chelsea-finn.md) — Stanford professor, meta-learning (MAML), Meta-Harness co-author
+- [Omar Khattab](wiki/people/omar-khattab.md) — Creator of DSPy, Meta-Harness co-author
 
 ## Projects
 
