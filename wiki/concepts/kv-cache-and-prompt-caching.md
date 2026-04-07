@@ -5,6 +5,8 @@ updated: 2026-04-07
 tags: [llm, transformer, inference, kv-cache, prompt-caching]
 sources:
   - ../../sources/articles/yuanchaofa-kv-cache-prompt-caching.md
+  - ../../sources/articles/yuanchaofa-prompt-cache-design.md
+  - ../../sources/articles/yuanchaofa-agent-context-management.md
 related:
   - coding-agents.md
   - agentic-patterns.md

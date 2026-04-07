@@ -7,6 +7,7 @@ sources:
   - ../../sources/articles/yuanchaofa-harness-engineering.md
   - ../../sources/articles/yuanchaofa-kv-cache-prompt-caching.md
   - ../../sources/articles/yuanchaofa-prompt-cache-design.md
+  - ../../sources/articles/yuanchaofa-agent-context-management.md
 related:
   - ../concepts/harness-engineering.md
   - ../concepts/coding-agents.md
