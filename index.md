@@ -15,6 +15,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Meta-Harness Library (Jagtap)](sources/articles/meta-harness-library-jagtap.md) — Open-source Python library for harness optimization
 - [Anthropic - Building Effective Agents](sources/articles/anthropic-building-effective-agents.md) — Six composable agentic patterns, simplicity-first design
 - [rosa - Bash Tools for Agents](sources/articles/rosa-bash-tools-agents.md) — Coding as agent meta-ability, Bash tools for deterministic offloading
+- [rosa - OpenClaw Architecture](sources/articles/rosa-openclaw-architecture.md) — Gateway, Agentic Loop, Skills, MCP, Memory, Heartbeat - core patterns of modern AI agents
 - [Chaofa Yuan - Harness Engineering](sources/articles/yuanchaofa-harness-engineering.md) — Engineering hierarchy (prompt→context→harness), LangChain case study, transient vs persistent harness
 - [Chaofa Yuan - KV Cache & Prompt Caching](sources/articles/yuanchaofa-kv-cache-prompt-caching.md) — KV Cache mechanics, Prefill/Decode phases, Prompt Caching prefix matching and Agent implications
 

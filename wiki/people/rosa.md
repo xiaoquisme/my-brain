@@ -5,9 +5,11 @@ updated: 2026-04-07
 tags: [ai-agents, tool-use]
 sources:
   - ../../sources/articles/rosa-bash-tools-agents.md
+  - ../../sources/articles/rosa-openclaw-architecture.md
 related:
   - ../concepts/tool-use-as-meta-ability.md
   - ../concepts/coding-agents.md
+  - ../concepts/agentic-patterns.md
 ---
 
 ## Summary
