@@ -14,6 +14,9 @@ related:
   - llm-wiki-pattern.md
   - ../people/birgitta-bockeler.md
   - ../people/martin-fowler.md
+  - ../people/justin-young.md
+  - ../people/prithvi-rajasekaran.md
+  - ../projects/claude-code-workflow.md
 ---
 
 ## Summary

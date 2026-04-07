@@ -11,6 +11,8 @@ sources:
 related:
   - harness-engineering.md
   - llm-wiki-pattern.md
+  - ashbys-law.md
+  - ../projects/claude-code-workflow.md
 ---
 
 ## Summary
