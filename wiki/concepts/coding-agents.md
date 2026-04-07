@@ -8,6 +8,8 @@ sources:
   - ../../sources/articles/openai-harness-engineering.md
   - ../../sources/articles/anthropic-harness-design-long-running.md
   - ../../sources/articles/anthropic-effective-harnesses-long-running.md
+  - ../../sources/articles/meta-harness-optimization.md
+  - ../../sources/articles/meta-harness-library-jagtap.md
 related:
   - harness-engineering.md
   - meta-harness.md
@@ -50,3 +52,4 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **2026-04-07**: Updated with Anthropic's multi-agent harness, context anxiety finding, and harness simplification insight
 - **2026-04-07**: Updated with Justin Young's session continuity patterns — two failure modes and file-based handoff
 - **2026-04-07**: Added Meta-Harness — automated harness discovery outperforming manual engineering
+- **2026-04-07**: Meta-Harness open-source library available: `superagentic-metaharness` (filesystem-first harness optimization)

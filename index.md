@@ -12,6 +12,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Anthropic - Effective Harnesses](sources/articles/anthropic-effective-harnesses-long-running.md) — Session continuity: feature lists, init scripts, incremental progress
 - [Claude How To Guide](sources/articles/claude-howto-guide.md) — Structured guide to all Claude Code features with templates
 - [Meta-Harness (Lee et al.)](sources/articles/meta-harness-optimization.md) — Automated harness search outperforming manual engineering
+- [Meta-Harness Library (Jagtap)](sources/articles/meta-harness-library-jagtap.md) — Open-source Python library for harness optimization
 
 ## Concepts
 
@@ -32,6 +33,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [luongnv89](wiki/people/luongnv89.md) — Creator of claude-howto tutorial (5,900+ stars)
 - [Chelsea Finn](wiki/people/chelsea-finn.md) — Stanford professor, meta-learning (MAML), Meta-Harness co-author
 - [Omar Khattab](wiki/people/omar-khattab.md) — Creator of DSPy, Meta-Harness co-author
+- [Shashikant Jagtap](wiki/people/shashikant-jagtap.md) — Creator of superagentic-metaharness library
 
 ## Projects
 

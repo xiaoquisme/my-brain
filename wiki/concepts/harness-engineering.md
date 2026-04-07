@@ -9,6 +9,7 @@ sources:
   - ../../sources/articles/anthropic-harness-design-long-running.md
   - ../../sources/articles/anthropic-effective-harnesses-long-running.md
   - ../../sources/articles/meta-harness-optimization.md
+  - ../../sources/articles/meta-harness-library-jagtap.md
 related:
   - coding-agents.md
   - meta-harness.md
@@ -18,6 +19,7 @@ related:
   - ../people/martin-fowler.md
   - ../people/justin-young.md
   - ../people/prithvi-rajasekaran.md
+  - ../people/shashikant-jagtap.md
   - ../projects/claude-code-workflow.md
 ---
 
@@ -102,3 +104,4 @@ Meta-Harness (Lee et al. 2026) shifts harness engineering from manual craft to a
 - **2026-04-07**: Updated with Anthropic's multi-agent harness design — GAN-inspired generator-evaluator separation for long-running tasks
 - **2026-04-07**: Updated with Justin Young's session continuity harness — Initializer/Coding agent pattern, feature list as contract, incremental progress
 - **2026-04-07**: Added Meta-Harness section — automated harness search outperforming manual engineering (Lee et al., arXiv:2603.28052)
+- **2026-04-07**: Meta-Harness now has open-source implementation: `superagentic-metaharness` by Shashikant Jagtap — filesystem-first harness optimization

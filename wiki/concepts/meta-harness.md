@@ -5,11 +5,13 @@ updated: 2026-04-07
 tags: [harness-engineering, optimization, ai-agents, automated-search]
 sources:
   - ../../sources/articles/meta-harness-optimization.md
+  - ../../sources/articles/meta-harness-library-jagtap.md
 related:
   - harness-engineering.md
   - coding-agents.md
   - ../people/chelsea-finn.md
   - ../people/omar-khattab.md
+  - ../people/shashikant-jagtap.md
 ---
 
 ## Summary
@@ -43,13 +45,27 @@ This shifts the question from "how do I write the best harness?" to "how do I de
 - **Proposer capability = search quality** — better coding agents directly improve harness discovery
 - Future direction: co-evolving harness and model weights together
 
+## Open-Source Implementation
+
+Shashikant Jagtap built `superagentic-metaharness`, an open-source Python library inspired by the research paper:
+
+- **Filesystem-first approach**: All candidate workspaces, proposals, validation results stored on disk for full audit trail
+- **Write scope enforcement**: Restricts which paths the agent can edit during optimization
+- **Environment bootstrap snapshots**: Captures system state before runs
+- **CLI + experiment matrices**: Scriptable experimentation
+- **Provider**: Codex (hosted + local Ollama) as primary validated backend; Gemini, Pi, OpenCode experimental
+- Install: `uv tool install superagentic-metaharness`
+- Status: Alpha release, single validated provider path
+
 ## Open Questions
 
 - Does this work for more open-ended tasks where evaluation is harder to automate?
 - What's the right granularity of the search space — too narrow limits discovery, too broad is intractable?
 - How to prevent overfitting to evaluation instances while still finding meaningful improvements?
+- How does the open-source library's filesystem-first approach compare to the research paper's implementation?
 
 ---
 ## Evidence Timeline
 
 - **2026-04-07**: Created from Lee et al. 2026 (arXiv:2603.28052) — automated harness search outperforming manual engineering across classification, math reasoning, and coding benchmarks
+- **2026-04-07**: Added open-source implementation by Shashikant Jagtap — `superagentic-metaharness` Python library with filesystem-first design
