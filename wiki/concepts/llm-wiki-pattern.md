@@ -8,6 +8,8 @@ sources:
   - ../../sources/articles/garry-tan-gbrain.md
 related:
   - personal-knowledge-management.md
+  - harness-engineering.md
+  - coding-agents.md
 ---
 
 ## Summary

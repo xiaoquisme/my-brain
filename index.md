@@ -6,15 +6,21 @@ Content catalog for My Brain. One line per page, organized by category.
 
 - [Karpathy - LLM Wiki](sources/articles/karpathy-llm-wiki.md) — LLM-maintained wiki pattern for personal knowledge bases
 - [Garry Tan - GBrain](sources/articles/garry-tan-gbrain.md) — Full build spec for SQLite-based personal knowledge system
+- [Böckeler - Harness Engineering](sources/articles/martin-fowler-harness-engineering.md) — Systematic controls for AI coding agents
 
 ## Concepts
 
 - [LLM Wiki Pattern](wiki/concepts/llm-wiki-pattern.md) — Using LLMs to build and maintain structured knowledge bases
+- [Harness Engineering](wiki/concepts/harness-engineering.md) — Feedforward + feedback controls for coding agents
+- [Coding Agents](wiki/concepts/coding-agents.md) — AI agents that autonomously write and modify code
+- [Ashby's Law](wiki/concepts/ashbys-law.md) — Requisite variety: regulator must match system complexity
 
 ## People
 
 - [Andrej Karpathy](wiki/people/andrej-karpathy.md) — AI researcher, proposed LLM Wiki pattern
 - [Garry Tan](wiki/people/garry-tan.md) — YC CEO, building GBrain
+- [Martin Fowler](wiki/people/martin-fowler.md) — Software engineering thought leader, Thoughtworks
+- [Birgitta Böckeler](wiki/people/birgitta-bockeler.md) — Author of harness engineering framework
 
 ## Projects
 
