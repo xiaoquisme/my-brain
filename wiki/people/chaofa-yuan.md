@@ -12,6 +12,8 @@ related:
   - ../concepts/harness-engineering.md
   - ../concepts/coding-agents.md
   - ../concepts/kv-cache-and-prompt-caching.md
+  - ../concepts/agentic-patterns.md
+  - ../projects/claude-code-workflow.md
 ---
 
 ## Summary

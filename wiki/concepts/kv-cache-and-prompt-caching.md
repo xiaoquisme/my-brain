@@ -11,6 +11,7 @@ related:
   - coding-agents.md
   - agentic-patterns.md
   - ../projects/claude-code-workflow.md
+  - harness-engineering.md
 ---
 
 ## Summary

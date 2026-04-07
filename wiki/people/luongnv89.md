@@ -7,6 +7,7 @@ sources:
   - ../../sources/articles/claude-howto-guide.md
 related:
   - ../projects/claude-code-workflow.md
+  - ../concepts/coding-agents.md
 ---
 
 ## Summary
