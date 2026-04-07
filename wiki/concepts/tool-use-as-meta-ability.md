@@ -9,6 +9,7 @@ related:
   - coding-agents.md
   - agentic-patterns.md
   - harness-engineering.md
+  - ../people/rosa.md
 ---
 
 ## Summary

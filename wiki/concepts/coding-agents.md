@@ -2,7 +2,7 @@
 title: Coding Agents
 created: 2026-04-07
 updated: 2026-04-07
-tags: [ai-agents, software-engineering, tools]
+tags: [ai-agents, software-engineering, tool-use]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
   - ../../sources/articles/openai-harness-engineering.md
