@@ -6,6 +6,7 @@ tags: [ai-agents, harness-engineering, llm, inference]
 sources:
   - ../../sources/articles/yuanchaofa-harness-engineering.md
   - ../../sources/articles/yuanchaofa-kv-cache-prompt-caching.md
+  - ../../sources/articles/yuanchaofa-prompt-cache-design.md
 related:
   - ../concepts/harness-engineering.md
   - ../concepts/coding-agents.md

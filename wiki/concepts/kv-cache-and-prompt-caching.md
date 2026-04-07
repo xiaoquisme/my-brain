@@ -8,6 +8,7 @@ sources:
 related:
   - coding-agents.md
   - agentic-patterns.md
+  - ../projects/claude-code-workflow.md
 ---
 
 ## Summary

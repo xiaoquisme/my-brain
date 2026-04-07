@@ -18,6 +18,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [rosa - OpenClaw Architecture](sources/articles/rosa-openclaw-architecture.md) — Gateway, Agentic Loop, Skills, MCP, Memory, Heartbeat - core patterns of modern AI agents
 - [Chaofa Yuan - Harness Engineering](sources/articles/yuanchaofa-harness-engineering.md) — Engineering hierarchy (prompt→context→harness), LangChain case study, transient vs persistent harness
 - [Chaofa Yuan - KV Cache & Prompt Caching](sources/articles/yuanchaofa-kv-cache-prompt-caching.md) — KV Cache mechanics, Prefill/Decode phases, Prompt Caching prefix matching and Agent implications
+- [Chaofa Yuan - Prompt Caching Design (上)](sources/articles/yuanchaofa-prompt-cache-design.md) — Cache 破坏、Prompt 布局与工具管理，三种 Agent 系统的 cache-aware 设计
 
 ## Concepts
 
