@@ -11,10 +11,12 @@ sources:
   - ../../sources/articles/meta-harness-optimization.md
   - ../../sources/articles/meta-harness-library-jagtap.md
   - ../../sources/articles/anthropic-building-effective-agents.md
+  - ../../sources/articles/rosa-bash-tools-agents.md
 related:
   - harness-engineering.md
   - agentic-patterns.md
   - meta-harness.md
+  - tool-use-as-meta-ability.md
   - llm-wiki-pattern.md
   - ashbys-law.md
   - ../projects/claude-code-workflow.md
@@ -41,6 +43,7 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **Meta-Harness**: Automated harness search using a coding agent as optimizer — discovered harnesses outperform hand-engineered solutions and transfer across models (see [Meta-Harness](meta-harness.md))
 - **Six agentic patterns** (Schluntz & Zhang): Augmented LLM → Prompt Chaining → Routing → Parallelization → Orchestrator-Workers → Evaluator-Optimizer — increasing complexity, start simple (see [Agentic Patterns](agentic-patterns.md))
 - **Tool design = prompt engineering**: Anthropic spent more time on tool definitions than system prompts for SWE-bench agent
+- **Tool use as meta-ability**: Coding/scripting ability is an agent's "meta-ability" — offloading deterministic logic (math, ETL, file ops) to reliable tools rather than relying on neural inference. Even non-coding agents benefit from Bash tools (see [Tool Use as Meta-Ability](tool-use-as-meta-ability.md))
 
 ## Open Questions
 
@@ -58,3 +61,4 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **2026-04-07**: Added Meta-Harness — automated harness discovery outperforming manual engineering
 - **2026-04-07**: Meta-Harness open-source library available: `superagentic-metaharness` (filesystem-first harness optimization)
 - **2026-04-07**: Added six agentic patterns from Schluntz & Zhang (Anthropic, 2024-12-19) — composable building blocks from augmented LLM to evaluator-optimizer
+- **2026-04-07**: Added tool use as meta-ability from rosa's article — coding/scripting as foundational agent capability, Bash tools for deterministic offloading

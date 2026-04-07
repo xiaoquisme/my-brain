@@ -8,6 +8,7 @@ sources:
 related:
   - coding-agents.md
   - harness-engineering.md
+  - tool-use-as-meta-ability.md
   - ../people/erik-schluntz.md
   - ../people/barry-zhang.md
 ---
@@ -61,3 +62,4 @@ The evaluator-optimizer pattern is directly related to Anthropic's GAN-inspired 
 ## Evidence Timeline
 
 - **2026-04-07**: Initial compilation from Anthropic's "Building Effective Agents" (Schluntz & Zhang, 2024-12-19)
+- **2026-04-07**: Added cross-ref to tool-use-as-meta-ability — tool use is the foundation of the Augmented LLM pattern

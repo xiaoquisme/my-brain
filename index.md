@@ -14,6 +14,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Meta-Harness (Lee et al.)](sources/articles/meta-harness-optimization.md) — Automated harness search outperforming manual engineering
 - [Meta-Harness Library (Jagtap)](sources/articles/meta-harness-library-jagtap.md) — Open-source Python library for harness optimization
 - [Anthropic - Building Effective Agents](sources/articles/anthropic-building-effective-agents.md) — Six composable agentic patterns, simplicity-first design
+- [rosa - Bash Tools for Agents](sources/articles/rosa-bash-tools-agents.md) — Coding as agent meta-ability, Bash tools for deterministic offloading
 
 ## Concepts
 
@@ -23,6 +24,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Ashby's Law](wiki/concepts/ashbys-law.md) — Requisite variety: regulator must match system complexity
 - [Meta-Harness](wiki/concepts/meta-harness.md) — Automated search for optimal LLM harness configurations
 - [Agentic Patterns](wiki/concepts/agentic-patterns.md) — Six composable patterns for LLM agent architecture
+- [Tool Use as Meta-Ability](wiki/concepts/tool-use-as-meta-ability.md) — Coding/scripting as foundational agent capability for deterministic offloading
 
 ## People
 
@@ -38,6 +40,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Shashikant Jagtap](wiki/people/shashikant-jagtap.md) — Creator of superagentic-metaharness library
 - [Erik Schluntz](wiki/people/erik-schluntz.md) — Anthropic, co-author of "Building Effective Agents"
 - [Barry Zhang](wiki/people/barry-zhang.md) — Anthropic, co-author of "Building Effective Agents"
+- [rosa](wiki/people/rosa.md) — Technical writer, agent tool use and meta-ability
 
 ## Projects
 
