@@ -7,6 +7,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Karpathy - LLM Wiki](sources/articles/karpathy-llm-wiki.md) — LLM-maintained wiki pattern for personal knowledge bases
 - [Garry Tan - GBrain](sources/articles/garry-tan-gbrain.md) — Full build spec for SQLite-based personal knowledge system
 - [Böckeler - Harness Engineering](sources/articles/martin-fowler-harness-engineering.md) — Systematic controls for AI coding agents
+- [OpenAI - Harness Engineering](sources/articles/openai-harness-engineering.md) — Codex case study: 1M lines, zero handwritten code
 
 ## Concepts
 
