@@ -10,6 +10,7 @@ sources:
   - ../../sources/articles/anthropic-effective-harnesses-long-running.md
   - ../../sources/articles/meta-harness-optimization.md
   - ../../sources/articles/meta-harness-library-jagtap.md
+  - ../../sources/articles/yuanchaofa-harness-engineering.md
 related:
   - coding-agents.md
   - agentic-patterns.md
@@ -21,6 +22,7 @@ related:
   - ../people/justin-young.md
   - ../people/prithvi-rajasekaran.md
   - ../people/shashikant-jagtap.md
+  - ../people/chaofa-yuan.md
   - ../projects/claude-code-workflow.md
 ---
 
@@ -90,6 +92,34 @@ Meta-Harness (Lee et al. 2026) shifts harness engineering from manual craft to a
 - **Implication**: Manual harness engineering becomes the **seed** for automated search rather than the final product
 - See [Meta-Harness](meta-harness.md) for full details
 
+## Engineering Hierarchy (Chaofa Yuan)
+
+Prompt Engineering → Context Engineering → Harness Engineering 是递进扩展关系：
+
+- **Prompt Engineering**：聚焦指令措辞
+- **Context Engineering**：管理整个输入窗口（what goes into the context）
+- **Harness Engineering**：控制执行环境和系统约束（everything outside model weights）
+
+## Transient vs Persistent Harness
+
+并非所有 harness 设计都具有同等寿命：
+
+- **Transient**：补偿当前模型局限的设计（如强制自验证、推理三明治），模型进步后可能过时
+- **Persistent**：物理约束驱动的架构决策（持久存储、沙箱、版本控制），与模型能力无关
+
+## Harness-Model Co-evolution
+
+Harness 执行轨迹成为训练数据 → 模型改进 → harness 可简化 → 新轨迹 → 持续共同演化。这与 Anthropic 观察到的"模型越强，harness 越简"一致（Opus 4.6 移除了 sprint 分解）。
+
+## LangChain Terminal Bench 2.0 Case Study
+
+同一模型（GPT-5.2-Codex）仅修改 harness 即从 Top 30 跃升至 Top 5，四项改进：
+
+1. **强制自验证**：中间件拦截 Agent 退出，必须自检
+2. **环境预扫描**：启动注入环境信息，减少探索时间
+3. **循环检测**：追踪跨迭代文件编辑
+4. **推理三明治**（高→中→高）：平衡质量与延迟
+
 ## Open Questions
 
 - How to measure harness coverage and quality?
@@ -106,3 +136,4 @@ Meta-Harness (Lee et al. 2026) shifts harness engineering from manual craft to a
 - **2026-04-07**: Updated with Justin Young's session continuity harness — Initializer/Coding agent pattern, feature list as contract, incremental progress
 - **2026-04-07**: Added Meta-Harness section — automated harness search outperforming manual engineering (Lee et al., arXiv:2603.28052)
 - **2026-04-07**: Meta-Harness now has open-source implementation: `superagentic-metaharness` by Shashikant Jagtap — filesystem-first harness optimization
+- **2026-04-07**: Added Chaofa Yuan's engineering hierarchy (prompt → context → harness), transient vs persistent harness distinction, harness-model co-evolution, and LangChain Terminal Bench 2.0 case study

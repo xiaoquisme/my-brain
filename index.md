@@ -15,6 +15,8 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Meta-Harness Library (Jagtap)](sources/articles/meta-harness-library-jagtap.md) — Open-source Python library for harness optimization
 - [Anthropic - Building Effective Agents](sources/articles/anthropic-building-effective-agents.md) — Six composable agentic patterns, simplicity-first design
 - [rosa - Bash Tools for Agents](sources/articles/rosa-bash-tools-agents.md) — Coding as agent meta-ability, Bash tools for deterministic offloading
+- [Chaofa Yuan - Harness Engineering](sources/articles/yuanchaofa-harness-engineering.md) — Engineering hierarchy (prompt→context→harness), LangChain case study, transient vs persistent harness
+- [Chaofa Yuan - KV Cache & Prompt Caching](sources/articles/yuanchaofa-kv-cache-prompt-caching.md) — KV Cache mechanics, Prefill/Decode phases, Prompt Caching prefix matching and Agent implications
 
 ## Concepts
 
@@ -25,6 +27,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Meta-Harness](wiki/concepts/meta-harness.md) — Automated search for optimal LLM harness configurations
 - [Agentic Patterns](wiki/concepts/agentic-patterns.md) — Six composable patterns for LLM agent architecture
 - [Tool Use as Meta-Ability](wiki/concepts/tool-use-as-meta-ability.md) — Coding/scripting as foundational agent capability for deterministic offloading
+- [KV Cache and Prompt Caching](wiki/concepts/kv-cache-and-prompt-caching.md) — Inference acceleration: intra-request KV Cache + inter-request prefix caching
 
 ## People
 
@@ -41,6 +44,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Erik Schluntz](wiki/people/erik-schluntz.md) — Anthropic, co-author of "Building Effective Agents"
 - [Barry Zhang](wiki/people/barry-zhang.md) — Anthropic, co-author of "Building Effective Agents"
 - [rosa](wiki/people/rosa.md) — Technical writer, agent tool use and meta-ability
+- [Chaofa Yuan](wiki/people/chaofa-yuan.md) — Technical writer, harness engineering hierarchy and co-evolution
 
 ## Projects
 
