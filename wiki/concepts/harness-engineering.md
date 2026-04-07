@@ -23,6 +23,7 @@ related:
   - ../people/prithvi-rajasekaran.md
   - ../people/shashikant-jagtap.md
   - ../people/chaofa-yuan.md
+  - ../people/jinse-chuanshuo-dacongrming.md
   - ../projects/claude-code-workflow.md
 ---
 
