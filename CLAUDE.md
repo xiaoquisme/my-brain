@@ -101,7 +101,9 @@ Periodic maintenance (run when things feel stale):
 2. Check for stale pages (not updated in 90+ days, still relevant?)
 3. Check for contradictions across pages
 4. Verify all source references still valid
-5. Update `index.md` to reflect current state
+5. **Entity coverage**: Check all source `author` fields and key entities mentioned in sources — ensure each has a corresponding wiki page
+6. Check tag consistency (casing, singular/plural)
+7. Update `index.md` to reflect current state
 6. Log maintenance pass in `log.md`
 
 ## Conventions

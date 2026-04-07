@@ -24,6 +24,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Garry Tan](wiki/people/garry-tan.md) — YC CEO, building GBrain
 - [Martin Fowler](wiki/people/martin-fowler.md) — Software engineering thought leader, Thoughtworks
 - [Birgitta Böckeler](wiki/people/birgitta-bockeler.md) — Author of harness engineering framework
+- [Justin Young](wiki/people/justin-young.md) — Anthropic, session continuity harness for long-running agents
 
 ## Projects
 
