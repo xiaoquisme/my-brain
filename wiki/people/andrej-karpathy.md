@@ -2,7 +2,7 @@
 title: Andrej Karpathy
 created: 2026-04-07
 updated: 2026-04-07
-tags: [ai, researcher, entrepreneur]
+tags: [ai-agents, researcher, entrepreneur]
 sources:
   - ../../sources/articles/karpathy-llm-wiki.md
 related:

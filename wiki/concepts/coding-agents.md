@@ -7,6 +7,7 @@ sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
   - ../../sources/articles/openai-harness-engineering.md
   - ../../sources/articles/anthropic-harness-design-long-running.md
+  - ../../sources/articles/anthropic-effective-harnesses-long-running.md
 related:
   - harness-engineering.md
   - llm-wiki-pattern.md
@@ -27,6 +28,8 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **Anthropic multi-agent harness**: Generator-Evaluator separation (GAN-inspired) for long-running tasks; self-evaluation bias is a real problem — agents overpaise their own work
 - **Context anxiety**: Claude Sonnet 4.5 prematurely wraps work as context limits approach — context resets outperform compaction for long tasks
 - **Harness simplification**: As models improve (Opus 4.6), harness scaffolding can be reduced — sprint decomposition removed when model handles longer coherence
+- **Two failure modes for long tasks**: Over-ambition (context exhaustion mid-feature) and premature completion (sees progress, declares done)
+- **Session continuity via files**: progress.txt + feature list JSON + init.sh = structured handoff between agent sessions
 
 ## Open Questions
 
@@ -40,3 +43,4 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **2026-04-07**: Initial compilation from Böckeler's harness engineering article
 - **2026-04-07**: Updated with OpenAI Codex case study data (1M lines, zero handwritten code)
 - **2026-04-07**: Updated with Anthropic's multi-agent harness, context anxiety finding, and harness simplification insight
+- **2026-04-07**: Updated with Justin Young's session continuity patterns — two failure modes and file-based handoff

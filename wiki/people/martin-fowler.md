@@ -7,6 +7,8 @@ sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
 related:
   - birgitta-bockeler.md
+  - ../concepts/harness-engineering.md
+  - ../concepts/ashbys-law.md
 ---
 
 ## Summary
