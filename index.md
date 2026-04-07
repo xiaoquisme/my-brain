@@ -13,6 +13,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Claude How To Guide](sources/articles/claude-howto-guide.md) — Structured guide to all Claude Code features with templates
 - [Meta-Harness (Lee et al.)](sources/articles/meta-harness-optimization.md) — Automated harness search outperforming manual engineering
 - [Meta-Harness Library (Jagtap)](sources/articles/meta-harness-library-jagtap.md) — Open-source Python library for harness optimization
+- [Anthropic - Building Effective Agents](sources/articles/anthropic-building-effective-agents.md) — Six composable agentic patterns, simplicity-first design
 
 ## Concepts
 
@@ -21,6 +22,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Coding Agents](wiki/concepts/coding-agents.md) — AI agents that autonomously write and modify code
 - [Ashby's Law](wiki/concepts/ashbys-law.md) — Requisite variety: regulator must match system complexity
 - [Meta-Harness](wiki/concepts/meta-harness.md) — Automated search for optimal LLM harness configurations
+- [Agentic Patterns](wiki/concepts/agentic-patterns.md) — Six composable patterns for LLM agent architecture
 
 ## People
 
@@ -34,6 +36,8 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Chelsea Finn](wiki/people/chelsea-finn.md) — Stanford professor, meta-learning (MAML), Meta-Harness co-author
 - [Omar Khattab](wiki/people/omar-khattab.md) — Creator of DSPy, Meta-Harness co-author
 - [Shashikant Jagtap](wiki/people/shashikant-jagtap.md) — Creator of superagentic-metaharness library
+- [Erik Schluntz](wiki/people/erik-schluntz.md) — Anthropic, co-author of "Building Effective Agents"
+- [Barry Zhang](wiki/people/barry-zhang.md) — Anthropic, co-author of "Building Effective Agents"
 
 ## Projects
 

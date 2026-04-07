@@ -12,6 +12,7 @@ sources:
   - ../../sources/articles/meta-harness-library-jagtap.md
 related:
   - coding-agents.md
+  - agentic-patterns.md
   - meta-harness.md
   - ashbys-law.md
   - llm-wiki-pattern.md

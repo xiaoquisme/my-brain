@@ -10,8 +10,10 @@ sources:
   - ../../sources/articles/anthropic-effective-harnesses-long-running.md
   - ../../sources/articles/meta-harness-optimization.md
   - ../../sources/articles/meta-harness-library-jagtap.md
+  - ../../sources/articles/anthropic-building-effective-agents.md
 related:
   - harness-engineering.md
+  - agentic-patterns.md
   - meta-harness.md
   - llm-wiki-pattern.md
   - ashbys-law.md
@@ -37,6 +39,8 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **Session continuity via files**: progress.txt + feature list JSON + init.sh = structured handoff between agent sessions
 
 - **Meta-Harness**: Automated harness search using a coding agent as optimizer — discovered harnesses outperform hand-engineered solutions and transfer across models (see [Meta-Harness](meta-harness.md))
+- **Six agentic patterns** (Schluntz & Zhang): Augmented LLM → Prompt Chaining → Routing → Parallelization → Orchestrator-Workers → Evaluator-Optimizer — increasing complexity, start simple (see [Agentic Patterns](agentic-patterns.md))
+- **Tool design = prompt engineering**: Anthropic spent more time on tool definitions than system prompts for SWE-bench agent
 
 ## Open Questions
 
@@ -53,3 +57,4 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **2026-04-07**: Updated with Justin Young's session continuity patterns — two failure modes and file-based handoff
 - **2026-04-07**: Added Meta-Harness — automated harness discovery outperforming manual engineering
 - **2026-04-07**: Meta-Harness open-source library available: `superagentic-metaharness` (filesystem-first harness optimization)
+- **2026-04-07**: Added six agentic patterns from Schluntz & Zhang (Anthropic, 2024-12-19) — composable building blocks from augmented LLM to evaluator-optimizer
