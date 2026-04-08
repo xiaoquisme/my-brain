@@ -59,4 +59,4 @@ Content catalog for My Brain. One line per page, organized by category.
 
 ## Synthesis
 
-*No entries yet*
+- [Agentic RAG as Harness](wiki/synthesis/agentic-rag-as-harness.md) — 用 harness engineering 框架重设计 Agentic RAG：可控检索 + RL 训练数据桥梁
