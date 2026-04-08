@@ -3,7 +3,7 @@ title: "Claude How To - Master Claude Code in a Weekend"
 url: https://github.com/luongnv89/claude-howto
 date_added: 2026-04-07
 type: article
-tags: [claude-code, coding-agents, tutorial, tools, harness-engineering]
+tags: [claude-code, coding-agents, tutorial, tool-use, harness-engineering]
 author: luongnv89
 ---
 

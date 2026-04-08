@@ -20,6 +20,7 @@ Technical writer at isrosa.com. Writes about AI agent engineering, with a focus 
 
 - Authored "从Bash工具开始理解Agent" — arguing that coding/scripting is an agent's meta-ability
 - Connects practical tool use (Bash, Python, SQL) to agent autonomy and reliability
+- Authored "基于Openclaw的官方文档理解其架构设计" — distilling OpenClaw's 7 core agent patterns: Gateway, Agentic Loop, Skills, MCP, Memory, Heartbeat, and the ReAct cycle
 
 ## Open Questions
 
@@ -29,3 +30,4 @@ Technical writer at isrosa.com. Writes about AI agent engineering, with a focus 
 ## Evidence Timeline
 
 - **2026-04-07**: First encountered via article on Bash tools as essential agent capabilities
+- **2026-04-07**: Second article ingested — OpenClaw architecture analysis, identifying 7 core patterns shared by modern agent frameworks

@@ -4,7 +4,7 @@ url: https://www.isrosa.com/article/for-openclaw-personal-ai-agent-architecture
 date_added: 2026-04-07
 author: rosa
 type: article
-tags: [openclaw, agent, architecture, tutorial]
+tags: [openclaw, ai-agents, architecture, tutorial]
 ---
 
 原文链接：https://bibek-poudel.medium.com/how-openclaw-works-understanding-ai-agents-through-a-real-architecture-5d59cc7a4764

@@ -4,7 +4,7 @@ url: https://yuanchaofa.com/post/prompt-cache-design-for-llm-agents
 date_added: 2026-04-07
 author: Chaofa Yuan
 type: article
-tags: [llm, agent, prompt-cache, context-engineering, kv-cache]
+tags: [llm, ai-agents, prompt-caching, context-engineering, kv-cache]
 ---
 
 ## 阅读收获

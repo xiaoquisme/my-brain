@@ -4,7 +4,7 @@ url: https://yuanchaofa.com/post/agent-context-management-and-sub-agents
 date_added: 2026-04-07
 author: Chaofa Yuan
 type: article
-tags: [llm, agent, prompt-cache, context-engineering, sub-agents]
+tags: [llm, ai-agents, prompt-caching, context-engineering, sub-agents]
 ---
 
 ## 阅读收获

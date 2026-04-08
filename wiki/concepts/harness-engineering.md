@@ -11,6 +11,7 @@ sources:
   - ../../sources/articles/meta-harness-optimization.md
   - ../../sources/articles/meta-harness-library-jagtap.md
   - ../../sources/articles/yuanchaofa-harness-engineering.md
+  - ../../sources/articles/hermes-harness-metaphor.md
 related:
   - coding-agents.md
   - agentic-patterns.md
