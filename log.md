@@ -44,3 +44,9 @@ Append-only record of operations.
 - **2026-04-08** | maintain | Audit pass: no orphans, no broken refs, no stale pages, entity coverage complete. Fixed 4 tag inconsistencies: `agent` → `ai-agents` (3 files), `prompt-cache` → `prompt-caching` (2 files), `tools` → `tool-use` (1 file). 18 sources, 9 concepts, 15 people, 1 project.
 - **2026-04-08** | query+create | "将 Agentic RAG 做成 harness" → created wiki/synthesis/agentic-rag-as-harness (first synthesis page!). Cross-cutting analysis: harness 化的 RAG 检索轨迹可桥接工具驱动与 RL 驱动两条路径.
 
+
+- **2026-04-08**: Ingested Agency Agents (msitarzewski/agency-agents)
+  - Created source: sources/articles/agency-agents.md
+  - Created wiki: wiki/people/msitarzewski.md
+  - Updated index.md with both entries
+
