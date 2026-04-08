@@ -12,9 +12,11 @@ sources:
   - ../../sources/articles/meta-harness-library-jagtap.md
   - ../../sources/articles/anthropic-building-effective-agents.md
   - ../../sources/articles/rosa-bash-tools-agents.md
+  - ../../sources/articles/rosa-openclaw-architecture.md
 related:
   - harness-engineering.md
   - agentic-patterns.md
+  - agentic-rag.md
   - meta-harness.md
   - tool-use-as-meta-ability.md
   - llm-wiki-pattern.md
@@ -63,3 +65,4 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **2026-04-07**: Added six agentic patterns from Schluntz & Zhang (Anthropic, 2024-12-19) — composable building blocks from augmented LLM to evaluator-optimizer
 - **2026-04-07**: Added tool use as meta-ability from rosa's article — coding/scripting as foundational agent capability, Bash tools for deterministic offloading
 - **2026-04-07**: LangChain Terminal Bench 2.0 evidence: same model (GPT-5.2-Codex) jumped Top 30 → Top 5 with harness-only changes (Chaofa Yuan)
+- **2026-04-07**: OpenClaw architecture analysis (rosa): 7 core patterns shared by modern agent frameworks — Gateway, Agentic Loop (ReAct), Skills (on-demand loading), MCP (tool portability), Memory (markdown files + SQLite), Heartbeat (proactive cron-triggered behavior)

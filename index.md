@@ -21,6 +21,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Chaofa Yuan - Prompt Caching Design (上)](sources/articles/yuanchaofa-prompt-cache-design.md) — Cache 破坏、Prompt 布局与工具管理，三种 Agent 系统的 cache-aware 设计
 - [Chaofa Yuan - Prompt Caching Design (下)](sources/articles/yuanchaofa-agent-context-management.md) — 上下文管理、子代理架构、The Bitter Lesson
 - [金色传说大聪明 - 爱马仕：一家做了 189 年 Harness 的公司](sources/articles/hermes-harness-metaphor.md) — 用爱马仕的比喻理解 Harness 哲学：对齐、护栏、配货、克制、可溯源
+- [Chaofa Yuan - RAG 进化之路](sources/articles/yuanchaofa-native-rag-to-agentic-rag.md) — 传统 RAG 到 Agentic RAG：工具驱动（Chatbox）与强化学习驱动（Search-R1）
 
 ## Concepts
 
@@ -32,6 +33,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Agentic Patterns](wiki/concepts/agentic-patterns.md) — Six composable patterns for LLM agent architecture
 - [Tool Use as Meta-Ability](wiki/concepts/tool-use-as-meta-ability.md) — Coding/scripting as foundational agent capability for deterministic offloading
 - [KV Cache and Prompt Caching](wiki/concepts/kv-cache-and-prompt-caching.md) — Inference acceleration: intra-request KV Cache + inter-request prefix caching
+- [Agentic RAG](wiki/concepts/agentic-rag.md) — RAG evolution: from fixed pipeline to agent-driven adaptive retrieval
 
 ## People
 
@@ -49,6 +51,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Barry Zhang](wiki/people/barry-zhang.md) — Anthropic, co-author of "Building Effective Agents"
 - [rosa](wiki/people/rosa.md) — Technical writer, agent tool use and meta-ability
 - [Chaofa Yuan](wiki/people/chaofa-yuan.md) — Technical writer, harness engineering hierarchy and co-evolution
+- [金色传说大聪明](wiki/people/jinse-chuanshuo-dacongrming.md) — Tech blogger, harness engineering via Hermès metaphor
 
 ## Projects
 

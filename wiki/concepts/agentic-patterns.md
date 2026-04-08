@@ -9,6 +9,7 @@ related:
   - coding-agents.md
   - harness-engineering.md
   - tool-use-as-meta-ability.md
+  - agentic-rag.md
   - ../people/erik-schluntz.md
   - ../people/barry-zhang.md
 ---
