@@ -24,6 +24,11 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Agency Agents](sources/articles/agency-agents.md) — 50+ specialized AI agent prompts for engineering, design, sales, marketing
 - [Chaofa Yuan - RAG 进化之路](sources/articles/yuanchaofa-native-rag-to-agentic-rag.md) — 传统 RAG 到 Agentic RAG：工具驱动（Chatbox）与强化学习驱动（Search-R1）
 
+
+## Books
+
+- [Claude Code from Source (Ch 1-18)](sources/books/claude-code-from-source-ch01.md) — 18-chapter reverse-engineering of Claude Code's architecture from npm source maps
+
 ## Concepts
 
 - [LLM Wiki Pattern](wiki/concepts/llm-wiki-pattern.md) — Using LLMs to build and maintain structured knowledge bases
@@ -35,6 +40,10 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Tool Use as Meta-Ability](wiki/concepts/tool-use-as-meta-ability.md) — Coding/scripting as foundational agent capability for deterministic offloading
 - [KV Cache and Prompt Caching](wiki/concepts/kv-cache-and-prompt-caching.md) — Inference acceleration: intra-request KV Cache + inter-request prefix caching
 - [Agentic RAG](wiki/concepts/agentic-rag.md) — RAG evolution: from fixed pipeline to agent-driven adaptive retrieval
+
+## Projects
+
+
 
 ## People
 
@@ -54,10 +63,12 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Chaofa Yuan](wiki/people/chaofa-yuan.md) — Technical writer, harness engineering hierarchy and co-evolution
 - [金色传说大聪明](wiki/people/jinse-chuanshuo-dacongrming.md) — Tech blogger, harness engineering via Hermès metaphor
 - [msitarzewski](wiki/people/msitarzewski.md) — Creator of Agency Agents (50+ specialized AI agent prompts)
+- [Alejandro Balderas](wiki/people/alejandro-balderas.md) — Author of "Claude Code from Source" (18-chapter architecture book)
 
 ## Projects
 
 - [Claude Code Workflow](wiki/projects/claude-code-workflow.md) — Feature composition and harness engineering mapping for Claude Code
+- [Claude Code Architecture](wiki/projects/claude-code-architecture.md) — Full architectural analysis from "Claude Code from Source" book (18 chapters)
 
 ## Synthesis
 

@@ -1,7 +1,7 @@
 ---
 title: Coding Agents
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-10
 tags: [ai-agents, software-engineering, tool-use]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
@@ -14,6 +14,7 @@ sources:
   - ../../sources/articles/rosa-bash-tools-agents.md
   - ../../sources/articles/rosa-openclaw-architecture.md
 related:
+  - ../projects/claude-code-architecture.md
   - harness-engineering.md
   - agentic-patterns.md
   - agentic-rag.md
@@ -22,6 +23,7 @@ related:
   - llm-wiki-pattern.md
   - ashbys-law.md
   - ../projects/claude-code-workflow.md
+  - ../people/msitarzewski.md
 ---
 
 ## Summary
@@ -55,6 +57,8 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 
 ---
 ## Evidence Timeline
+
+- **2026-04-10**: "Claude Code from Source" book ingested — 18-chapter deep dive into Claude Code's architecture (6 abstractions, tool execution pipeline, multi-agent orchestration, memory system, permission model). The most comprehensive technical analysis of a production AI coding agent to date.
 
 - **2026-04-07**: Initial compilation from Böckeler's harness engineering article
 - **2026-04-07**: Updated with OpenAI Codex case study data (1M lines, zero handwritten code)

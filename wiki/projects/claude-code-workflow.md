@@ -1,7 +1,7 @@
 ---
 title: Claude Code Workflow & Features
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-10
 tags: [claude-code, coding-agents, tool-use, workflow]
 sources:
   - ../../sources/articles/claude-howto-guide.md

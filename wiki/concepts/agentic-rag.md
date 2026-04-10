@@ -1,7 +1,7 @@
 ---
 title: Agentic RAG
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-10
 tags: [rag, ai-agents, tool-use, reinforcement-learning]
 sources:
   - ../../sources/articles/yuanchaofa-native-rag-to-agentic-rag.md
@@ -10,6 +10,7 @@ related:
   - coding-agents.md
   - tool-use-as-meta-ability.md
   - ../people/chaofa-yuan.md
+  - ../synthesis/agentic-rag-as-harness.md
 ---
 
 ## Summary

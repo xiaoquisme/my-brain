@@ -50,3 +50,13 @@ Append-only record of operations.
   - Created wiki: wiki/people/msitarzewski.md
   - Updated index.md with both entries
 
+- **2026-04-10** | maintain | Audit pass results:
+  - Orphan pages: Fixed 3 orphans — linked msitarzewski from coding-agents, agentic-rag-as-harness from agentic-rag, crypto-morningstar-integration from claude-code-workflow (mutual link)
+  - Stale pages: ✅ None (all pages <90 days old)
+  - Contradictions: ✅ None found
+  - Tag consistency: Fixed 2 files using `ai-agent` (singular) → `ai-agents` (plural, standard). All tags now lowercase/hyphenated.
+  - Entity coverage: ✅ All source authors have wiki pages (false positives from multi-author and parenthetical fields in parser)
+  - Index sync: ✅ All 30 wiki pages appear in index.md
+  - Updated `updated:` dates on 6 modified pages.
+
+- **2026-04-10** | ingest | Added "Claude Code from Source" full book (18 chapters) by Alejandro Balderas. Source: https://claude-code-from-source.com/. Created 18 source files (sources/books/claude-code-from-source-ch01..ch18.md), wiki/projects/claude-code-architecture.md (main book page), wiki/people/alejandro-balderas.md. Updated 4 concept pages (coding-agents, agentic-patterns, kv-cache-and-prompt-caching, tool-use-as-meta-ability) with cross-refs and timeline entries. Updated index.md with Books section, new project, and new person. Total: 37 sources (18 book chapters + 19 articles), 9 concepts, 17 people, 3 projects, 1 synthesis.

@@ -6,6 +6,7 @@ tags: [ai-agents, software-engineering, architecture-pattern]
 sources:
   - ../../sources/articles/anthropic-building-effective-agents.md
 related:
+  - ../projects/claude-code-architecture.md
   - coding-agents.md
   - harness-engineering.md
   - tool-use-as-meta-ability.md
@@ -61,6 +62,8 @@ The evaluator-optimizer pattern is directly related to Anthropic's GAN-inspired 
 
 ---
 ## Evidence Timeline
+
+- **2026-04-10**: "Claude Code from Source" book — Claude Code implements all 6 agentic patterns plus recursive sub-agent architecture, fork agents for cache sharing, and swarm teams with mailbox messaging.
 
 - **2026-04-07**: Initial compilation from Anthropic's "Building Effective Agents" (Schluntz & Zhang, 2024-12-19)
 - **2026-04-07**: Added cross-ref to tool-use-as-meta-ability — tool use is the foundation of the Augmented LLM pattern
