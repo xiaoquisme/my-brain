@@ -41,10 +41,6 @@ Content catalog for My Brain. One line per page, organized by category.
 - [KV Cache and Prompt Caching](wiki/concepts/kv-cache-and-prompt-caching.md) — Inference acceleration: intra-request KV Cache + inter-request prefix caching
 - [Agentic RAG](wiki/concepts/agentic-rag.md) — RAG evolution: from fixed pipeline to agent-driven adaptive retrieval
 
-## Projects
-
-
-
 ## People
 
 - [Andrej Karpathy](wiki/people/andrej-karpathy.md) — AI researcher, proposed LLM Wiki pattern
