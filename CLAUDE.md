@@ -103,8 +103,11 @@ Periodic maintenance (run when things feel stale):
 4. Verify all source references still valid
 5. **Entity coverage**: Check all source `author` fields and key entities mentioned in sources — ensure each has a corresponding wiki page
 6. Check tag consistency (casing, singular/plural)
-7. Update `index.md` to reflect current state
-6. Log maintenance pass in `log.md`
+7. Update `index.md` to reflect current state:
+   - Check for duplicate section headings (e.g., two `## Projects`) — merge or remove
+   - Ensure every section heading has at least one entry; remove empty sections
+   - Verify every file in wiki/ and sources/ has a corresponding entry in index.md
+8. Log maintenance pass in `log.md`
 
 ## Conventions
 
