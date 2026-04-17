@@ -23,6 +23,7 @@ related:
   - ../people/justin-young.md
   - ../people/prithvi-rajasekaran.md
   - ../people/shashikant-jagtap.md
+  - claude-code-session-management.md
   - ../people/chaofa-yuan.md
   - ../people/jinse-chuanshuo-dacongrming.md
   - ../projects/claude-code-workflow.md

@@ -4,6 +4,12 @@ Content catalog for My Brain. One line per page, organized by category.
 
 ## Sources
 
+- [什么是敏捷？](sources/articles/what-is-agile.md) — 敏捷宣言四个价值观、敏捷方法与实践、常见误解
+- [什么是敏捷开发？](sources/articles/what-is-agile-development.md) — 敏捷开发关键成功因素：待办事项优化、CI/CD、最小化技术债务
+- [什么是 Scrum？](sources/articles/what-is-scrum.md) — Scrum 框架：冲刺、团队角色、每日 Scrum、燃尽图
+- [什么是看板？](sources/articles/what-is-kanban.md) — 看板四原则：可视化、拉取模型、WIP 限制、持续改进
+- [采用敏捷文化](sources/articles/adopting-agile.md) — 敏捷文化要素：计划节奏、航运文化、健康团队
+- [构建以客户为中心的高效团队](sources/articles/building-productive-teams.md) — 双机组系统：F-Crew 功能团队、C-Crew 客户团队
 - [Karpathy - LLM Wiki](sources/articles/karpathy-llm-wiki.md) — LLM-maintained wiki pattern for personal knowledge bases
 - [Garry Tan - GBrain](sources/articles/garry-tan-gbrain.md) — Full build spec for SQLite-based personal knowledge system
 - [Böckeler - Harness Engineering](sources/articles/martin-fowler-harness-engineering.md) — Systematic controls for AI coding agents
@@ -23,6 +29,9 @@ Content catalog for My Brain. One line per page, organized by category.
 - [金色传说大聪明 - 爱马仕：一家做了 189 年 Harness 的公司](sources/articles/hermes-harness-metaphor.md) — 用爱马仕的比喻理解 Harness 哲学：对齐、护栏、配货、克制、可溯源
 - [Agency Agents](sources/articles/agency-agents.md) — 50+ specialized AI agent prompts for engineering, design, sales, marketing
 - [Chaofa Yuan - RAG 进化之路](sources/articles/yuanchaofa-native-rag-to-agentic-rag.md) — 传统 RAG 到 Agentic RAG：工具驱动（Chatbox）与强化学习驱动（Search-R1）
+- [Anthropic - Introducing Claude Opus 4.7](sources/articles/claude-opus-4-7.md) — Claude Opus 4.7 发布：编码基准提升13%、xhigh 努力级别、更高分辨率视觉
+- [OpenAI - Codex for (almost) everything](sources/articles/codex-update-2026.md) — Codex 2026 更新：后台电脑使用、多代理并行、记忆功能、90+ 插件
+- [Anthropic - Claude Code Session Management](sources/articles/claude-code-session-management.md) — Claude Code 1M 上下文管理：context rot、compaction、rewind、subagent
 
 
 ## Books
@@ -31,6 +40,9 @@ Content catalog for My Brain. One line per page, organized by category.
 
 ## Concepts
 
+- [敏捷 (Agile)](wiki/concepts/agile.md) — 增量交付、团队协作、持续规划的软件开发方法论
+- [Scrum](wiki/concepts/scrum.md) — 敏捷框架：冲刺、团队角色(PO/SM/Dev)、每日 Scrum、燃尽图
+- [看板 (Kanban)](wiki/concepts/kanban.md) — 敏捷框架：可视化工作、拉取模型、WIP 限制、持续改进
 - [LLM Wiki Pattern](wiki/concepts/llm-wiki-pattern.md) — Using LLMs to build and maintain structured knowledge bases
 - [Harness Engineering](wiki/concepts/harness-engineering.md) — Feedforward + feedback controls for coding agents
 - [Coding Agents](wiki/concepts/coding-agents.md) — AI agents that autonomously write and modify code

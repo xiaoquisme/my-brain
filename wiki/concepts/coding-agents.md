@@ -1,7 +1,7 @@
 ---
 title: Coding Agents
 created: 2026-04-07
-updated: 2026-04-10
+updated: 2026-04-17
 tags: [ai-agents, software-engineering, tool-use]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
@@ -23,10 +23,10 @@ related:
   - llm-wiki-pattern.md
   - ashbys-law.md
   - ../projects/claude-code-workflow.md
-  - ../people/msitarzewski.md
   - claude-opus-4-7.md
   - openai-codex-2026.md
   - claude-code-session-management.md
+  - ../people/msitarzewski.md
 ---
 
 ## Summary

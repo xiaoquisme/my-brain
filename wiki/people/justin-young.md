@@ -1,7 +1,7 @@
 ---
 title: Justin Young
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-17
 tags: [anthropic, ai-agents, software-engineering]
 sources:
   - ../../sources/articles/anthropic-effective-harnesses-long-running.md
@@ -9,6 +9,7 @@ related:
   - ../concepts/harness-engineering.md
   - ../concepts/coding-agents.md
   - ../concepts/kv-cache-and-prompt-caching.md
+  - ../concepts/claude-code-session-management.md
 ---
 
 ## Summary

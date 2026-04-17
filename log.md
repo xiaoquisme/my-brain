@@ -108,3 +108,34 @@ Append-only record of operations.
   - Updated index.md with new concept and person
   - Related to: coding-agents, harness-engineering, claude-code-workflow, justin-young, thariq-shihipar
   - Key findings: Context rot, 1M token, 5 tools (continue/rewind/clear/compact/subagent), decision table
+
+- **2026-04-17** | ingest | Added Microsoft Learn "什么是敏捷？" article
+  - Created source: sources/articles/what-is-agile.md
+  - Created wiki: wiki/concepts/agile.md (new concept)
+  - Updated index.md with new source and concept
+  - Related to: devops, software-development, methodology
+  - Key findings: 敏捷宣言四个价值观、敏捷框架(Scrum/看板) vs 敏捷实践(规划扑克/持续集成)、常见误解澄清
+
+- **2026-04-17** | ingest | Added Microsoft Learn 敏捷系列文章 (5篇)
+  - Sources created:
+    - sources/articles/what-is-agile-development.md
+    - sources/articles/what-is-scrum.md
+    - sources/articles/what-is-kanban.md
+    - sources/articles/adopting-agile.md
+    - sources/articles/building-productive-teams.md
+  - Wiki concepts created:
+    - wiki/concepts/scrum.md
+    - wiki/concepts/kanban.md
+  - Updated wiki/concepts/agile.md with new content from all 5 articles
+  - Updated index.md with all new sources and concepts
+  - Key findings: 敏捷开发三要素、Scrum 框架、看板四原则、敏捷文化、双机组系统 (F-Crew/C-Crew)
+
+- **2026-04-17** | maintain | Audit pass:
+  - **Broken source paths fixed**: agile.md, scrum.md, kanban.md had `../sources/` (resolves to wiki/sources/) — fixed to `../../sources/` (correct root-relative path)
+  - **Index sync**: Added 3 missing source entries (claude-opus-4-7.md, codex-update-2026.md, claude-code-session-management.md) to Sources section
+  - **Cross-refs added**: coding-agents → claude-opus-4-7, openai-codex-2026, claude-code-session-management; harness-engineering → claude-code-session-management; justin-young → claude-code-session-management
+  - Orphans: 0 (agile/scrum/kanban form a self-contained cluster)
+  - Stale pages: 0 (all <90 days)
+  - Tag consistency: ✅
+  - Entity coverage: ✅ (Microsoft Learn articles have corporate authorship, no individual author pages needed)
+  - Stats: 36 wiki pages, 47 sources. Updated `updated:` dates on 4 modified pages.
