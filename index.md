@@ -40,6 +40,9 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Tool Use as Meta-Ability](wiki/concepts/tool-use-as-meta-ability.md) — Coding/scripting as foundational agent capability for deterministic offloading
 - [KV Cache and Prompt Caching](wiki/concepts/kv-cache-and-prompt-caching.md) — Inference acceleration: intra-request KV Cache + inter-request prefix caching
 - [Agentic RAG](wiki/concepts/agentic-rag.md) — RAG evolution: from fixed pipeline to agent-driven adaptive retrieval
+- [Claude Opus 4.7](wiki/concepts/claude-opus-4-7.md) — Anthropic 2026年4月发布的新模型，软件工程能力提升13%
+- [OpenAI Codex 2026](wiki/concepts/openai-codex-2026.md) — OpenAI Codex 重大更新：后台电脑使用、多代理并行、记忆功能
+- [Claude Code Session Management](wiki/concepts/claude-code-session-management.md) — Claude Code 1M token 上下文管理：context rot、compaction、rewind、subagent
 
 ## People
 
@@ -51,6 +54,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Prithvi Rajasekaran](wiki/people/prithvi-rajasekaran.md) — Anthropic Labs, GAN-inspired multi-agent harness design
 - [luongnv89](wiki/people/luongnv89.md) — Creator of claude-howto tutorial (5,900+ stars)
 - [Chelsea Finn](wiki/people/chelsea-finn.md) — Stanford professor, meta-learning (MAML), Meta-Harness co-author
+- [Thariq Shihipar](wiki/people/thariq-shihipar.md) — Anthropic, Claude Code session management guide author
 - [Omar Khattab](wiki/people/omar-khattab.md) — Creator of DSPy, Meta-Harness co-author
 - [Shashikant Jagtap](wiki/people/shashikant-jagtap.md) — Creator of superagentic-metaharness library
 - [Erik Schluntz](wiki/people/erik-schluntz.md) — Anthropic, co-author of "Building Effective Agents"

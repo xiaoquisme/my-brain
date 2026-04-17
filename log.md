@@ -1,3 +1,28 @@
+## 2026-04-17 — Maintenance Pass
+
+**Action**: maintain
+
+**Scope**: Full audit of 33 wiki pages
+
+**Findings & Fixes**:
+
+1. **Broken link fixed**: `wiki/people/thariq-shihipar.md` had `../concepts/claude-code-workflow.md` (wrong path). Fixed to `../projects/claude-code-workflow.md`. Also added `../concepts/claude-code-session-management.md` cross-ref.
+
+2. **Cross-references added** (low-connectivity pages):
+   - `claude-opus-4-7.md` ↔ `openai-codex-2026.md` (mutual competitor reference)
+   - `claude-code-architecture.md` → `claude-code-session-management.md` (natural extension)
+   - `harness-engineering.md` → `synthesis/agentic-rag-as-harness.md` (synthesis page now reachable)
+
+3. **Updated `updated:` dates** on 5 modified pages.
+
+**Stats**:
+- Pages audited: 33 wiki + 40 sources
+- Orphans: 0 (after fixes)
+- Stale pages: 0
+- Tag issues: 0
+- Broken source refs: 0
+- Index: complete (33/33 pages listed)
+
 # Log
 
 Append-only record of operations.
@@ -60,3 +85,26 @@ Append-only record of operations.
   - Updated `updated:` dates on 6 modified pages.
 
 - **2026-04-10** | ingest | Added "Claude Code from Source" full book (18 chapters) by Alejandro Balderas. Source: https://claude-code-from-source.com/. Created 18 source files (sources/books/claude-code-from-source-ch01..ch18.md), wiki/projects/claude-code-architecture.md (main book page), wiki/people/alejandro-balderas.md. Updated 4 concept pages (coding-agents, agentic-patterns, kv-cache-and-prompt-caching, tool-use-as-meta-ability) with cross-refs and timeline entries. Updated index.md with Books section, new project, and new person. Total: 37 sources (18 book chapters + 19 articles), 9 concepts, 17 people, 3 projects, 1 synthesis.
+
+
+- **2026-04-17** | ingest | Added Anthropic "Introducing Claude Opus 4.7" article
+  - Created source: sources/articles/claude-opus-4-7.md
+  - Created wiki: wiki/concepts/claude-opus-4-7.md (new concept)
+  - Updated index.md with new concept entry
+  - Related to: coding-agents, agentic-patterns
+  - Key findings: 13% improvement on coding benchmark, xhigh effort level, higher resolution vision (2,576px), updated tokenizer (1.0-1.35x more tokens)
+
+- **2026-04-17** | ingest | Added OpenAI "Codex for (almost) everything" article (via Wayback)
+  - Created source: sources/articles/codex-update-2026.md
+  - Created wiki: wiki/concepts/openai-codex-2026.md (new concept)
+  - Updated index.md with new concept entry
+  - Related to: coding-agents, agentic-patterns
+  - Key findings: Background computer use, multi-agent parallel work, memory preview, 90+ new plugins, in-app browser
+
+- **2026-04-17** | ingest | Added Anthropic "Using Claude Code: session management and 1M context" article
+  - Created source: sources/articles/claude-code-session-management.md
+  - Created wiki: wiki/concepts/claude-code-session-management.md (new concept)
+  - Created wiki: wiki/people/thariq-shihipar.md (new person)
+  - Updated index.md with new concept and person
+  - Related to: coding-agents, harness-engineering, claude-code-workflow, justin-young, thariq-shihipar
+  - Key findings: Context rot, 1M token, 5 tools (continue/rewind/clear/compact/subagent), decision table

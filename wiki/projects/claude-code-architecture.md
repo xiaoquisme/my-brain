@@ -1,7 +1,7 @@
 ---
 title: "Claude Code from Source — Architecture, Patterns & Internals"
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-17
 tags: [claude-code, ai-agents, architecture, typescript, agentic-systems, tool-use, multi-agent, prompt-caching, mcp]
 sources:
   - ../../sources/books/claude-code-from-source-ch01.md
@@ -28,6 +28,7 @@ related:
   - ../concepts/kv-cache-and-prompt-caching.md
   - ../concepts/harness-engineering.md
   - ../concepts/tool-use-as-meta-ability.md
+  - ../concepts/claude-code-session-management.md
   - ../people/alejandro-balderas.md
   - ../projects/claude-code-workflow.md
 ---

@@ -1,7 +1,7 @@
 ---
 title: Harness Engineering
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-17
 tags: [ai-agents, coding-agents, software-engineering, quality]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
@@ -26,6 +26,7 @@ related:
   - ../people/chaofa-yuan.md
   - ../people/jinse-chuanshuo-dacongrming.md
   - ../projects/claude-code-workflow.md
+  - ../synthesis/agentic-rag-as-harness.md
 ---
 
 ## Summary

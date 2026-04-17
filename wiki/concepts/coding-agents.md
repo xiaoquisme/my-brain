@@ -24,6 +24,9 @@ related:
   - ashbys-law.md
   - ../projects/claude-code-workflow.md
   - ../people/msitarzewski.md
+  - claude-opus-4-7.md
+  - openai-codex-2026.md
+  - claude-code-session-management.md
 ---
 
 ## Summary
