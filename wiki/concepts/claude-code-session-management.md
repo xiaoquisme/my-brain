@@ -11,6 +11,7 @@ related:
   - ../projects/claude-code-workflow.md
   - ../people/justin-young.md
   - ../people/thariq-shihipar.md
+  - ../concepts/reasoning-shift.md
 ---
 
 ## Summary

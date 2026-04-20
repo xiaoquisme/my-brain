@@ -139,3 +139,10 @@ Append-only record of operations.
   - Tag consistency: ✅
   - Entity coverage: ✅ (Microsoft Learn articles have corporate authorship, no individual author pages needed)
   - Stats: 36 wiki pages, 47 sources. Updated `updated:` dates on 4 modified pages.
+
+- **2026-04-20** | ingest | Added arXiv paper "Reasoning Shift: How Context Silently Shortens LLM Reasoning" (Rodionov, 2026)
+  - Source created: sources/articles/reasoning-shift-rodionov.md
+  - Wiki concept created: wiki/concepts/reasoning-shift.md
+  - Updated related pages: wiki/concepts/claude-code-session-management.md, wiki/concepts/harness-engineering.md
+  - Updated index.md with new source and concept entries
+  - Key findings: 推理型 LLM 在非隔离上下文条件下推理链最多压缩 50%，自我验证行为（double-checking）显著减少。对简单问题影响小，对复杂任务性能下降。与 context rot、harness engineering 子代理策略高度相关。

@@ -28,6 +28,7 @@ related:
   - ../people/jinse-chuanshuo-dacongrming.md
   - ../projects/claude-code-workflow.md
   - ../synthesis/agentic-rag-as-harness.md
+  - reasoning-shift.md
 ---
 
 ## Summary

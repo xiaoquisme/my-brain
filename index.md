@@ -32,6 +32,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Anthropic - Introducing Claude Opus 4.7](sources/articles/claude-opus-4-7.md) — Claude Opus 4.7 发布：编码基准提升13%、xhigh 努力级别、更高分辨率视觉
 - [OpenAI - Codex for (almost) everything](sources/articles/codex-update-2026.md) — Codex 2026 更新：后台电脑使用、多代理并行、记忆功能、90+ 插件
 - [Anthropic - Claude Code Session Management](sources/articles/claude-code-session-management.md) — Claude Code 1M 上下文管理：context rot、compaction、rewind、subagent
+- [Reasoning Shift (Rodionov, 2026)](sources/articles/reasoning-shift-rodionov.md) — 上下文条件如何静默缩短 LLM 推理链（最多50%），自我验证行为显著减少
 
 
 ## Books
@@ -55,6 +56,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Claude Opus 4.7](wiki/concepts/claude-opus-4-7.md) — Anthropic 2026年4月发布的新模型，软件工程能力提升13%
 - [OpenAI Codex 2026](wiki/concepts/openai-codex-2026.md) — OpenAI Codex 重大更新：后台电脑使用、多代理并行、记忆功能
 - [Claude Code Session Management](wiki/concepts/claude-code-session-management.md) — Claude Code 1M token 上下文管理：context rot、compaction、rewind、subagent
+- [Reasoning Shift](wiki/concepts/reasoning-shift.md) — 上下文条件静默压缩 LLM 推理链（最多50%），自我验证行为脆弱
 
 ## People
 
