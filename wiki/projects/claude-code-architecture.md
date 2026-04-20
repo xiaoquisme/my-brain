@@ -31,6 +31,7 @@ related:
   - ../concepts/claude-code-session-management.md
   - ../people/alejandro-balderas.md
   - ../projects/claude-code-workflow.md
+  - ../projects/ddia.md
 ---
 
 ## Summary

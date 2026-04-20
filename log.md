@@ -1,3 +1,54 @@
+## 2026-04-20 — Maintenance Pass
+
+**Action**: maintain
+
+**Scope**: Full audit of 38 wiki pages + 62 source files
+
+**Findings & Fixes**:
+
+1. **Orphans fixed (4)**:
+   - `wiki/projects/ddia.md` → 添加入链：`claude-code-architecture.md` related 到它
+   - `wiki/concepts/agile.md` → 添加入链：`claude-code-workflow.md` related 到它
+   - `wiki/concepts/kanban.md` / `wiki/concepts/scrum.md` → 已通过 agile.md 间接连通（agile related 到它们，现在 agile 有入链）
+
+2. **Missing people pages created (2)**:
+   - `wiki/people/martin-kleppmann.md` — DDIA 作者
+   - `wiki/people/gleb-rodionov.md` — Reasoning Shift 论文作者
+
+3. **index.md 更新**: 新增 martin-kleppmann、gleb-rodionov 两个 people 条目
+
+**Stats**:
+- Pages audited: 38 wiki + 62 sources
+- Orphans fixed: 4
+- New people pages: 2
+- Stale pages: 0
+- Tag issues: 0
+- Broken source refs: 0
+- Index: complete (40/40 pages listed)
+
+---
+
+## 2026-04-20 — Ingest: DDIA 第二版
+
+**Action**: ingest
+
+**Source**: https://ddia.vonng.com (设计数据密集型应用第二版，中文译本，Martin Kleppmann 著，冯若航译)
+
+**Files created**:
+- sources/books/ddia-preface.md (序言)
+- sources/books/ddia-ch01.md 到 ddia-ch14.md (14章)
+- wiki/projects/ddia.md (综合知识页)
+
+**Script**: scripts/fetch_ddia.py (curl + BeautifulSoup，静态 HTML 直接解析)
+
+**Stats**:
+- 15 个源文件，577,730 字符
+- 1 个 wiki 综合页（14章精华 + 概念索引表）
+- index.md: Books + Projects 各添加1条
+- 无新增 people 页（作者 Martin Kleppmann 未在库中）
+
+---
+
 ## 2026-04-17 — Maintenance Pass
 
 **Action**: maintain

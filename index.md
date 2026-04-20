@@ -38,6 +38,7 @@ Content catalog for My Brain. One line per page, organized by category.
 ## Books
 
 - [Claude Code from Source (Ch 1-18)](sources/books/claude-code-from-source-ch01.md) — 18-chapter reverse-engineering of Claude Code's architecture from npm source maps
+- [DDIA 第二版 - 序言](sources/books/ddia-preface.md) — 为何数据密集型应用如此重要，本书目标读者与纲要（共15章，577k字）
 
 ## Concepts
 
@@ -78,11 +79,14 @@ Content catalog for My Brain. One line per page, organized by category.
 - [金色传说大聪明](wiki/people/jinse-chuanshuo-dacongrming.md) — Tech blogger, harness engineering via Hermès metaphor
 - [msitarzewski](wiki/people/msitarzewski.md) — Creator of Agency Agents (50+ specialized AI agent prompts)
 - [Alejandro Balderas](wiki/people/alejandro-balderas.md) — Author of "Claude Code from Source" (18-chapter architecture book)
+- [Martin Kleppmann](wiki/people/martin-kleppmann.md) — 剑桥大学研究员，DDIA 第一/二版作者，分布式系统与 CRDT 专家
+- [Gleb Rodionov](wiki/people/gleb-rodionov.md) — Yandex 研究员，发现上下文条件静默压缩 LLM 推理链
 
 ## Projects
 
 - [Claude Code Workflow](wiki/projects/claude-code-workflow.md) — Feature composition and harness engineering mapping for Claude Code
 - [Claude Code Architecture](wiki/projects/claude-code-architecture.md) — Full architectural analysis from "Claude Code from Source" book (18 chapters)
+- [DDIA 第二版](wiki/projects/ddia.md) — 设计数据密集型应用第二版综合笔记：存储引擎、分布式事务、流式处理全书14章精华
 
 ## Synthesis
 

@@ -10,6 +10,7 @@ related:
   - ../concepts/coding-agents.md
   - ../concepts/claude-code-session-management.md
   - ../people/luongnv89.md
+  - ../concepts/agile.md
 ---
 
 ## Summary
