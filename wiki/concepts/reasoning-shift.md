@@ -2,7 +2,7 @@
 title: Reasoning Shift
 created: 2026-04-20
 updated: 2026-04-20
-tags: [reasoning, llm, context-management, test-time-scaling]
+tags: [reasoning, llms, context-management, test-time-scaling]
 sources:
   - ../../sources/articles/reasoning-shift-rodionov.md
 related:
@@ -10,6 +10,7 @@ related:
   - claude-code-session-management.md
   - coding-agents.md
   - harness-engineering.md
+  - ../people/gleb-rodionov.md
 ---
 
 ## Summary

@@ -1,3 +1,29 @@
+## 2026-04-20 — Maintenance Pass #2
+
+**Action**: maintain
+
+**Scope**: 40 wiki pages + 62 source files
+
+**Findings & Fixes**:
+
+1. **Orphan fixed (1)**:
+   - `wiki/people/gleb-rodionov.md` → `reasoning-shift.md` 添加入链
+
+2. **Tag 统一 (5 files)**:
+   - `llm` -> `llms`（复数规范）: chaofa-yuan, llm-wiki-pattern, kv-cache-and-prompt-caching, reasoning-shift, claude-opus-4-7
+
+3. **Updated 日期同步**: 5个修改页更新为 2026-04-20
+
+**Stats**:
+- Orphans: 0（after fix）
+- Tag issues: 0（after fix）
+- Stale pages: 0
+- Broken source refs: 0
+- Large pages (>500 lines): 0
+- Index: complete (40/40)
+
+---
+
 ## 2026-04-20 — Maintenance Pass
 
 **Action**: maintain

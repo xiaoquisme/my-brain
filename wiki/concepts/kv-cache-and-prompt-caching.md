@@ -1,8 +1,8 @@
 ---
 title: KV Cache and Prompt Caching
 created: 2026-04-07
-updated: 2026-04-07
-tags: [llm, transformer, inference, kv-cache, prompt-caching]
+updated: 2026-04-20
+tags: [llms, transformer, inference, kv-cache, prompt-caching]
 sources:
   - ../../sources/articles/yuanchaofa-kv-cache-prompt-caching.md
   - ../../sources/articles/yuanchaofa-prompt-cache-design.md

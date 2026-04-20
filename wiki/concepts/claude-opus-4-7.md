@@ -1,8 +1,8 @@
 ---
 title: Claude Opus 4.7
 created: 2026-04-17
-updated: 2026-04-17
-tags: [anthropic, claude, llm, coding-models, multimodal, opus]
+updated: 2026-04-20
+tags: [anthropic, claude, llms, coding-models, multimodal, opus]
 sources:
   - ../../sources/articles/claude-opus-4-7.md
 related:

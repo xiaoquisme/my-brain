@@ -1,8 +1,8 @@
 ---
 title: Chaofa Yuan
 created: 2026-04-07
-updated: 2026-04-08
-tags: [ai-agents, harness-engineering, llm, inference, rag]
+updated: 2026-04-20
+tags: [ai-agents, harness-engineering, llms, inference, rag]
 sources:
   - ../../sources/articles/yuanchaofa-harness-engineering.md
   - ../../sources/articles/yuanchaofa-kv-cache-prompt-caching.md

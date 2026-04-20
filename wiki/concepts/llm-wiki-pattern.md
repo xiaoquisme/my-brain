@@ -1,10 +1,10 @@
 ---
 title: LLM Wiki Pattern
 created: 2026-04-07
-updated: 2026-04-07
-tags: [knowledge-management, llm, architecture-pattern]
+updated: 2026-04-20
+tags: [knowledge-management, llms, architecture-pattern]
 sources:
-  - ../../sources/articles/karpathy-llm-wiki.md
+  - ../../sources/articles/karpathy-llms-wiki.md
   - ../../sources/articles/garry-tan-gbrain.md
 related:
   - harness-engineering.md
