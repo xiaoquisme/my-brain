@@ -3,7 +3,7 @@ title: Martin Kleppmann
 created: 2026-04-20
 updated: 2026-04-20
 tags: [distributed-systems, databases, system-design]
-sources: [../../sources/books/ddia-preface.md]
+sources: [../../sources/books/ddia/ddia-preface.md]
 related: [../projects/ddia.md]
 ---
 

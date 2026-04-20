@@ -37,8 +37,8 @@ Content catalog for My Brain. One line per page, organized by category.
 
 ## Books
 
-- [Claude Code from Source (Ch 1-18)](sources/books/claude-code-from-source-ch01.md) — 18-chapter reverse-engineering of Claude Code's architecture from npm source maps
-- [DDIA 第二版 - 序言](sources/books/ddia-preface.md) — 为何数据密集型应用如此重要，本书目标读者与纲要（共15章，577k字）
+- [Claude Code from Source (Ch 1-18)](sources/books/claude-code-from-source/claude-code-from-source-ch01.md) — 18-chapter reverse-engineering of Claude Code's architecture from npm source maps
+- [DDIA 第二版 - 序言](sources/books/ddia/ddia-preface.md) — 为何数据密集型应用如此重要，本书目标读者与纲要（共15章，577k字）
 
 ## Concepts
 

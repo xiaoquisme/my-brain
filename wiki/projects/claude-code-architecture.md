@@ -4,24 +4,24 @@ created: 2026-04-10
 updated: 2026-04-17
 tags: [claude-code, ai-agents, architecture, typescript, agentic-systems, tool-use, multi-agent, prompt-caching, mcp]
 sources:
-  - ../../sources/books/claude-code-from-source-ch01.md
-  - ../../sources/books/claude-code-from-source-ch02.md
-  - ../../sources/books/claude-code-from-source-ch03.md
-  - ../../sources/books/claude-code-from-source-ch04.md
-  - ../../sources/books/claude-code-from-source-ch05.md
-  - ../../sources/books/claude-code-from-source-ch06.md
-  - ../../sources/books/claude-code-from-source-ch07.md
-  - ../../sources/books/claude-code-from-source-ch08.md
-  - ../../sources/books/claude-code-from-source-ch09.md
-  - ../../sources/books/claude-code-from-source-ch10.md
-  - ../../sources/books/claude-code-from-source-ch11.md
-  - ../../sources/books/claude-code-from-source-ch12.md
-  - ../../sources/books/claude-code-from-source-ch13.md
-  - ../../sources/books/claude-code-from-source-ch14.md
-  - ../../sources/books/claude-code-from-source-ch15.md
-  - ../../sources/books/claude-code-from-source-ch16.md
-  - ../../sources/books/claude-code-from-source-ch17.md
-  - ../../sources/books/claude-code-from-source-ch18.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch01.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch02.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch03.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch04.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch05.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch06.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch07.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch08.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch09.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch10.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch11.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch12.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch13.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch14.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch15.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch16.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch17.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch18.md
 related:
   - ../concepts/coding-agents.md
   - ../concepts/agentic-patterns.md

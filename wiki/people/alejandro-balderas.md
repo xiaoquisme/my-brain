@@ -4,7 +4,7 @@ created: 2026-04-10
 updated: 2026-04-10
 tags: [person, author, claude-code, ai-agents, reverse-engineering]
 sources:
-  - ../../sources/books/claude-code-from-source-ch01.md
+  - ../../sources/books/claude-code-from-source/claude-code-from-source-ch01.md
 related:
   - ../projects/claude-code-architecture.md
   - ../concepts/coding-agents.md

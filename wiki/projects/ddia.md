@@ -4,21 +4,21 @@ created: 2026-04-20
 updated: 2026-04-20
 tags: [distributed-systems, databases, system-design, storage-engines, consensus, transactions, stream-processing]
 sources:
-  - ../../sources/books/ddia-preface.md
-  - ../../sources/books/ddia-ch01.md
-  - ../../sources/books/ddia-ch02.md
-  - ../../sources/books/ddia-ch03.md
-  - ../../sources/books/ddia-ch04.md
-  - ../../sources/books/ddia-ch05.md
-  - ../../sources/books/ddia-ch06.md
-  - ../../sources/books/ddia-ch07.md
-  - ../../sources/books/ddia-ch08.md
-  - ../../sources/books/ddia-ch09.md
-  - ../../sources/books/ddia-ch10.md
-  - ../../sources/books/ddia-ch11.md
-  - ../../sources/books/ddia-ch12.md
-  - ../../sources/books/ddia-ch13.md
-  - ../../sources/books/ddia-ch14.md
+  - ../../sources/books/ddia/ddia-preface.md
+  - ../../sources/books/ddia/ddia-ch01.md
+  - ../../sources/books/ddia/ddia-ch02.md
+  - ../../sources/books/ddia/ddia-ch03.md
+  - ../../sources/books/ddia/ddia-ch04.md
+  - ../../sources/books/ddia/ddia-ch05.md
+  - ../../sources/books/ddia/ddia-ch06.md
+  - ../../sources/books/ddia/ddia-ch07.md
+  - ../../sources/books/ddia/ddia-ch08.md
+  - ../../sources/books/ddia/ddia-ch09.md
+  - ../../sources/books/ddia/ddia-ch10.md
+  - ../../sources/books/ddia/ddia-ch11.md
+  - ../../sources/books/ddia/ddia-ch12.md
+  - ../../sources/books/ddia/ddia-ch13.md
+  - ../../sources/books/ddia/ddia-ch14.md
 related:
   - ../people/martin-kleppmann.md
 ---
@@ -172,4 +172,4 @@ related:
 ---
 ## Evidence Timeline
 
-- **2026-04-20**: 完整抓取 DDIA 第二版中文译本（ddia.vonng.com）15个章节，共 577,730 字符。保存为 sources/books/ddia-*.md。创建本综合 wiki 页。
+- **2026-04-20**: 完整抓取 DDIA 第二版中文译本（ddia.vonng.com）15个章节，共 577,730 字符。保存为 sources/books/ddia/ddia-*.md。创建本综合 wiki 页。
