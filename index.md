@@ -33,6 +33,8 @@ Content catalog for My Brain. One line per page, organized by category.
 - [OpenAI - Codex for (almost) everything](sources/articles/codex-update-2026.md) — Codex 2026 更新：后台电脑使用、多代理并行、记忆功能、90+ 插件
 - [Anthropic - Claude Code Session Management](sources/articles/claude-code-session-management.md) — Claude Code 1M 上下文管理：context rot、compaction、rewind、subagent
 - [Reasoning Shift (Rodionov, 2026)](sources/articles/reasoning-shift-rodionov.md) — 上下文条件如何静默缩短 LLM 推理链（最多50%），自我验证行为显著减少
+- [Aparna Dhinakaran - Sandbox: Server of Harness Era](sources/articles/2045925288908046570.md) — Sandbox 即 harness 的服务器，trajectory 是最有价值的 artifact
+- [Garry Tan - How to really stop your agents from making the same mistakes](sources/articles/2046876981711769720.md) — Skillify practice: turning every failure into a permanent skill with tests, 10-step checklist
 
 
 ## Books
@@ -58,11 +60,15 @@ Content catalog for My Brain. One line per page, organized by category.
 - [OpenAI Codex 2026](wiki/concepts/openai-codex-2026.md) — OpenAI Codex 重大更新：后台电脑使用、多代理并行、记忆功能
 - [Claude Code Session Management](wiki/concepts/claude-code-session-management.md) — Claude Code 1M token 上下文管理：context rot、compaction、rewind、subagent
 - [Reasoning Shift](wiki/concepts/reasoning-shift.md) — 上下文条件静默压缩 LLM 推理链（最多50%），自我验证行为脆弱
+- [Sandbox](wiki/concepts/sandbox.md) — Harness 的执行环境，类比服务器在传统应用中的角色
+- [Skillify](wiki/concepts/skillify.md) — Practice of turning every AI agent failure into a permanent, tested skill
+- [Thin Harness, Fat Skills](wiki/concepts/thin-harness-fat-skills.md) — Architectural pattern: minimal runtime + domain logic in markdown skills
+- [Resolver](wiki/concepts/resolver.md) — Routing table mapping user intents to specific skills
 
 ## People
 
 - [Andrej Karpathy](wiki/people/andrej-karpathy.md) — AI researcher, proposed LLM Wiki pattern
-- [Garry Tan](wiki/people/garry-tan.md) — YC CEO, building GBrain
+- [Garry Tan](wiki/people/garry-tan.md) — YC CEO, building GBrain, introduced skillify practice and 10-step checklist
 - [Martin Fowler](wiki/people/martin-fowler.md) — Software engineering thought leader, Thoughtworks
 - [Birgitta Böckeler](wiki/people/birgitta-bockeler.md) — Author of harness engineering framework
 - [Justin Young](wiki/people/justin-young.md) — Anthropic, session continuity harness for long-running agents
@@ -81,12 +87,14 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Alejandro Balderas](wiki/people/alejandro-balderas.md) — Author of "Claude Code from Source" (18-chapter architecture book)
 - [Martin Kleppmann](wiki/people/martin-kleppmann.md) — 剑桥大学研究员，DDIA 第一/二版作者，分布式系统与 CRDT 专家
 - [Gleb Rodionov](wiki/people/gleb-rodionov.md) — Yandex 研究员，发现上下文条件静默压缩 LLM 推理链
+- [Aparna Dhinakaran](wiki/people/aparna-dhinakaran.md) — AI 工程研究者，提出"Sandbox 是 harness 的服务器"，trajectory 是最有价值的 artifact
 
 ## Projects
 
 - [Claude Code Workflow](wiki/projects/claude-code-workflow.md) — Feature composition and harness engineering mapping for Claude Code
 - [Claude Code Architecture](wiki/projects/claude-code-architecture.md) — Full architectural analysis from "Claude Code from Source" book (18 chapters)
 - [DDIA 第二版](wiki/projects/ddia.md) — 设计数据密集型应用第二版综合笔记：存储引擎、分布式事务、流式处理全书14章精华
+- [GBrain](wiki/projects/gbrain.md) — Open-source knowledge engine for AI agents with skill verification and quality gates
 
 ## Synthesis
 

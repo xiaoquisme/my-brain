@@ -1,7 +1,7 @@
 ---
 title: LLM Wiki Pattern
 created: 2026-04-07
-updated: 2026-04-20
+updated: 2026-04-22
 tags: [knowledge-management, llms, architecture-pattern]
 sources:
   - ../../sources/articles/karpathy-llms-wiki.md
@@ -11,6 +11,7 @@ related:
   - coding-agents.md
   - ../people/andrej-karpathy.md
   - ../people/garry-tan.md
+  - ../projects/gbrain.md
 ---
 
 ## Summary
