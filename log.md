@@ -271,16 +271,16 @@ Append-only record of operations.
 - Updated index.md with new source and concept entries
 - Key findings: 推理型 LLM 在非隔离上下文条件下推理链最多压缩 50%，自我验证行为（double-checking）显著减少。对简单问题影响小，对复杂任务性能下降。与 context rot、harness engineering 子代理策略高度相关。
 
-   246|
-   247|- **2026-04-22** | ingest | Added Garry Tan's "How to really stop your agents from making the same mistakes" article
-   248|  - Created source: sources/articles/2046876981711769720.md
-   249|  - Created wiki concepts: wiki/concepts/skillify.md, wiki/concepts/thin-harness-fat-skills.md, wiki/concepts/resolver.md
-   250|  - Created wiki project: wiki/projects/gbrain.md
-   251|  - Updated wiki people: wiki/people/garry-tan.md
-   252|  - Updated index.md with new source, concepts, and project entries
-   253|  - Related to: ai-agents, reliability, testing, skills, langchain, gbrain, harness-engineering
-   254|  - Key findings: Skillify practice (10-step checklist), thin harness/fat skills architecture, resolver routing, critique of LangChain for tools without workflow
-   255|
+
+- **2026-04-22** | ingest | Added Garry Tan's "How to really stop your agents from making the same mistakes" article
+- Created source: sources/articles/2046876981711769720.md
+- Created wiki concepts: wiki/concepts/skillify.md, wiki/concepts/thin-harness-fat-skills.md, wiki/concepts/resolver.md
+- Created wiki project: wiki/projects/gbrain.md
+- Updated wiki people: wiki/people/garry-tan.md
+- Updated index.md with new source, concepts, and project entries
+- Related to: ai-agents, reliability, testing, skills, langchain, gbrain, harness-engineering
+- Key findings: Skillify practice (10-step checklist), thin harness/fat skills architecture, resolver routing, critique of LangChain for tools without workflow
+
 
 - **2026-04-22** | maintain | Audit pass:
   - **孤儿子检查**: 2个误报页面 (kanban.md, scrum.md 被 agile.md 引用，不是真正的孤儿)
