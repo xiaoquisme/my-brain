@@ -1,4 +1,32 @@
-     1|     1|## 2026-04-20 — Maintenance Pass #2
+     1|     1|## 2026-04-23 — Source Redownload & Full Reformat
+
+**Action**: redownload + reformat
+
+**Scope**: sources/articles/2046876981711769720.md
+
+**Changes**:
+- Redownloaded from https://x.com/garrytan/status/2046876981711769720
+- Full Markdown reformat: proper headings, lists, code blocks, blockquotes
+- Removed all Twitter UI elements and engagement metrics
+- Added structured sections matching article's logical flow
+- Clean References section at end
+
+---
+## 2026-04-23 — Source Cleanup
+
+**Action**: format_fix
+
+**Scope**: sources/articles/2046876981711769720.md
+
+**Changes**:
+- Removed Twitter engagement metrics (likes, retweets, replies, views)
+- Removed Twitter UI elements ("Want to publish your own Article?", timestamp, etc.)
+- Consolidated author line to single format: "Garry Tan (@garrytan)"
+- Added References section for project links
+- Restored accidentally deleted paragraphs during cleanup
+
+---
+## 2026-04-20 — Maintenance Pass #2
      2|     2|
      3|     3|**Action**: maintain
      4|     4|
