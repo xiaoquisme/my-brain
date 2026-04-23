@@ -35,8 +35,8 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Reasoning Shift (Rodionov, 2026)](sources/articles/reasoning-shift-rodionov.md) — 上下文条件如何静默缩短 LLM 推理链（最多50%），自我验证行为显著减少
 - [Aparna Dhinakaran - Sandbox: Server of Harness Era](sources/articles/2045925288908046570.md) — Sandbox 即 harness 的服务器，trajectory 是最有价值的 artifact
 - [Garry Tan - How to really stop your agents from making the same mistakes](sources/articles/2046876981711769720.md) — Skillify practice: turning every failure into a permanent skill with tests, 10-step checklist
-- [Garry Tan - Thin Harness, Fat Skills](sources/articles/thin-harness-fat-skills.md) — YC Spring 2026 演讲：五定义三层架构，skill 如方法调用，resolver 路由上下文
-
+|- [Garry Tan - Thin Harness, Fat Skills](sources/articles/thin-harness-fat-skills.md) — YC Spring 2026 演讲：五定义三层架构，skill 如方法调用，resolver 路由上下文
+|- [He et al. - Harness Engineering: CAR & HarnessCard](sources/articles/harness-engineering-car-harnesscard.md) — CAR 框架 (Control, Agency, Runtime) + HarnessCard 报告规范，63 篇工作审计
 
 ## Books
 
@@ -68,7 +68,9 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Skill File](wiki/concepts/skill-file.md) — 可复用 Markdown 流程，教模型 HOW 而非 WHAT，像方法调用
 - [Harness](wiki/concepts/harness.md) — 运行 LLM 的程序：循环、文件读写、上下文管理、安全执行
 - [Latent vs Deterministic](wiki/concepts/latent-vs-deterministic.md) — 潜在空间（判断）vs 确定性（信任），架构分层原则
-- [Diarization](wiki/concepts/diarization.md) — 读取多文档输出结构化摘要，AI 知识工作的核心能力
+|- [Diarization](wiki/concepts/diarization.md) — 读取多文档输出结构化摘要，AI 知识工作的核心能力
+|- [CAR Framework](wiki/concepts/car-framework.md) — Control, Agency, Runtime 分解框架，形式化描述 harness 层
+|- [HarnessCard](wiki/concepts/harnesscard.md) — 轻量级 harness 配置报告规范，使 agent 声明可比较、可审计
 
 ## People
 
@@ -92,7 +94,8 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Alejandro Balderas](wiki/people/alejandro-balderas.md) — Author of "Claude Code from Source" (18-chapter architecture book)
 - [Martin Kleppmann](wiki/people/martin-kleppmann.md) — 剑桥大学研究员，DDIA 第一/二版作者，分布式系统与 CRDT 专家
 - [Gleb Rodionov](wiki/people/gleb-rodionov.md) — Yandex 研究员，发现上下文条件静默压缩 LLM 推理链
-- [Aparna Dhinakaran](wiki/people/aparna-dhinakaran.md) — AI 工程研究者，提出"Sandbox 是 harness 的服务器"，trajectory 是最有价值的 artifact
+|- [Aparna Dhinakaran](wiki/people/aparna-dhinakaran.md) — AI 工程研究者，提出"Sandbox 是 harness 的服务器"，trajectory 是最有价值的 artifact
+|- [Chaoyue He](wiki/people/chaoyue-he.md) — Alibaba-NTU ANGEL Lab 研究员，CAR 框架与 HarnessCard 提出者
 
 ## Projects
 

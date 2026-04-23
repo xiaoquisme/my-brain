@@ -13,6 +13,7 @@ sources:
   - ../../sources/articles/yuanchaofa-harness-engineering.md
   - ../../sources/articles/hermes-harness-metaphor.md
   - ../../sources/articles/2045925288908046570.md
+  - ../../sources/articles/harness-engineering-car-harnesscard.md
 related:
   - coding-agents.md
   - agentic-patterns.md
@@ -175,6 +176,82 @@ Together：Anthropic 称为 "decoupling the brain from the hands"——brain 是
 3. **循环检测**：追踪跨迭代文件编辑
 4. **推理三明治**（高→中→高）：平衡质量与延迟
 
+## CAR Framework (He et al., 2026)
+
+**Harness Engineering for Language Agents** (He et al., Alibaba-NTU, April 2026) proposes the **CAR decomposition** as a formal framework:
+
+**H = ⟨C, A, R⟩** — Control, Agency, Runtime
+
+### Control Layer (C)
+Durable artifacts that shape behavior **before** action:
+- Repository maps, AGENTS.md, tool descriptions
+- System instructions, architecture rules
+- Tests, linters, permission policies, success criteria
+- **Key insight**: "Reliable agents are rarely bounded by prompt wording; they are often bounded by specifications"
+
+### Agency Layer (A)
+How the model is **allowed to act**:
+- Action substrates (code execution, browser interaction)
+- Planner-verifier or orchestrator-worker structures
+- Reviewer roles and action space interfaces
+- **Definition**: "The mediated action surface and delegation structure that the harness permits"
+
+### Runtime Layer (R)
+What happens as work **unfolds over time**:
+- Context assembly, memory and compaction
+- Checkpointing, retries, backtracking
+- Approval flows, budgets, trace collection, replay support
+- **Key insight**: "Many agent failures are runtime failures: stale state, brittle retry loops, overgrown context"
+
+### Mini-Cases from Paper
+
+**Repository Coding Agent**: Two systems share the same frontier model but differ:
+- Control: Repository map, AGENTS.md, required tests, linter
+- Agency: Shell access, file-edit surface
+- Runtime: Progress file, retries, escalation logic
+
+**Browser/Research Agent**: Same browsing model, different harness:
+- Control: Source hierarchy, citation rules, note-taking format
+- Agency: Search, browser, delegation surface
+- Runtime: Scratchpads, branching traces, recovery
+
+## HarnessCard Reporting Artifact
+
+Also from He et al. (2026), **HarnessCard** is proposed as a lightweight reporting standard:
+
+| Field | Priority | What to Disclose |
+|-------|----------|------------------|
+| Base model(s) | Required | Model name, version, decoding settings, finetuning |
+| Control artifacts | Required | System instructions, AGENTS.md, repo maps, rules |
+| Runtime policy | Required | Memory type, compaction, checkpointing, retries |
+| Action substrate | Required | Tools, APIs, browser, code execution, MCP |
+| Execution topology | Required | Single vs multi-agent, planner/verifier roles |
+| Feedback stack | Required | Tests, graders, reflection prompts, human review |
+| Governance layer | Required | Permissions, sandboxing, escalation rules |
+| Observability | Required | Traces, replay, latency/cost logs |
+| Evaluation protocol | Required | Task set, runs, success criteria |
+| Release artifacts | Recommended | Prompts, tool specs, traces, configs |
+| Known limitations | Recommended | Failure modes, safety concerns |
+
+**Purpose**: Make agent claims comparable, auditable, and reproducible — like Model Cards but for the harness layer.
+
+## Visibility Gap
+
+He et al. audit 63 harness-relevant works and find:
+- **Academic papers** often leave harness as "hidden implementation residue"
+- **Public engineering notes** (Anthropic, OpenAI) describe harness innovations not yet in papers
+- Many reported "agent gains" may be **harness-sensitive** rather than purely model-driven
+
+## Engineering Evolution (from CAR perspective)
+
+```
+Software Engineering → Prompt Engineering → Context Engineering → Harness Engineering
+```
+
+- **Prompt Engineering**: Wording of instructions (Control subset)
+- **Context Engineering**: What information is provided (Control + Runtime subset)
+- **Harness Engineering**: Full H = ⟨C, A, R⟩ layer
+
 ## Open Questions
 
 - How to measure harness coverage and quality?
@@ -192,3 +269,6 @@ Together：Anthropic 称为 "decoupling the brain from the hands"——brain 是
 - **2026-04-07**: Added Meta-Harness section — automated harness search outperforming manual engineering (Lee et al., arXiv:2603.28052)
 - **2026-04-07**: Meta-Harness now has open-source implementation: `superagentic-metaharness` by Shashikant Jagtap — filesystem-first harness optimization
 - **2026-04-07**: Added Chaofa Yuan's engineering hierarchy (prompt → context → harness), transient vs persistent harness distinction, harness-model co-evolution, and LangChain Terminal Bench 2.0 case study
+- **2026-04-23**: Added CAR Framework (Control, Agency, Runtime) from He et al. (Alibaba-NTU) — formal decomposition of harness layer
+- **2026-04-23**: Added HarnessCard reporting artifact — lightweight disclosure schema for agent harness configurations
+- **2026-04-23**: Added Visibility Gap finding — audit of 63 works shows harness innovations often hidden in implementation residue

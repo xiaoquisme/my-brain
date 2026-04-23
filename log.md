@@ -1,3 +1,29 @@
+## 2026-04-23 — Ingest: He et al. - Harness Engineering (CAR & HarnessCard)
+
+**Action**: ingest
+
+**Scope**: sources/articles/ + wiki/concepts/ + wiki/people/
+
+**Source**: Preprints.org paper doi:10.20944/preprints202603.1756.v2
+
+**Changes**:
+- Saved source paper: sources/articles/harness-engineering-car-harnesscard.md
+- Created/updated wiki pages:
+  - wiki/concepts/car-framework.md (新概念 - Control, Agency, Runtime 分解)
+  - wiki/concepts/harnesscard.md (新概念 - 轻量级报告规范)
+  - wiki/concepts/harness-engineering.md (更新 - 添加 CAR、HarnessCard、Visibility Gap)
+  - wiki/people/chaoyue-he.md (新人物)
+- Updated index.md with new entries
+
+**Key Concepts Extracted**:
+- CAR Framework: H = ⟨C, A, R⟩ — Control, Agency, Runtime 形式化分解 harness 层
+- HarnessCard: 9 required + 2 recommended fields for reporting agent configurations
+- Visibility Gap: 63 篇工作审计，学术论文与工程笔记之间的可见性鸿沟
+- Key argument: 很多 "agent gains" 是 harness-sensitive 而非纯模型驱动
+- Engineering evolution: Software → Prompt → Context → Harness Engineering
+
+---
+
 ## 2026-04-23 — Ingest: Garry Tan - Thin Harness, Fat Skills
 
 **Action**: ingest
