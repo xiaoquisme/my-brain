@@ -1,66 +1,59 @@
 ---
 title: Resolver
-created: 2026-04-22
-updated: 2026-04-22
-tags: [ai-agents, routing, skills]
-sources:
-  - ../../sources/articles/2046876981711769720.md
-related:
-  - skillify.md
-  - thin-harness-fat-skills.md
-  - ../people/garry-tan.md
-  - ../projects/gbrain.md
+created: 2026-04-23
+updated: 2026-04-23
+tags: [ai-agents, context-management, architecture]
+sources: [../sources/articles/thin-harness-fat-skills.md]
+related: [thin-harness-fat-skills.md, skill-file.md, harness.md]
 ---
 
 ## Summary
 
-A routing table for AI agent skills: when task type X appears, load skill Y. Resolvers map user intents to specific skills, ensuring the right tool is used for each task.
+Resolver 是上下文的路由表：当任务类型 X 出现时，首先加载文档 Y。Skills 说 **HOW**，Resolvers 说 **WHEN 加载 WHAT**。
 
 ## Key Points
 
-- **Purpose**: Route tasks to appropriate skills based on intent
-- **Implementation**: Rows in a markdown table in AGENTS.md
-- **Trigger**: Phrases or patterns that should activate a specific skill
-- **Evaluation**: Must test that triggers actually route correctly (resolver eval)
-- **Failure Modes**:
-  - **False negative**: Skill should fire but doesn't (trigger missing/vague)
-  - **False positive**: Wrong skill fires (overlapping triggers)
+### 核心功能
 
-## Resolver Table Example
+- **路由决策**：根据任务类型自动加载相关文档
+- **隐式触发**：开发者可能不知道某些文档/技能存在，resolver 自动加载
+- **注意力管理**：避免把所有信息塞进单一上下文文件
 
-| Intent Pattern | Skill |
-|----------------|-------|
-| "check my signatures" | executive-assistant |
-| "who is [person]" | brain-ops |
-| "save this article" | idea-ingest |
-| "what time is my meeting" | context-now |
-| "find my [year] trip" | calendar-recall |
+### Claude Code 的内置 Resolver
 
-## Resolver Evaluation
+每个 Skill 有一个 `description` 字段，模型自动将用户意图匹配到 Skill 描述。
 
-Garry's resolver eval suite has 50+ test cases checking:
-1. **Structural tests**: Does AGENTS.md table contain right mapping?
-2. **LLM routing tests**: Given intent, does model pick right skill?
+> "你永远不需要记住 `/ship` 存在。描述就是 resolver。它像 Clippy，但真的有效。"
 
-## Common Issues
+### Garry Tan 的教训
 
-1. **Orphan skills**: Skills exist but have no resolver entry (15% of Garry's skills were unreachable)
-2. **Ambiguous routing**: Multiple skills match same phrase (e.g., "what's on my calendar tomorrow" could match calendar-check, calendar-recall, or google-calendar)
-3. **Weak triggers**: Autonomously-created skills with triggers that never match
+**问题**：CLAUDE.md 被写到 20,000 行——每个怪癖、模式、教训都塞进去。
 
-## Maintenance
+**后果**：模型注意力退化，Claude Code 建议缩减。
 
-- **check-resolvable**: Meta-test that walks AGENTS.md → SKILL.md → script/cron chain
-- **DRY audit**: Ensures no overlapping skill responsibilities
-- **Weekly runs**: Part of gbrain doctor health checks
+**修复**：缩减到约 200 行，只保留指针。Resolver 在需要时加载正确的文档。
 
-## Open Questions
+### Resolver 工作示例
 
-- How to automatically generate resolver entries for new skills?
-- When should skills have overlapping triggers vs being merged?
-- How to handle skills that work across multiple domains?
+```
+开发者修改了 prompt → 直接提交？
+
+没有 resolver：是的，直接提交了
+有 resolver：模型先读 docs/EVALS.md
+  → 运行 eval 套件
+  → 比较分数
+  → 如果准确率下降 > 2%，回滚并调查
+
+开发者甚至不知道 eval 套件存在！
+```
+
+### 与其他概念的关系
+
+- **Harness** 包含 Resolver
+- **Skills** 是 Resolver 路由的目标
+- Resolver 依赖 Skill 的 `description` 字段进行匹配
 
 ---
 ## Evidence Timeline
 
-- **2026-04-22**: Introduced in "How to really stop your agents from making the same mistakes" as step 6-7 of skillify checklist
+- **2026-04-23**: 从 gbrain 仓库 ingest，Garry Tan 定义

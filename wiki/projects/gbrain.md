@@ -1,69 +1,67 @@
 ---
 title: GBrain
-created: 2026-04-22
-updated: 2026-04-22
-tags: [ai-agents, knowledge-management, open-source]
-sources:
-  - ../../sources/articles/2046876981711769720.md
-  - ../../sources/articles/garry-tan-gbrain.md
-related:
-  - skillify.md
-  - ../concepts/llm-wiki-pattern.md
-  - ../people/garry-tan.md
+created: 2026-04-23
+updated: 2026-04-23
+tags: [projects, ai-agents, knowledge-base, open-source]
+sources: [../sources/articles/thin-harness-fat-skills.md]
+related: [thin-harness-fat-skills.md, garry-tan.md, openclaw.md, skill-file.md]
 ---
 
 ## Summary
 
-Open-source knowledge engine by Garry Tan that sits underneath AI agent harnesses. Manages brain repos, runs evals, and enforces quality gates for durable skills. Implements the skillify pattern with built-in testing and verification.
+GBrain 是 Garry Tan 开源的 AI Agent 框架项目，实现了 "Thin Harness, Fat Skills" 架构。GitHub 仓库 github.com/garrytan/gbrain，10.5k stars。
 
 ## Key Points
 
-- **Purpose**: Knowledge management + skill verification for AI agents
-- **Architecture**: SQLite + FTS5 + vectors + MCP, single-file
-- **Integration**: Works with OpenClaw, Hermes Agent, or any harness
-- **SkillPack**: Portable bundle of skills, triggers, scripts, and tests
-- **Doctor Command**: `gbrain doctor --fix` auto-repairs DRY violations, replaces duplicated blocks
-- **Quality Gates**: Enforces 10-step skillify checklist
-- **Open Source**: github.com/garrytan/gbrain
+### 项目定位
 
-## Core Components
+- 实现 "Thin Harness, Fat Skills" 的开源框架
+- 专注于 AI Agent 的技能管理和执行
+- 包含完整的文档、架构设计和 ethos
 
-1. **Brain Repo**: Personal knowledge base (wiki pattern)
-2. **Eval Suite**: Daily tests for skill quality
-3. **Resolver Management**: Skill routing and deconfliction
-4. **Health Checks**: Weekly audits for orphan skills, stale pages, contradictions
+### 仓库结构
 
-## Skillify Integration
+```
+docs/
+  ethos/           # 核心理念文档
+    THIN_HARNESS_FAT_SKILLS.md
+    MARKDOWN_SKILLS_AS_RECIPES.md
+  architecture/    # 架构设计
+  designs/         # 设计文档
+  guides/          # 使用指南
+skills/            # 内置技能
+recipes/           # 配方/模板
+src/               # 源代码
+```
 
-GBrain implements the full skillify workflow:
-- Skill creation with 10-step checklist
-- Automated testing (unit, integration, LLM evals)
-- Resolver management and evaluation
-- DRY audit and conflict detection
-- Knowledge base filing rules
+### 核心文档
 
-## GBrain SkillPack
+1. **THIN_HARNESS_FAT_SKILLS.md** - 核心架构理念
+2. **MARKDOWN_SKILLS_AS_RECIPES.md** - Skills 作为配方的设计
+3. **GBRAIN_V0.md** - v0 版本设计
+4. **GBRAIN_SKILLPACK.md** - 技能包规范
+5. **ENGINES.md** - 引擎设计
 
-Portable bundle that can be installed into any agent setup:
-- Pre-built skills with tests
-- Resolver triggers
-- Deterministic scripts
-- Quality gates
+### Agent Decision Guide
 
-## Contrast with Hermes Agent
+何时用 Skill vs Code：
 
-- **Hermes**: Great at skill creation (skill_manage tool)
-- **GBrain**: Great at skill verification (testing, evals, audits)
-- **Together**: Complete skill lifecycle (create → test → maintain)
+| 问题 | YES → | NO → |
+|------|-------|------|
+| 需要思考/适应/提问？ | Skill | Code |
+| 相同输入总是相同输出？ | Code | Skill |
+| 需要判断用户环境？ | Skill | Code |
+| 是查找/列表/状态检查？ | Code | 可能 Skill |
+| 根据对话上下文改变行为？ | Skill | Code |
 
-## Open Questions
+### GBrain 示例
 
-- How does GBrain handle skill versioning and rollback?
-- What's the performance impact of daily eval suites?
-- Can GBrain skills be shared across users/teams?
+- `gbrain integrations list` = **Code**（确定性）
+- `gbrain integrations status` = **Code**（确定性）
+- Recipe setup flow = **Skill**（需要适应环境）
+- Entity detection = **Skill**（需要判断重要性）
 
 ---
 ## Evidence Timeline
 
-- **2026-04-07**: Initial GBrain build specification published
-- **2026-04-22**: Skillify pattern and 10-step checklist introduced in agent reliability article
+- **2026-04-23**: 从 gbrain 仓库 ingest，10.5k stars，活跃开发中

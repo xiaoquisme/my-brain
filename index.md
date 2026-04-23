@@ -35,6 +35,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Reasoning Shift (Rodionov, 2026)](sources/articles/reasoning-shift-rodionov.md) — 上下文条件如何静默缩短 LLM 推理链（最多50%），自我验证行为显著减少
 - [Aparna Dhinakaran - Sandbox: Server of Harness Era](sources/articles/2045925288908046570.md) — Sandbox 即 harness 的服务器，trajectory 是最有价值的 artifact
 - [Garry Tan - How to really stop your agents from making the same mistakes](sources/articles/2046876981711769720.md) — Skillify practice: turning every failure into a permanent skill with tests, 10-step checklist
+- [Garry Tan - Thin Harness, Fat Skills](sources/articles/thin-harness-fat-skills.md) — YC Spring 2026 演讲：五定义三层架构，skill 如方法调用，resolver 路由上下文
 
 
 ## Books
@@ -64,6 +65,10 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Skillify](wiki/concepts/skillify.md) — Practice of turning every AI agent failure into a permanent, tested skill
 - [Thin Harness, Fat Skills](wiki/concepts/thin-harness-fat-skills.md) — Architectural pattern: minimal runtime + domain logic in markdown skills
 - [Resolver](wiki/concepts/resolver.md) — Routing table mapping user intents to specific skills
+- [Skill File](wiki/concepts/skill-file.md) — 可复用 Markdown 流程，教模型 HOW 而非 WHAT，像方法调用
+- [Harness](wiki/concepts/harness.md) — 运行 LLM 的程序：循环、文件读写、上下文管理、安全执行
+- [Latent vs Deterministic](wiki/concepts/latent-vs-deterministic.md) — 潜在空间（判断）vs 确定性（信任），架构分层原则
+- [Diarization](wiki/concepts/diarization.md) — 读取多文档输出结构化摘要，AI 知识工作的核心能力
 
 ## People
 

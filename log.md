@@ -1,3 +1,32 @@
+## 2026-04-23 — Ingest: Garry Tan - Thin Harness, Fat Skills
+
+**Action**: ingest
+
+**Scope**: sources/articles/thin-harness-fat-skills.md + wiki/
+
+**Source**: https://github.com/garrytan/gbrain/blob/master/docs/ethos/THIN_HARNESS_FAT_SKILLS.md
+
+**Changes**:
+- Saved source article with frontmatter
+- Created/updated wiki pages:
+  - wiki/concepts/thin-harness-fat-skills.md (核心架构原则)
+  - wiki/concepts/skill-file.md (新概念)
+  - wiki/concepts/harness.md (新概念)
+  - wiki/concepts/resolver.md (更新)
+  - wiki/concepts/latent-vs-deterministic.md (新概念)
+  - wiki/concepts/diarization.md (新概念)
+  - wiki/people/garry-tan.md (更新)
+  - wiki/projects/gbrain.md (更新)
+- Updated index.md with new entries
+
+**Key Concepts Extracted**:
+- 五定义：Skill File, Harness, Resolver, Latent vs Deterministic, Diarization
+- 三层架构：Fat Skills → Thin Harness → Your App
+- Skill 如方法调用：相同流程，不同参数
+- Resolver 路由上下文
+- 自学习循环：retrieve → diarize → rewrite skill
+
+---
 ## 2026-04-23 — Source Redownload & Full Reformat
 
 **Action**: redownload + reformat
