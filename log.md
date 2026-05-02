@@ -344,3 +344,44 @@ Append-only record of operations.
   - **索引同步**: ✅ 所有页面都在 index.md 中
   - **断裂引用**: ✅ 没有断裂引用
   - **统计**: 46 wiki 页面, 64 sources. 无实际问题需要修复。
+
+## [2026-05-02] ingest | snarktank/ralph
+- 来源: https://github.com/snarktank/ralph
+- 保存原始内容:
+  - raw/articles/snarktank-ralph-github-2026.md
+  - raw/articles/snarktank-ralph-ralph-sh-2026.md
+  - raw/articles/snarktank-ralph-prompt-md-2026.md
+- 创建页面:
+  - entities/ralph.md — 自主 AI 编码 Agent 循环，bash 脚本驱动，PRD 定义任务
+  - concepts/agent-loop-pattern.md — Agent 循环迭代模式综述，对比长 context 策略
+- 更新:
+  - index.md (+2 pages)
+  - concepts/agent-context-management.md (添加 [[ralph]] 交叉引用)
+
+## [2026-05-02] ingest | snarktank/ralph (correction)
+- 修正: entities/ralph.md → wiki/people/ralph.md (匹配现有 index 结构)
+- 创建附加页面:
+  - wiki/people/ryan-carson.md — Ralph 作者
+  - wiki/people/geoffrey-huntley.md — Ralph 模式原始提出者
+
+
+## [2026-05-02] merge | 本地 wiki 与 my-brain GitHub 仓库合并
+- 来源: https://github.com/xiaoquisme/my-brain
+- 策略: 用 my-brain 仓库替换 ~/wiki，将本地独有页面合并入
+- 本地新增页面 (11):
+  - people/arize-alyx.md — Arize AI & Alyx Agent
+  - people/scale-ai.md — Scale AI
+  - concepts/agent-context-management.md — Agent context 管理收敛模式
+  - concepts/ai-coding-benchmark.md — AI 编程基准综述
+  - concepts/codebase-qna.md — 代码库问答评测形式
+  - projects/claude-code-harness.md — Claude Code harness
+  - projects/harbor.md — Harbor 任务运行框架
+  - projects/letta-code.md — Letta Code harness
+  - projects/openclaw.md — OpenClaw harness
+  - projects/pi-mono.md — Pi harness
+  - projects/swe-atlas.md — SWE-Atlas 评测基准
+- 新增来源文件 (2):
+  - sources/articles/aparna-context-management-agent-harnesses-2026.md
+  - sources/articles/swe-atlas-github-2026.md
+- 更新: SCHEMA.md (新建), index.md (68 pages)
+- 备份: ~/wiki-backup-20260502

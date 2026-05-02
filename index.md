@@ -1,6 +1,6 @@
 # Index
 
-Content catalog for My Brain. One line per page, organized by category.
+Content catalog for My Brain. Total pages: 68. One line per page, organized by category.
 
 ## Sources
 
@@ -38,6 +38,9 @@ Content catalog for My Brain. One line per page, organized by category.
 |- [Garry Tan - Thin Harness, Fat Skills](sources/articles/thin-harness-fat-skills.md) — YC Spring 2026 演讲：五定义三层架构，skill 如方法调用，resolver 路由上下文
 |- [He et al. - Harness Engineering: CAR & HarnessCard](sources/articles/harness-engineering-car-harnesscard.md) — CAR 框架 (Control, Agency, Runtime) + HarnessCard 报告规范，63 篇工作审计
 
+- [Aparna Dhinakaran - Context Management in Agent Harnesses](sources/articles/aparna-context-management-agent-harnesses-2026.md) — 四大 harness context 管理收敛模式：文件截断、会话压缩、工具预算、子 Agent 隔离
+- [SWE-Atlas GitHub](sources/articles/swe-atlas-github-2026.md) — Scale AI 的 AI 编程 Agent 多维度评测基准（496 QnA + 360 TW 任务）
+
 ## Books
 
 - [Claude Code from Source (Ch 1-18)](sources/books/claude-code-from-source/claude-code-from-source-ch01.md) — 18-chapter reverse-engineering of Claude Code's architecture from npm source maps
@@ -62,6 +65,7 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Claude Code Session Management](wiki/concepts/claude-code-session-management.md) — Claude Code 1M token 上下文管理：context rot、compaction、rewind、subagent
 - [Reasoning Shift](wiki/concepts/reasoning-shift.md) — 上下文条件静默压缩 LLM 推理链（最多50%），自我验证行为脆弱
 - [Sandbox](wiki/concepts/sandbox.md) — Harness 的执行环境，类比服务器在传统应用中的角色
+- [Agent Loop Pattern](wiki/concepts/agent-loop-pattern.md) — AI agent iterative loop: fresh instance per round, file-system memory, PRD-driven
 - [Skillify](wiki/concepts/skillify.md) — Practice of turning every AI agent failure into a permanent, tested skill
 - [Thin Harness, Fat Skills](wiki/concepts/thin-harness-fat-skills.md) — Architectural pattern: minimal runtime + domain logic in markdown skills
 - [Resolver](wiki/concepts/resolver.md) — Routing table mapping user intents to specific skills
@@ -71,6 +75,10 @@ Content catalog for My Brain. One line per page, organized by category.
 |- [Diarization](wiki/concepts/diarization.md) — 读取多文档输出结构化摘要，AI 知识工作的核心能力
 |- [CAR Framework](wiki/concepts/car-framework.md) — Control, Agency, Runtime 分解框架，形式化描述 harness 层
 |- [HarnessCard](wiki/concepts/harnesscard.md) — 轻量级 harness 配置报告规范，使 agent 声明可比较、可审计
+
+- [Agent Context Management](wiki/concepts/agent-context-management.md) — Agent harness 如何管理 context 窗口：文件读取截断、会话压缩、工具结果预算、子 Agent 隔离的收敛模式
+- [AI Coding Benchmark](wiki/concepts/ai-coding-benchmark.md) — AI 编程基准概念综述，含主要维度对比和评测方法演进
+- [Codebase QnA](wiki/concepts/codebase-qna.md) — 代码库问答评测形式：让 Agent 探索真实代码库并回答自然语言问题
 
 ## People
 
@@ -94,8 +102,14 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Alejandro Balderas](wiki/people/alejandro-balderas.md) — Author of "Claude Code from Source" (18-chapter architecture book)
 - [Martin Kleppmann](wiki/people/martin-kleppmann.md) — 剑桥大学研究员，DDIA 第一/二版作者，分布式系统与 CRDT 专家
 - [Gleb Rodionov](wiki/people/gleb-rodionov.md) — Yandex 研究员，发现上下文条件静默压缩 LLM 推理链
-|- [Aparna Dhinakaran](wiki/people/aparna-dhinakaran.md) — AI 工程研究者，提出"Sandbox 是 harness 的服务器"，trajectory 是最有价值的 artifact
+|- [Ryan Carson](wiki/people/ryan-carson.md) — Creator of Ralph, autonomous AI coding agent loop
+- [Geoffrey Huntley](wiki/people/geoffrey-huntley.md) — Proposed the Ralph pattern for AI agent loops
+- [Ralph](wiki/people/ralph.md) — Autonomous AI coding agent loop (bash), PRD-driven, Amp + Claude Code
+- [Aparna Dhinakaran](wiki/people/aparna-dhinakaran.md) — AI 工程研究者，提出"Sandbox 是 harness 的服务器"，trajectory 是最有价值的 artifact
 |- [Chaoyue He](wiki/people/chaoyue-he.md) — Alibaba-NTU ANGEL Lab 研究员，CAR 框架与 HarnessCard 提出者
+
+- [Arize AI & Alyx](wiki/people/arize-alyx.md) — AI 可观测性公司，其内部 Agent Alyx 独立复现了四大 harness 的 context 管理模式
+- [Scale AI](wiki/people/scale-ai.md) — AI 数据基础设施公司，发布 SWE-Atlas 等评测基准
 
 ## Projects
 
@@ -103,6 +117,13 @@ Content catalog for My Brain. One line per page, organized by category.
 - [Claude Code Architecture](wiki/projects/claude-code-architecture.md) — Full architectural analysis from "Claude Code from Source" book (18 chapters)
 - [DDIA 第二版](wiki/projects/ddia.md) — 设计数据密集型应用第二版综合笔记：存储引擎、分布式事务、流式处理全书14章精华
 - [GBrain](wiki/projects/gbrain.md) — Open-source knowledge engine for AI agents with skill verification and quality gates
+
+- [Claude Code Harness](wiki/projects/claude-code-harness.md) — Anthropic 的 Claude Code harness，两层预读防护 + 每次 API 调用前的工具结果优化管线
+- [Harbor](wiki/projects/harbor.md) — laude-institute 出品的开源 AI Agent 评测任务运行框架，SWE-Atlas 使用
+- [Letta Code](wiki/projects/letta-code.md) — 开源 (Apache 2.0) Agent harness，核心特色为 git 版本化 MemFS 持久记忆
+- [OpenClaw](wiki/projects/openclaw.md) — 基于 Pi 构建的 Agent harness，纵深防御 context 管理（bootstrap cap + 工具结果预算 + 压缩前状态保存）
+- [Pi (pi-mono)](wiki/projects/pi-mono.md) — 开源 Agent harness，OpenClaw 的上游，采用 harness-first 的文件读取截断策略
+- [SWE-Atlas](wiki/projects/swe-atlas.md) — Scale AI 发布的 AI 编程 Agent 多维度评测基准（496 QnA + 360 TW 任务）
 
 ## Synthesis
 
