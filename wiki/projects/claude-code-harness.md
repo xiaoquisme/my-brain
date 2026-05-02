@@ -6,10 +6,10 @@ tags: [agent, model, company]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md, ../../sources/articles/swe-atlas-github-2026.md]
 related:
   - ../concepts/agent-context-management.md — concept page covering all harnesses
-- pi-mono.md — simpler harness with similar file read defaults
-- openclaw.md — harness that inherits Pi's approach
-- letta-code.md — open-source harness with different memory architecture
-- swe-atlas.md
+  - pi-mono.md — simpler harness with similar file read defaults
+  - openclaw.md — harness that inherits Pi's approach
+  - letta-code.md — open-source harness with different memory architecture
+  - swe-atlas.md
 ---
 
 # Claude Code (Agent Harness)
