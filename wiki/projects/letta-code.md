@@ -6,9 +6,9 @@ tags: [agent, open-source]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
 related:
   - ../concepts/agent-context-management.md — concept page covering all four harnesses
-- pi-mono.md — simpler harness without persistent memory
-- openclaw.md — harness with pre-compaction flush
-- claude-code-harness.md
+  - pi-mono.md — simpler harness without persistent memory
+  - openclaw.md — harness with pre-compaction flush
+  - claude-code-harness.md
 ---
 
 # Letta Code

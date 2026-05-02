@@ -6,8 +6,8 @@ tags: [agent, open-source]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
 related:
   - ../concepts/agent-context-management.md — concept page covering all harnesses
-- claude-code-harness.md — alternative harness with pre-read byte gate
-- letta-code.md
+  - claude-code-harness.md — alternative harness with pre-read byte gate
+  - letta-code.md
 ---
 
 # Pi (pi-mono)

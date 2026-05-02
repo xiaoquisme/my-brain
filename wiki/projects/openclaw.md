@@ -6,8 +6,8 @@ tags: [agent]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
 related:
   - ../concepts/agent-context-management.md — concept page covering all harnesses
-- claude-code-harness.md — comparable harness with pre-read byte gate approach
-- letta-code.md
+  - claude-code-harness.md — comparable harness with pre-read byte gate approach
+  - letta-code.md
 ---
 
 # OpenClaw
