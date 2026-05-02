@@ -1,10 +1,10 @@
 ---
-title: 敏捷 (Agile)
-created: 2026-04-17
-updated: 2026-04-17
-tags: [agile, devops, software-development, methodology]
-sources: [../../sources/articles/what-is-agile.md, ../../sources/articles/what-is-agile-development.md, ../../sources/articles/what-is-scrum.md, ../../sources/articles/what-is-kanban.md, ../../sources/articles/adopting-agile.md, ../../sources/articles/building-productive-teams.md]
-related: [../concepts/scrum.md, ../concepts/kanban.md]
+{created: 2026-04-17, related: [../concepts/scrum.md, ../concepts/kanban.md], sources: [
+    ../../sources/articles/what-is-agile.md, ../../sources/articles/what-is-agile-development.md,
+    ../../sources/articles/what-is-scrum.md, ../../sources/articles/what-is-kanban.md,
+    ../../sources/articles/adopting-agile.md, ../../sources/articles/building-productive-teams.md],
+  tags: [agile, devops, software-development, software-development], title: 敏捷 (Agile),
+  type: concept, updated: 2026-04-17}
 ---
 
 ## Summary
@@ -59,3 +59,8 @@ related: [../concepts/scrum.md, ../concepts/kanban.md]
 - **2026-04-17**: 从《什么是看板？》摄入看板四原则：可视化工作、拉取模型、WIP限制、持续改进
 - **2026-04-17**: 从《采用敏捷文化》摄入文化和团队建设要素
 - **2026-04-17**: 从《构建以客户为中心的高效团队》摄入双机组系统 (F-Crew/C-Crew)
+
+## 相关页面
+
+[[kanban]], [[scrum]]
+

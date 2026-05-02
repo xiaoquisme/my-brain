@@ -1,10 +1,7 @@
 ---
-title: 看板 (Kanban)
-created: 2026-04-17
-updated: 2026-04-17
-tags: [agile, kanban, methodology]
-sources: [../../sources/articles/what-is-kanban.md]
-related: [../concepts/agile.md]
+{created: 2026-04-17, related: [../concepts/agile.md], sources: [../../sources/articles/what-is-kanban.md],
+  tags: [agile, kanban, software-development], title: 看板 (Kanban), type: concept,
+  updated: 2026-04-17}
 ---
 
 ## Summary
@@ -37,3 +34,8 @@ related: [../concepts/agile.md]
 ## Evidence Timeline
 
 - **2026-04-17**: 从 Microsoft Learn《什么是看板？》摄入看板的核心原则、与 Scrum 的区别以及常用工具
+
+## 相关页面
+
+[[agile]], [[scrum]]
+

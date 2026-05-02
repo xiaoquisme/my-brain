@@ -2,6 +2,7 @@
 title: Codebase QnA
 created: 2026-04-28
 updated: 2026-04-28
+type: concept
 tags: [benchmark, agent, code-gen]
 sources: [../../sources/articles/swe-atlas-github-2026.md]
 ---
@@ -39,3 +40,4 @@ Agent 需要：
 - ai-coding-benchmark.md — 上位概念
 - ../projects/swe-atlas.md — 目前最大规模的 Codebase QnA 基准
 - swe-bench.md — 侧重 bug 修复的互补基准
+- [[ai-coding-benchmark]]

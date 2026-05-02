@@ -2,13 +2,14 @@
 title: Letta Code Agent Harness
 created: 2026-04-28
 updated: 2026-04-28
+type: project
 tags: [agent, open-source]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
 related:
-  - ../concepts/agent-context-management.md — concept page covering all four harnesses
-- pi-mono.md — simpler harness without persistent memory
-- openclaw.md — harness with pre-compaction flush
-- claude-code-harness.md
+  - agent-context-management
+  - pi-mono
+  - openclaw
+  - claude-code-harness
 ---
 
 # Letta Code
@@ -65,3 +66,8 @@ Seven built-in subagent types:
 ## Open Source
 
 Fully open source under Apache 2.0 — every design decision is visible and auditable. This makes it unique among the four harnesses reviewed.
+
+## 相关页面
+
+[[pi-mono]]
+

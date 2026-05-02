@@ -2,6 +2,7 @@
 title: Resolver
 created: 2026-04-23
 updated: 2026-04-23
+type: concept
 tags: [ai-agents, context-management, architecture]
 sources: [../sources/articles/thin-harness-fat-skills.md]
 related: [thin-harness-fat-skills.md, skill-file.md, harness.md]
@@ -57,3 +58,8 @@ Resolver 是上下文的路由表：当任务类型 X 出现时，首先加载�
 ## Evidence Timeline
 
 - **2026-04-23**: 从 gbrain 仓库 ingest，Garry Tan 定义
+
+## 相关页面
+
+[[skill-file]]
+

@@ -2,6 +2,7 @@
 title: Claude Code Session Management
 created: 2026-04-17
 updated: 2026-04-17
+type: concept
 tags: [claude-code, session-management, context-window, compaction, context-rot, coding-agents]
 sources:
   - ../../sources/articles/claude-code-session-management.md
@@ -59,3 +60,8 @@ Claude Code 提供一百万 token 上下文窗口，上下文管理（session、
 ## Evidence Timeline
 
 - **2026-04-17**: 从 Thariq Shihipar 的 "Using Claude Code: session management and 1M context" 文章 ingested
+
+## 相关页面
+
+[[thariq-shihipar]]
+

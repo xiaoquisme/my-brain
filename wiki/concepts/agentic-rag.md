@@ -2,6 +2,7 @@
 title: Agentic RAG
 created: 2026-04-08
 updated: 2026-04-10
+type: concept
 tags: [rag, ai-agents, tool-use, reinforcement-learning]
 sources:
   - ../../sources/articles/yuanchaofa-native-rag-to-agentic-rag.md
@@ -65,3 +66,8 @@ Exemplified by Search-R1:
 ## Evidence Timeline
 
 - **2026-04-08**: Initial compilation from Chaofa Yuan's "RAG 进化之路" (published 2025-10-03, modified 2026-03-18)
+
+## 相关页面
+
+[[tool-use-as-meta-ability]], [[chaofa-yuan]]
+

@@ -2,6 +2,7 @@
 title: Harbor (laude-institute)
 created: 2026-04-28
 updated: 2026-04-28
+type: entity
 tags: [swe-tool, open-source, agent]
 sources: [../../sources/articles/swe-atlas-github-2026.md]
 ---
@@ -22,3 +23,4 @@ swe-atlas.md 使用 Harbor 来管理 496 个 QnA 任务和 360 个 Test Writing 
 
 - swe-atlas.md — 主要使用方
 - ../concepts/modal.md — 配套的沙箱执行环境
+- [[swe-atlas]]

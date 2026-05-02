@@ -2,6 +2,7 @@
 title: KV Cache and Prompt Caching
 created: 2026-04-07
 updated: 2026-04-20
+type: concept
 tags: [llms, transformer, inference, kv-cache, prompt-caching]
 sources:
   - ../../sources/articles/yuanchaofa-kv-cache-prompt-caching.md
@@ -54,3 +55,8 @@ KV Cache and Prompt Caching are two complementary inference acceleration techniq
 - **2026-04-10**: "Claude Code from Source" Ch 9 — Fork agents achieve 95% prompt cache hit rate via byte-identical prefix trick. Slot reservation saves context in 99% of requests (Ch 17).
 
 - **2026-04-07**: Initial compilation from Chaofa Yuan's article (published 2026-02-21, updated 2026-03-22)
+
+## 相关页面
+
+[[chaofa-yuan]]
+

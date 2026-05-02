@@ -2,6 +2,7 @@
 title: "设计数据密集型应用（第二版）"
 created: 2026-04-20
 updated: 2026-04-20
+type: entity
 tags: [distributed-systems, databases, system-design, storage-engines, consensus, transactions, stream-processing]
 sources:
   - ../../sources/books/ddia/ddia-preface.md
@@ -173,3 +174,8 @@ related:
 ## Evidence Timeline
 
 - **2026-04-20**: 完整抓取 DDIA 第二版中文译本（ddia.vonng.com）15个章节，共 577,730 字符。保存为 sources/books/ddia/ddia-*.md。创建本综合 wiki 页。
+
+## 相关页面
+
+[[martin-kleppmann]]
+

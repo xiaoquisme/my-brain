@@ -2,6 +2,7 @@
 title: GBrain
 created: 2026-04-23
 updated: 2026-04-23
+type: entity
 tags: [projects, ai-agents, knowledge-base, open-source]
 sources: [../sources/articles/thin-harness-fat-skills.md]
 related: [thin-harness-fat-skills.md, garry-tan.md, openclaw.md, skill-file.md]
@@ -65,3 +66,8 @@ src/               # 源代码
 ## Evidence Timeline
 
 - **2026-04-23**: 从 gbrain 仓库 ingest，10.5k stars，活跃开发中
+
+## 相关页面
+
+[[thin-harness-fat-skills]], [[garry-tan]]
+

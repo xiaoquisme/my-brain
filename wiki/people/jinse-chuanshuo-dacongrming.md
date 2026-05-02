@@ -2,6 +2,7 @@
 title: 金色传说大聪明
 created: 2026-04-07
 updated: 2026-04-07
+type: entity
 tags: [harness-engineering, essay, metaphor]
 sources:
   - ../../sources/articles/hermes-harness-metaphor.md
@@ -28,3 +29,8 @@ related:
 ## Evidence Timeline
 
 - **2026-04-07**: Created from "爱马仕：一家做了 189 年 Harness 的公司" article
+
+## 相关页面
+
+[[chaoyue-he]]
+

@@ -2,6 +2,7 @@
 title: Alejandro Balderas
 created: 2026-04-10
 updated: 2026-04-10
+type: entity
 tags: [person, author, claude-code, ai-agents, reverse-engineering]
 sources:
   - ../../sources/books/claude-code-from-source/claude-code-from-source-ch01.md
@@ -32,3 +33,8 @@ Author of "Claude Code from Source — Architecture, Patterns & Internals", an 1
 ## Evidence Timeline
 
 - **2026-04-10**: Discovered via "Claude Code from Source" book ingestion. 18-chapter book covering full architecture.
+
+## 相关页面
+
+[[claude-code-architecture]]
+

@@ -2,6 +2,7 @@
 title: Prithvi Rajasekaran
 created: 2026-04-07
 updated: 2026-04-07
+type: entity
 tags: [anthropic, ai-agents, frontend-design]
 sources:
   - ../../sources/articles/anthropic-harness-design-long-running.md
@@ -30,3 +31,8 @@ Engineer at Anthropic Labs. Authored "Harness Design for Long-Running Applicatio
 ## Evidence Timeline
 
 - **2026-04-07**: Created from "Harness Design for Long-Running Application Development" article (published 2026-03-24)
+
+## 相关页面
+
+[[barry-zhang]], [[erik-schluntz]], [[rosa]]
+

@@ -2,6 +2,7 @@
 title: CAR Framework (Control, Agency, Runtime)
 created: 2026-04-23
 updated: 2026-04-23
+type: concept
 tags: [harness-engineering, agent-architecture, control-theory, language-agents]
 sources:
   - ../../sources/articles/harness-engineering-car-harnesscard.md
@@ -113,3 +114,8 @@ The performance difference is **harness-driven**, not model-driven.
 - **2026-04-23**: Created from He et al. "Harness Engineering for Language Agents" (Alibaba-NTU, Preprints.org)
 - **2026-04-23**: CAR decomposition: H = ⟨C, A, R⟩ formalizes what was previously bundled and under-described
 - **2026-04-23**: Key insight: many "agent gains" are harness-sensitive, not purely model-driven
+
+## 相关页面
+
+[[ashbys-law]], [[harnesscard]]
+

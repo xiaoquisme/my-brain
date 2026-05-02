@@ -2,12 +2,13 @@
 title: Pi (pi-mono) Agent Harness
 created: 2026-04-28
 updated: 2026-04-28
+type: project
 tags: [agent, open-source]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
 related:
-  - ../concepts/agent-context-management.md — concept page covering all harnesses
-- claude-code-harness.md — alternative harness with pre-read byte gate
-- letta-code.md
+  - agent-context-management
+  - claude-code-harness
+  - letta-code
 ---
 
 # Pi (pi-mono)
@@ -37,3 +38,8 @@ openclaw.md inherits Pi's read tool (2K line / 50KB cap) and compaction architec
 - Multi-pass summarization
 - Pre-compaction flush via silent agentic turn
 - Non-destructive tool-result pruning on 5-min TTL
+
+## 相关页面
+
+[[harbor]], [[openclaw]]
+

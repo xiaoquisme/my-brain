@@ -406,3 +406,30 @@ Append-only record of operations.
   - 重建 index.md: 68 个页面全部按实际路径列出（30 concepts, 27 people, 10 projects, 1 synthesis）
   - 更新 SCHEMA.md: 反映实际目录结构（sources/ + wiki/ 四个子目录），更新 tag taxonomy（从 20 个扩展到匹配实际使用的 99 个标签，按 6 大类分组）
 - 统计: 68 wiki 页面, 63 source 文件（34 articles + 29 book chapters）
+
+## [2026-05-02] lint | Wiki 全面维护
+
+### 发现问题
+- 断链: 0
+- 孤儿页面: 56 (无入站链接)
+- Index 完整性: 完美 (68/68)
+- Frontmatter 问题: 61 页面缺少 type 字段, 4 文件 frontmatter 格式错误
+- 页面超 200 行: 1 (harness-engineering.md: 275 行)
+- Tag 分类外: 62 个 tag 不在 SCHEMA.md 分类中
+- 未使用分类 tag: 7 个
+- 来源漂移: 0
+- 矛盾页面: 0
+- 单来源无 confidence: 49 页面
+
+### 修复操作
+- 修复 4 个 malformed frontmatter (claude-code-harness, letta-code, openclaw, pi-mono): related 字段 YAML 格式错误 → 修正为标准列表
+- 为 60 个页面添加 type 字段 (从目录推断: concept/entity/synthesis)
+- SCHEMA.md tag 分类扩展: 从 ~30 个扩展到 105 个, 新增 11 个分类 (Agent 架构, 模型实例, 知识与认知, 系统理论, 数据等)
+- methodology → software-development 统一重命名 (3 页面)
+- 为 56 个孤儿页面添加 112 条交叉引用, 更新 51 个目标页面
+- 所有 68 页面现在均有入站链接
+
+### 待关注
+- 1 页面超 200 行 (harness-engineering.md) — 候选拆分
+- 49 页面单来源无 confidence 设置 — 建议后续补充或降低 confidence
+- log.md 408 行, 接近 500 行轮转阈值

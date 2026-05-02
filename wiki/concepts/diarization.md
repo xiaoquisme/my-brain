@@ -2,6 +2,7 @@
 title: Diarization
 created: 2026-04-23
 updated: 2026-04-23
+type: concept
 tags: [ai-agents, knowledge-work, analysis]
 sources: [../sources/articles/thin-harness-fat-skills.md]
 related: [thin-harness-fat-skills.md, skill-file.md, latent-vs-deterministic.md]

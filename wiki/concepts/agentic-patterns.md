@@ -2,6 +2,7 @@
 title: Agentic Patterns
 created: 2026-04-07
 updated: 2026-04-07
+type: concept
 tags: [ai-agents, software-engineering, architecture-pattern]
 sources:
   - ../../sources/articles/anthropic-building-effective-agents.md

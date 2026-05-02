@@ -2,6 +2,7 @@
 title: msitarzewski
 created: 2026-04-08
 updated: 2026-04-08
+type: entity
 tags: [ai-agents, open-source, tool-integration]
 sources:
   - ../../sources/articles/agency-agents.md

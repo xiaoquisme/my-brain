@@ -2,6 +2,7 @@
 title: Harness Engineering
 created: 2026-04-07
 updated: 2026-04-22
+type: concept
 tags: [ai-agents, coding-agents, software-engineering, quality]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
@@ -272,3 +273,8 @@ Software Engineering → Prompt Engineering → Context Engineering → Harness 
 - **2026-04-23**: Added CAR Framework (Control, Agency, Runtime) from He et al. (Alibaba-NTU) — formal decomposition of harness layer
 - **2026-04-23**: Added HarnessCard reporting artifact — lightweight disclosure schema for agent harness configurations
 - **2026-04-23**: Added Visibility Gap finding — audit of 63 works shows harness innovations often hidden in implementation residue
+
+## 相关页面
+
+[[car-framework]], [[harnesscard]], [[llm-wiki-pattern]], [[meta-harness]], [[openai-codex-2026]], [[sandbox]], [[skillify]], [[birgitta-bockeler]], [[justin-young]], [[martin-fowler]], [[shashikant-jagtap]]
+

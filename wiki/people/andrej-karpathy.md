@@ -2,6 +2,7 @@
 title: Andrej Karpathy
 created: 2026-04-07
 updated: 2026-04-07
+type: entity
 tags: [ai-agents, researcher, entrepreneur]
 sources:
   - ../../sources/articles/karpathy-llm-wiki.md
@@ -28,3 +29,8 @@ AI researcher and educator. Former Tesla AI Director, OpenAI co-founder. Known f
 ## Evidence Timeline
 
 - **2026-04-07**: Authored LLM Wiki gist proposing structured knowledge base pattern
+
+## 相关页面
+
+[[llm-wiki-pattern]]
+

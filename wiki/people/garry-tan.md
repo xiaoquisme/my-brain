@@ -2,6 +2,7 @@
 title: Garry Tan
 created: 2026-04-23
 updated: 2026-04-23
+type: entity
 tags: [people, yc, ai-agents, investors]
 sources: [../sources/articles/thin-harness-fat-skills.md]
 related: [thin-harness-fat-skills.md, gbrain.md, openclaw.md]
@@ -54,3 +55,8 @@ Garry Tan 是 Y Combinator 的 CEO，AI Agent 架构 "Thin Harness, Fat Skills" 
 ## Evidence Timeline
 
 - **2026-04-23**: 从 gbrain 仓库 ingest，YC Spring 2026 演讲
+
+## 相关页面
+
+[[thin-harness-fat-skills]], [[gbrain]]
+

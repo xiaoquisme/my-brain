@@ -2,6 +2,7 @@
 title: Chaoyue He
 created: 2026-04-23
 updated: 2026-04-23
+type: entity
 tags: [researchers, harness-engineering, language-agents, alibaba-ntu]
 sources:
   - ../../sources/articles/harness-engineering-car-harnesscard.md
@@ -38,3 +39,8 @@ Chaoyue He is a researcher at Alibaba-NTU Global e-Sustainability CorpLab (ANGEL
 
 - **2026-04-23**: Paper published on Preprints.org — "Harness Engineering for Language Agents"
 - **2026-04-23**: First formal framework (CAR) for decomposing the harness layer
+
+## 相关页面
+
+[[jinse-chuanshuo-dacongrming]]
+

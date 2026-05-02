@@ -2,14 +2,15 @@
 title: Claude Code Agent Harness
 created: 2026-04-28
 updated: 2026-04-28
+type: project
 tags: [agent, model, company]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md, ../../sources/articles/swe-atlas-github-2026.md]
 related:
-  - ../concepts/agent-context-management.md — concept page covering all harnesses
-- pi-mono.md — simpler harness with similar file read defaults
-- openclaw.md — harness that inherits Pi's approach
-- letta-code.md — open-source harness with different memory architecture
-- swe-atlas.md
+  - agent-context-management
+  - pi-mono
+  - openclaw
+  - letta-code
+  - swe-atlas
 ---
 
 # Claude Code (Agent Harness)
@@ -59,3 +60,8 @@ Two paths:
 - **Fork path**: passes entire parent message history into the child for prompt cache sharing, plus a synthetic assistant message and placeholder tool results
 - Tools rebuilt for worker with their own permission mode; async agents get an explicit tool allowlist
 - Skills referenced in agent definition are **eagerly preloaded** — full skill content injected as user messages into the initial conversation, not loaded on demand
+
+## 相关页面
+
+[[arize-alyx]], [[swe-atlas]]
+

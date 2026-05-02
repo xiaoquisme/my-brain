@@ -2,6 +2,7 @@
 title: rosa
 created: 2026-04-07
 updated: 2026-04-07
+type: entity
 tags: [ai-agents, tool-use]
 sources:
   - ../../sources/articles/rosa-bash-tools-agents.md
@@ -31,3 +32,8 @@ Technical writer at isrosa.com. Writes about AI agent engineering, with a focus 
 
 - **2026-04-07**: First encountered via article on Bash tools as essential agent capabilities
 - **2026-04-07**: Second article ingested — OpenClaw architecture analysis, identifying 7 core patterns shared by modern agent frameworks
+
+## 相关页面
+
+[[andrej-karpathy]]
+

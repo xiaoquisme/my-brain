@@ -2,6 +2,7 @@
 title: Agent Context Management
 created: 2026-04-28
 updated: 2026-04-28
+type: concept
 tags: [agent, inference, architecture]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
 related:
@@ -77,3 +78,4 @@ The parallel with OS memory management is apt: registers → cache → RAM → s
 
 - [[ralph]] — 每轮清空 context 的 Agent Loop 实现，代表迭代隔离策略
 - [[agent-loop-pattern]] — 迭代隔离模式的抽象概念
+- [[arize-alyx]]

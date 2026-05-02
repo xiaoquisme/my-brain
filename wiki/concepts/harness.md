@@ -2,6 +2,7 @@
 title: Harness
 created: 2026-04-23
 updated: 2026-04-23
+type: concept
 tags: [ai-agents, harness-engineering, architecture]
 sources: [../sources/articles/thin-harness-fat-skills.md]
 related: [thin-harness-fat-skills.md, skill-file.md, resolver.md, harness-engineering.md]

@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-05-02 | Total pages: 68
+> Last updated: 2026-05-02 | Total pages: 68 | Lint maintenance pass complete
 
 ## Concepts
 

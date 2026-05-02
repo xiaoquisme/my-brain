@@ -2,6 +2,7 @@
 title: Agentic RAG as Harness
 created: 2026-04-08
 updated: 2026-04-08
+type: synthesis
 tags: [rag, harness-engineering, ai-agents, synthesis]
 sources:
   - ../../sources/articles/yuanchaofa-native-rag-to-agentic-rag.md
@@ -61,3 +62,8 @@ Harness 执行轨迹变成训练数据的路径：
 ## Evidence Timeline
 
 - **2026-04-08**: 综合推理——将 agentic-rag 和 harness-engineering 两个概念交叉分析，产出本页
+
+## 相关页面
+
+[[agentic-rag]]
+

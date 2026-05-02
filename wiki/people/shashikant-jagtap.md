@@ -2,6 +2,7 @@
 title: Shashikant Jagtap
 created: 2026-04-07
 updated: 2026-04-07
+type: entity
 tags: [ai-agents, open-source, python]
 sources:
   - ../../sources/articles/meta-harness-library-jagtap.md
@@ -28,3 +29,8 @@ Author and developer who created the open-source `superagentic-metaharness` Pyth
 ## Evidence Timeline
 
 - **2026-04-07**: Created from blog post on Meta-Harness library (published 2026-04-02)
+
+## 相关页面
+
+[[alejandro-balderas]], [[andrej-karpathy]], [[luongnv89]], [[msitarzewski]], [[rosa]]
+

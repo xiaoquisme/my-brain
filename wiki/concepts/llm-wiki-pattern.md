@@ -2,6 +2,7 @@
 title: LLM Wiki Pattern
 created: 2026-04-07
 updated: 2026-04-22
+type: concept
 tags: [knowledge-management, llms, architecture-pattern]
 sources:
   - ../../sources/articles/karpathy-llms-wiki.md

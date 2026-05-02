@@ -2,12 +2,13 @@
 title: OpenClaw Agent Harness
 created: 2026-04-28
 updated: 2026-04-28
+type: project
 tags: [agent]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
 related:
-  - ../concepts/agent-context-management.md — concept page covering all harnesses
-- claude-code-harness.md — comparable harness with pre-read byte gate approach
-- letta-code.md
+  - agent-context-management
+  - claude-code-harness
+  - letta-code
 ---
 
 # OpenClaw

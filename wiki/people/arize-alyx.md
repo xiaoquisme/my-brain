@@ -2,6 +2,7 @@
 title: Arize AI & Alyx Agent
 created: 2026-04-28
 updated: 2026-04-28
+type: entity
 tags: [company, agent]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
 related:
@@ -31,3 +32,8 @@ Alyx is Arize's internal agent, built for **data exploration** (not code editing
 | Subagent isolation | Same isolation pattern as the four coding harnesses |
 
 This convergence — a data exploration agent arriving at the same context management playbook as four coding agents — is cited as evidence that these patterns are not domain-specific but fundamental to agent harness design.
+
+## 相关页面
+
+[[aparna-dhinakaran]], [[scale-ai]]
+

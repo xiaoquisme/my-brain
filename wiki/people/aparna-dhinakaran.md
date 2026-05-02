@@ -2,6 +2,7 @@
 title: Aparna Dhinakaran
 created: 2026-04-20
 updated: 2026-04-20
+type: entity
 tags: [ai-agents, coding-agents]
 sources:
   - ../../sources/articles/2045925288908046570.md

@@ -2,6 +2,7 @@
 title: Tool Use as Meta-Ability
 created: 2026-04-07
 updated: 2026-04-07
+type: concept
 tags: [ai-agents, tool-use, coding-agents]
 sources:
   - ../../sources/articles/rosa-bash-tools-agents.md
@@ -44,3 +45,8 @@ An agent's coding/scripting ability is its "meta-ability" — the capacity to co
 - **2026-04-10**: "Claude Code from Source" Ch 6-7 — 14-step tool execution pipeline with self-describing tools (concurrency, permissions, rendering), speculative execution, and streaming executor.
 
 - **2026-04-07**: Created from rosa's article "从Bash工具开始理解Agent"
+
+## 相关页面
+
+[[agentic-patterns]], [[ashbys-law]], [[claude-code-workflow]]
+

@@ -2,6 +2,7 @@
 title: Coding Agents
 created: 2026-04-07
 updated: 2026-04-17
+type: concept
 tags: [ai-agents, software-engineering, tool-use]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
@@ -73,3 +74,8 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 - **2026-04-07**: Added tool use as meta-ability from rosa's article — coding/scripting as foundational agent capability, Bash tools for deterministic offloading
 - **2026-04-07**: LangChain Terminal Bench 2.0 evidence: same model (GPT-5.2-Codex) jumped Top 30 → Top 5 with harness-only changes (Chaofa Yuan)
 - **2026-04-07**: OpenClaw architecture analysis (rosa): 7 core patterns shared by modern agent frameworks — Gateway, Agentic Loop (ReAct), Skills (on-demand loading), MCP (tool portability), Memory (markdown files + SQLite), Heartbeat (proactive cron-triggered behavior)
+
+## 相关页面
+
+[[agentic-patterns]], [[meta-harness]], [[tool-use-as-meta-ability]], [[justin-young]], [[msitarzewski]]
+

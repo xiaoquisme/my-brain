@@ -2,6 +2,7 @@
 title: Justin Young
 created: 2026-04-07
 updated: 2026-04-17
+type: entity
 tags: [anthropic, ai-agents, software-engineering]
 sources:
   - ../../sources/articles/anthropic-effective-harnesses-long-running.md
@@ -32,3 +33,8 @@ Engineer at Anthropic. Authored "Effective Harnesses for Long-Running Agents" (2
 ## Evidence Timeline
 
 - **2026-04-07**: Created from "Effective Harnesses for Long-Running Agents" article (published 2025-11-26)
+
+## 相关页面
+
+[[prithvi-rajasekaran]], [[thariq-shihipar]]
+

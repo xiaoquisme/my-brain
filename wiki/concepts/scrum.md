@@ -1,10 +1,6 @@
 ---
-title: Scrum
-created: 2026-04-17
-updated: 2026-04-17
-tags: [agile, scrum, methodology]
-sources: [../../sources/articles/what-is-scrum.md]
-related: [../concepts/agile.md]
+{created: 2026-04-17, related: [../concepts/agile.md], sources: [../../sources/articles/what-is-scrum.md],
+  tags: [agile, scrum, software-development], title: Scrum, type: concept, updated: 2026-04-17}
 ---
 
 ## Summary
@@ -41,3 +37,8 @@ Scrum 是最流行的敏捷框架之一，是一个团队用来管理工作并�
 ## Evidence Timeline
 
 - **2026-04-17**: 从 Microsoft Learn《什么是 Scrum？》摄入 Scrum 框架的核心概念、团队角色、生命周期和关键实践
+
+## 相关页面
+
+[[agile]], [[kanban]]
+

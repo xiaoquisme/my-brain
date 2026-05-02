@@ -2,6 +2,7 @@
 title: Latent vs Deterministic
 created: 2026-04-23
 updated: 2026-04-23
+type: concept
 tags: [ai-agents, architecture, system-design]
 sources: [../sources/articles/thin-harness-fat-skills.md]
 related: [thin-harness-fat-skills.md, harness.md, skill-file.md]

@@ -2,6 +2,7 @@
 title: SWE-Atlas
 created: 2026-04-28
 updated: 2026-04-28
+type: entity
 tags: [benchmark, agent, swe-tool, open-source, dataset]
 sources: [../../sources/articles/swe-atlas-github-2026.md]
 ---
@@ -91,3 +92,4 @@ bash run_config/tw/opus-4p6_claude-code.sh
 
 - ../concepts/ai-coding-benchmark.md — 所属概念类别
 - ../concepts/codebase-qna.md — 核心评测形式
+- [[ai-coding-benchmark]], [[codebase-qna]], [[scale-ai]], [[ddia]], [[harbor]], [[openclaw]], [[pi-mono]]

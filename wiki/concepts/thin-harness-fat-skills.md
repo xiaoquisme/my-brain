@@ -2,6 +2,7 @@
 title: Thin Harness, Fat Skills
 created: 2026-04-23
 updated: 2026-04-23
+type: concept
 tags: [ai-agents, harness-engineering, skills, architecture]
 sources: [../sources/articles/thin-harness-fat-skills.md]
 related: [skill-file.md, harness.md, resolver.md, latent-vs-deterministic.md, diarization.md, harness-engineering.md]
@@ -65,3 +66,8 @@ YC Startup School 案例：
 ## Evidence Timeline
 
 - **2026-04-23**: 从 gbrain 仓库 ingest，Garry Tan 在 YC Spring 2026 的演讲稿
+
+## 相关页面
+
+[[car-framework]], [[diarization]], [[latent-vs-deterministic]], [[resolver]], [[skill-file]], [[skillify]], [[garry-tan]], [[gbrain]]
+

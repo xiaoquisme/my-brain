@@ -2,6 +2,7 @@
 title: HarnessCard
 created: 2026-04-23
 updated: 2026-04-23
+type: concept
 tags: [harness-engineering, agent-evaluation, reproducibility, reporting-standards]
 sources:
   - ../../sources/articles/harness-engineering-car-harnesscard.md
@@ -95,3 +96,8 @@ He et al. audit 63 harness-relevant works and find:
 - **2026-04-23**: Created from He et al. "Harness Engineering for Language Agents" (Alibaba-NTU, Preprints.org)
 - **2026-04-23**: HarnessCard proposed as lightweight reporting artifact with 9 required + 2 recommended fields
 - **2026-04-23**: Purpose: make agent claims comparable, auditable, reproducible
+
+## 相关页面
+
+[[sandbox]]
+

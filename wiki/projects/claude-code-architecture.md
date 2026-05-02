@@ -2,6 +2,7 @@
 title: "Claude Code from Source — Architecture, Patterns & Internals"
 created: 2026-04-10
 updated: 2026-04-17
+type: entity
 tags: [claude-code, ai-agents, architecture, typescript, agentic-systems, tool-use, multi-agent, prompt-caching, mcp]
 sources:
   - ../../sources/books/claude-code-from-source/claude-code-from-source-ch01.md
@@ -144,3 +145,8 @@ related:
 ## Evidence Timeline
 
 - **2026-04-10**: Ingested full book (18 chapters) from https://claude-code-from-source.com/. Author: Alejandro Balderas. Source: reverse-engineered from Claude Code npm source maps.
+
+## 相关页面
+
+[[alejandro-balderas]], [[claude-code-workflow]]
+

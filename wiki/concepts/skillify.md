@@ -2,6 +2,7 @@
 title: Skillify
 created: 2026-04-22
 updated: 2026-04-22
+type: concept
 tags: [ai-agents, reliability, testing, skills]
 sources:
   - ../../sources/articles/2046876981711769720.md

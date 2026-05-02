@@ -2,6 +2,7 @@
 title: Thariq Shihipar
 created: 2026-04-17
 updated: 2026-04-17
+type: entity
 tags: [anthropic, software-engineering]
 sources:
   - ../../sources/articles/claude-code-session-management.md

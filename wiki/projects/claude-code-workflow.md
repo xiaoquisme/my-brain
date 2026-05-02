@@ -2,6 +2,7 @@
 title: Claude Code Workflow & Features
 created: 2026-04-07
 updated: 2026-04-10
+type: entity
 tags: [claude-code, coding-agents, tool-use, workflow]
 sources:
   - ../../sources/articles/claude-howto-guide.md
@@ -50,3 +51,8 @@ Claude Code is Anthropic's coding agent CLI. Its power comes from combining feat
 ## Evidence Timeline
 
 - **2026-04-07**: Compiled from claude-howto guide (5,900+ stars, luongnv89)
+
+## 相关页面
+
+[[luongnv89]], [[claude-code-architecture]]
+

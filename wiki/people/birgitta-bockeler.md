@@ -2,6 +2,7 @@
 title: Birgitta Böckeler
 created: 2026-04-07
 updated: 2026-04-07
+type: entity
 tags: [software-engineering, thoughtworks, ai-agents]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
@@ -28,3 +29,8 @@ Software engineer/consultant, author on Martin Fowler's blog. Wrote the influent
 ## Evidence Timeline
 
 - **2026-04-07**: Authored harness engineering article on martinfowler.com
+
+## 相关页面
+
+[[martin-fowler]]
+

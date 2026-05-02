@@ -2,6 +2,7 @@
 title: Martin Kleppmann
 created: 2026-04-20
 updated: 2026-04-20
+type: entity
 tags: [distributed-systems, databases, system-design]
 sources: [../../sources/books/ddia/ddia-preface.md]
 related: [../projects/ddia.md]
@@ -28,3 +29,8 @@ Martin Kleppmann 是英国计算机科学家，剑桥大学研究员，《设计
 ## Evidence Timeline
 
 - **2026-04-20**: 抓取 DDIA 第二版中文译本（15章，577k字）入库，创建本页。
+
+## 相关页面
+
+[[ddia]]
+

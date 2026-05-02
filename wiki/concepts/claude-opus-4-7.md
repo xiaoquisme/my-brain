@@ -2,6 +2,7 @@
 title: Claude Opus 4.7
 created: 2026-04-17
 updated: 2026-04-20
+type: concept
 tags: [anthropic, claude, llms, coding-models, multimodal, opus]
 sources:
   - ../../sources/articles/claude-opus-4-7.md
@@ -56,3 +57,8 @@ Claude Opus 4.7 是 Anthropic 于 2026年4月16日发布的新模型，在高级
 ## Evidence Timeline
 
 - **2026-04-17**: 从 Anthropic 官方发布文章 ingested
+
+## 相关页面
+
+[[openai-codex-2026]]
+

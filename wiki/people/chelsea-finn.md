@@ -2,6 +2,7 @@
 title: Chelsea Finn
 created: 2026-04-07
 updated: 2026-04-07
+type: entity
 tags: [ai-researcher, stanford, meta-learning]
 sources:
   - ../../sources/articles/meta-harness-optimization.md
@@ -25,3 +26,8 @@ Stanford professor and AI researcher. Known for foundational work on meta-learni
 ## Evidence Timeline
 
 - **2026-04-07**: Co-author of Meta-Harness paper (arXiv:2603.28052)
+
+## 相关页面
+
+[[omar-khattab]]
+

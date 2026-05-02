@@ -2,6 +2,7 @@
 title: Ashby's Law (Law of Requisite Variety)
 created: 2026-04-07
 updated: 2026-04-07
+type: concept
 tags: [cybernetics, systems-thinking, control-theory]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md

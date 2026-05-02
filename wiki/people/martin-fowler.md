@@ -2,6 +2,7 @@
 title: Martin Fowler
 created: 2026-04-07
 updated: 2026-04-07
+type: entity
 tags: [software-engineering, thoughtworks, author]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
@@ -28,3 +29,8 @@ Software engineering thought leader. Chief Scientist at Thoughtworks. Author of 
 ## Evidence Timeline
 
 - **2026-04-07**: Referenced via harness engineering article published on his blog
+
+## 相关页面
+
+[[birgitta-bockeler]], [[martin-kleppmann]]
+

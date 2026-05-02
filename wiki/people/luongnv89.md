@@ -2,6 +2,7 @@
 title: luongnv89
 created: 2026-04-07
 updated: 2026-04-07
+type: entity
 tags: [claude-code, tutorial, open-source]
 sources:
   - ../../sources/articles/claude-howto-guide.md

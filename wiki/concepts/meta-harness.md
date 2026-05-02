@@ -2,6 +2,7 @@
 title: Meta-Harness
 created: 2026-04-07
 updated: 2026-04-07
+type: concept
 tags: [harness-engineering, optimization, ai-agents, automated-search]
 sources:
   - ../../sources/articles/meta-harness-optimization.md
@@ -69,3 +70,8 @@ Shashikant Jagtap built `superagentic-metaharness`, an open-source Python librar
 
 - **2026-04-07**: Created from Lee et al. 2026 (arXiv:2603.28052) — automated harness search outperforming manual engineering across classification, math reasoning, and coding benchmarks
 - **2026-04-07**: Added open-source implementation by Shashikant Jagtap — `superagentic-metaharness` Python library with filesystem-first design
+
+## 相关页面
+
+[[claude-opus-4-7]], [[reasoning-shift]], [[chelsea-finn]], [[omar-khattab]], [[shashikant-jagtap]], [[agentic-rag-as-harness]]
+

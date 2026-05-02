@@ -2,6 +2,7 @@
 title: Omar Khattab
 created: 2026-04-07
 updated: 2026-04-07
+type: entity
 tags: [ai-researcher, dspy, language-models]
 sources:
   - ../../sources/articles/meta-harness-optimization.md
@@ -25,3 +26,8 @@ AI researcher, creator of DSPy — a framework for programming (rather than prom
 ## Evidence Timeline
 
 - **2026-04-07**: Co-author of Meta-Harness paper (arXiv:2603.28052)
+
+## 相关页面
+
+[[chelsea-finn]]
+
