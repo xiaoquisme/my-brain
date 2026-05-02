@@ -385,3 +385,24 @@ Append-only record of operations.
   - sources/articles/swe-atlas-github-2026.md
 - 更新: SCHEMA.md (新建), index.md (68 pages)
 - 备份: ~/wiki-backup-20260502
+## [2026-05-02] ingest | snarktank/ralph
+- 来源: https://github.com/snarktank/ralph
+- 保存原始内容:
+  - sources/articles/snarktank-ralph-github-2026.md (README)
+  - sources/articles/snarktank-ralph-ralph-sh-2026.md (核心 bash 循环脚本)
+  - sources/articles/snarktank-ralph-prompt-md-2026.md (Amp agent 指令模板)
+- 创建页面:
+  - wiki/people/ralph.md — 自主 AI 编码 Agent 循环，113 行 bash 脚本驱动，PRD 定义任务，支持 Amp + Claude Code
+  - wiki/people/ryan-carson.md — Ralph 作者，snarktank 仓库维护者
+  - wiki/people/geoffrey-huntley.md — Ralph 模式原始提出者，文件系统做 Agent 记忆的理念
+  - wiki/concepts/agent-loop-pattern.md — Agent 循环迭代模式综述：每轮新实例 + 文件系统记忆 + PRD 驱动，对比长 context 策略
+- 更新:
+  - index.md (+4 wiki pages, +3 source entries, page count 68)
+  - concepts/agent-context-management.md (添加 [[ralph]] 交叉引用)
+
+## [2026-05-02] restructure | index.md & SCHEMA.md 重建
+- 问题: index.md 仅有 11 条旧路径引用（entities/, concepts/），实际文件结构为 wiki/concepts/、wiki/people/、wiki/projects/、wiki/synthesis/
+- 操作:
+  - 重建 index.md: 68 个页面全部按实际路径列出（30 concepts, 27 people, 10 projects, 1 synthesis）
+  - 更新 SCHEMA.md: 反映实际目录结构（sources/ + wiki/ 四个子目录），更新 tag taxonomy（从 20 个扩展到匹配实际使用的 99 个标签，按 6 大类分组）
+- 统计: 68 wiki 页面, 63 source 文件（34 articles + 29 book chapters）

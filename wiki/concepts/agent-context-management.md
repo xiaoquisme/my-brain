@@ -72,3 +72,8 @@ The parallel with OS memory management is apt: registers → cache → RAM → s
 - At what session length does compaction quality degrade enough to matter?
 - How do harnesses handle compaction of tool-heavy sessions (many parallel tool calls)?
 - What's the right balance between harness-enforced limits and model self-regulation?
+
+## 相关页面
+
+- [[ralph]] — 每轮清空 context 的 Agent Loop 实现，代表迭代隔离策略
+- [[agent-loop-pattern]] — 迭代隔离模式的抽象概念

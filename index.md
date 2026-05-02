@@ -1,130 +1,85 @@
-# Index
+# Wiki Index
 
-Content catalog for My Brain. Total pages: 68. One line per page, organized by category.
-
-## Sources
-
-- [什么是敏捷？](sources/articles/what-is-agile.md) — 敏捷宣言四个价值观、敏捷方法与实践、常见误解
-- [什么是敏捷开发？](sources/articles/what-is-agile-development.md) — 敏捷开发关键成功因素：待办事项优化、CI/CD、最小化技术债务
-- [什么是 Scrum？](sources/articles/what-is-scrum.md) — Scrum 框架：冲刺、团队角色、每日 Scrum、燃尽图
-- [什么是看板？](sources/articles/what-is-kanban.md) — 看板四原则：可视化、拉取模型、WIP 限制、持续改进
-- [采用敏捷文化](sources/articles/adopting-agile.md) — 敏捷文化要素：计划节奏、航运文化、健康团队
-- [构建以客户为中心的高效团队](sources/articles/building-productive-teams.md) — 双机组系统：F-Crew 功能团队、C-Crew 客户团队
-- [Karpathy - LLM Wiki](sources/articles/karpathy-llm-wiki.md) — LLM-maintained wiki pattern for personal knowledge bases
-- [Garry Tan - GBrain](sources/articles/garry-tan-gbrain.md) — Full build spec for SQLite-based personal knowledge system
-- [Böckeler - Harness Engineering](sources/articles/martin-fowler-harness-engineering.md) — Systematic controls for AI coding agents
-- [OpenAI - Harness Engineering](sources/articles/openai-harness-engineering.md) — Codex case study: 1M lines, zero handwritten code
-- [Anthropic - Harness Design](sources/articles/anthropic-harness-design-long-running.md) — Multi-agent GAN-inspired harness for long-running tasks
-- [Anthropic - Effective Harnesses](sources/articles/anthropic-effective-harnesses-long-running.md) — Session continuity: feature lists, init scripts, incremental progress
-- [Claude How To Guide](sources/articles/claude-howto-guide.md) — Structured guide to all Claude Code features with templates
-- [Meta-Harness (Lee et al.)](sources/articles/meta-harness-optimization.md) — Automated harness search outperforming manual engineering
-- [Meta-Harness Library (Jagtap)](sources/articles/meta-harness-library-jagtap.md) — Open-source Python library for harness optimization
-- [Anthropic - Building Effective Agents](sources/articles/anthropic-building-effective-agents.md) — Six composable agentic patterns, simplicity-first design
-- [rosa - Bash Tools for Agents](sources/articles/rosa-bash-tools-agents.md) — Coding as agent meta-ability, Bash tools for deterministic offloading
-- [rosa - OpenClaw Architecture](sources/articles/rosa-openclaw-architecture.md) — Gateway, Agentic Loop, Skills, MCP, Memory, Heartbeat - core patterns of modern AI agents
-- [Chaofa Yuan - Harness Engineering](sources/articles/yuanchaofa-harness-engineering.md) — Engineering hierarchy (prompt→context→harness), LangChain case study, transient vs persistent harness
-- [Chaofa Yuan - KV Cache & Prompt Caching](sources/articles/yuanchaofa-kv-cache-prompt-caching.md) — KV Cache mechanics, Prefill/Decode phases, Prompt Caching prefix matching and Agent implications
-- [Chaofa Yuan - Prompt Caching Design (上)](sources/articles/yuanchaofa-prompt-cache-design.md) — Cache 破坏、Prompt 布局与工具管理，三种 Agent 系统的 cache-aware 设计
-- [Chaofa Yuan - Prompt Caching Design (下)](sources/articles/yuanchaofa-agent-context-management.md) — 上下文管理、子代理架构、The Bitter Lesson
-- [金色传说大聪明 - 爱马仕：一家做了 189 年 Harness 的公司](sources/articles/hermes-harness-metaphor.md) — 用爱马仕的比喻理解 Harness 哲学：对齐、护栏、配货、克制、可溯源
-- [Agency Agents](sources/articles/agency-agents.md) — 50+ specialized AI agent prompts for engineering, design, sales, marketing
-- [Chaofa Yuan - RAG 进化之路](sources/articles/yuanchaofa-native-rag-to-agentic-rag.md) — 传统 RAG 到 Agentic RAG：工具驱动（Chatbox）与强化学习驱动（Search-R1）
-- [Anthropic - Introducing Claude Opus 4.7](sources/articles/claude-opus-4-7.md) — Claude Opus 4.7 发布：编码基准提升13%、xhigh 努力级别、更高分辨率视觉
-- [OpenAI - Codex for (almost) everything](sources/articles/codex-update-2026.md) — Codex 2026 更新：后台电脑使用、多代理并行、记忆功能、90+ 插件
-- [Anthropic - Claude Code Session Management](sources/articles/claude-code-session-management.md) — Claude Code 1M 上下文管理：context rot、compaction、rewind、subagent
-- [Reasoning Shift (Rodionov, 2026)](sources/articles/reasoning-shift-rodionov.md) — 上下文条件如何静默缩短 LLM 推理链（最多50%），自我验证行为显著减少
-- [Aparna Dhinakaran - Sandbox: Server of Harness Era](sources/articles/2045925288908046570.md) — Sandbox 即 harness 的服务器，trajectory 是最有价值的 artifact
-- [Garry Tan - How to really stop your agents from making the same mistakes](sources/articles/2046876981711769720.md) — Skillify practice: turning every failure into a permanent skill with tests, 10-step checklist
-|- [Garry Tan - Thin Harness, Fat Skills](sources/articles/thin-harness-fat-skills.md) — YC Spring 2026 演讲：五定义三层架构，skill 如方法调用，resolver 路由上下文
-|- [He et al. - Harness Engineering: CAR & HarnessCard](sources/articles/harness-engineering-car-harnesscard.md) — CAR 框架 (Control, Agency, Runtime) + HarnessCard 报告规范，63 篇工作审计
-
-- [Aparna Dhinakaran - Context Management in Agent Harnesses](sources/articles/aparna-context-management-agent-harnesses-2026.md) — 四大 harness context 管理收敛模式：文件截断、会话压缩、工具预算、子 Agent 隔离
-- [SWE-Atlas GitHub](sources/articles/swe-atlas-github-2026.md) — Scale AI 的 AI 编程 Agent 多维度评测基准（496 QnA + 360 TW 任务）
-
-## Books
-
-- [Claude Code from Source (Ch 1-18)](sources/books/claude-code-from-source/claude-code-from-source-ch01.md) — 18-chapter reverse-engineering of Claude Code's architecture from npm source maps
-- [DDIA 第二版 - 序言](sources/books/ddia/ddia-preface.md) — 为何数据密集型应用如此重要，本书目标读者与纲要（共15章，577k字）
+> 内容目录。每个 wiki 页面按类型列出，附一行摘要。
+> 查询前先读此文件以找到相关页面。
+> Last updated: 2026-05-02 | Total pages: 68
 
 ## Concepts
 
-- [敏捷 (Agile)](wiki/concepts/agile.md) — 增量交付、团队协作、持续规划的软件开发方法论
-- [Scrum](wiki/concepts/scrum.md) — 敏捷框架：冲刺、团队角色(PO/SM/Dev)、每日 Scrum、燃尽图
-- [看板 (Kanban)](wiki/concepts/kanban.md) — 敏捷框架：可视化工作、拉取模型、WIP 限制、持续改进
-- [LLM Wiki Pattern](wiki/concepts/llm-wiki-pattern.md) — Using LLMs to build and maintain structured knowledge bases
-- [Harness Engineering](wiki/concepts/harness-engineering.md) — Feedforward + feedback controls for coding agents
-- [Coding Agents](wiki/concepts/coding-agents.md) — AI agents that autonomously write and modify code
-- [Ashby's Law](wiki/concepts/ashbys-law.md) — Requisite variety: regulator must match system complexity
-- [Meta-Harness](wiki/concepts/meta-harness.md) — Automated search for optimal LLM harness configurations
-- [Agentic Patterns](wiki/concepts/agentic-patterns.md) — Six composable patterns for LLM agent architecture
-- [Tool Use as Meta-Ability](wiki/concepts/tool-use-as-meta-ability.md) — Coding/scripting as foundational agent capability for deterministic offloading
-- [KV Cache and Prompt Caching](wiki/concepts/kv-cache-and-prompt-caching.md) — Inference acceleration: intra-request KV Cache + inter-request prefix caching
-- [Agentic RAG](wiki/concepts/agentic-rag.md) — RAG evolution: from fixed pipeline to agent-driven adaptive retrieval
-- [Claude Opus 4.7](wiki/concepts/claude-opus-4-7.md) — Anthropic 2026年4月发布的新模型，软件工程能力提升13%
-- [OpenAI Codex 2026](wiki/concepts/openai-codex-2026.md) — OpenAI Codex 重大更新：后台电脑使用、多代理并行、记忆功能
-- [Claude Code Session Management](wiki/concepts/claude-code-session-management.md) — Claude Code 1M token 上下文管理：context rot、compaction、rewind、subagent
-- [Reasoning Shift](wiki/concepts/reasoning-shift.md) — 上下文条件静默压缩 LLM 推理链（最多50%），自我验证行为脆弱
-- [Sandbox](wiki/concepts/sandbox.md) — Harness 的执行环境，类比服务器在传统应用中的角色
-- [Agent Loop Pattern](wiki/concepts/agent-loop-pattern.md) — AI agent iterative loop: fresh instance per round, file-system memory, PRD-driven
-- [Skillify](wiki/concepts/skillify.md) — Practice of turning every AI agent failure into a permanent, tested skill
-- [Thin Harness, Fat Skills](wiki/concepts/thin-harness-fat-skills.md) — Architectural pattern: minimal runtime + domain logic in markdown skills
-- [Resolver](wiki/concepts/resolver.md) — Routing table mapping user intents to specific skills
-- [Skill File](wiki/concepts/skill-file.md) — 可复用 Markdown 流程，教模型 HOW 而非 WHAT，像方法调用
-- [Harness](wiki/concepts/harness.md) — 运行 LLM 的程序：循环、文件读写、上下文管理、安全执行
-- [Latent vs Deterministic](wiki/concepts/latent-vs-deterministic.md) — 潜在空间（判断）vs 确定性（信任），架构分层原则
-|- [Diarization](wiki/concepts/diarization.md) — 读取多文档输出结构化摘要，AI 知识工作的核心能力
-|- [CAR Framework](wiki/concepts/car-framework.md) — Control, Agency, Runtime 分解框架，形式化描述 harness 层
-|- [HarnessCard](wiki/concepts/harnesscard.md) — 轻量级 harness 配置报告规范，使 agent 声明可比较、可审计
-
-- [Agent Context Management](wiki/concepts/agent-context-management.md) — Agent harness 如何管理 context 窗口：文件读取截断、会话压缩、工具结果预算、子 Agent 隔离的收敛模式
-- [AI Coding Benchmark](wiki/concepts/ai-coding-benchmark.md) — AI 编程基准概念综述，含主要维度对比和评测方法演进
-- [Codebase QnA](wiki/concepts/codebase-qna.md) — 代码库问答评测形式：让 Agent 探索真实代码库并回答自然语言问题
+- [[agent-context-management]] — Agent harnesses share a fundamental constraint: the context window is finite. As sessions grow,...
+- [[agent-loop-pattern]] — 一种 AI 编码 Agent 架构：将大型任务拆分为独立子任务，每轮迭代启动一个全新的 AI 实例完成一个子任务，通过外部状态文件传递记忆
+- [[agentic-patterns]] — Six composable design patterns for building LLM-powered agentic systems, from simple augmentation to autonomous agents
+- [[agentic-rag]] — Agentic RAG is the evolution of traditional RAG that adds agentic capabilities like tool use and multi-step reasoning
+- [[agile]] — 敏捷是一种软件开发方法论，强调增量交付、团队协作、持续规划和持续学习
+- [[ai-coding-benchmark]] — AI 编程基准是用于评测 AI 代码生成/编程 Agent 能力的标准化测试集
+- [[ashbys-law]] — A control system must have at least as much variety as the system it seeks to control
+- [[car-framework]] — CAR (Control, Agency, Runtime) is a formal decomposition of the harness layer in language agents
+- [[claude-code-session-management]] — Claude Code 上下文管理：session、compaction、rewind、subagent 是影响使用效果的关键
+- [[claude-opus-4-7]] — Claude Opus 4.7 是 Anthropic 于 2026-04-16 发布的新模型，在高级软件工程任务上有显著提升
+- [[codebase-qna]] — 代码库问答评测形式：让 Agent 探索真实代码库并回答自然语言问题
+- [[coding-agents]] — AI agents that autonomously write, modify, and test code
+- [[diarization]] — 让模型读取某个主题的所有内容，然后输出结构化摘要。读 50 份文档，产出 1 页判断
+- [[harness]] — Harness 是运行 LLM 的程序，负责循环运行模型、读写文件、管理上下文、执行安全检查
+- [[harness-engineering]] — 构建围绕 AI 编码 Agent 的系统性控制——安全、可观测性、错误恢复
+- [[harnesscard]] — HarnessCard: 轻量级报告格式，用于披露 harness 配置以保证可复现性
+- [[kanban]] — 看板最初由丰田汽车公司开发，用于提高制造效率，后被引入软件开发
+- [[kv-cache-and-prompt-caching]] — KV Cache 和 Prompt Caching: 两种互补的 LLM 推理加速技术
+- [[latent-vs-deterministic]] — 系统中的每一步要么是 Latent（模型判断）要么是 Deterministic（确定性），好的架构把正确的工作放在正确的层级
+- [[llm-wiki-pattern]] — LLM 增量构建和维护结构化、互链接的知识库模式
+- [[meta-harness]] — Meta-Harness: 自动搜索最优 harness 配置的系统
+- [[openai-codex-2026]] — OpenAI 于 2026-04-16 发布 Codex 重大更新，扩展为可在电脑上自主操作的全面开发伴侣
+- [[reasoning-shift]] — 推理型 LLM 在非隔离上下文条件下推理链显著缩短（最多 50%）的现象
+- [[resolver]] — Resolver 是上下文的路由表：当任务类型 X 出现时，首先加载文档 Y
+- [[sandbox]] — Sandbox 是 harness 的执行环境，提供隔离的计算环境、文件系统和状态管理
+- [[scrum]] — Scrum 是最流行的敏捷框架之一，将敏捷原则实现为具体的项目、实践和角色
+- [[skill-file]] — Skill File 是可复用的 Markdown 流程文件，教 AI 模型 HOW 做某事
+- [[skillify]] — Garry Tan 提出的实践：每次 AI agent 失败都转化为永久修复
+- [[thin-harness-fat-skills]] — Garry Tan 提出的 AI Agent 架构原则：保持框架精简，将智能封装在技能文件中
+- [[tool-use-as-meta-ability]] — Agent 的编码/脚本能力是其"元能力"——构建可靠工具的能力
 
 ## People
 
-- [Andrej Karpathy](wiki/people/andrej-karpathy.md) — AI researcher, proposed LLM Wiki pattern
-- [Garry Tan](wiki/people/garry-tan.md) — YC CEO, building GBrain, introduced skillify practice and 10-step checklist
-- [Martin Fowler](wiki/people/martin-fowler.md) — Software engineering thought leader, Thoughtworks
-- [Birgitta Böckeler](wiki/people/birgitta-bockeler.md) — Author of harness engineering framework
-- [Justin Young](wiki/people/justin-young.md) — Anthropic, session continuity harness for long-running agents
-- [Prithvi Rajasekaran](wiki/people/prithvi-rajasekaran.md) — Anthropic Labs, GAN-inspired multi-agent harness design
-- [luongnv89](wiki/people/luongnv89.md) — Creator of claude-howto tutorial (5,900+ stars)
-- [Chelsea Finn](wiki/people/chelsea-finn.md) — Stanford professor, meta-learning (MAML), Meta-Harness co-author
-- [Thariq Shihipar](wiki/people/thariq-shihipar.md) — Anthropic, Claude Code session management guide author
-- [Omar Khattab](wiki/people/omar-khattab.md) — Creator of DSPy, Meta-Harness co-author
-- [Shashikant Jagtap](wiki/people/shashikant-jagtap.md) — Creator of superagentic-metaharness library
-- [Erik Schluntz](wiki/people/erik-schluntz.md) — Anthropic, co-author of "Building Effective Agents"
-- [Barry Zhang](wiki/people/barry-zhang.md) — Anthropic, co-author of "Building Effective Agents"
-- [rosa](wiki/people/rosa.md) — Technical writer, agent tool use and meta-ability
-- [Chaofa Yuan](wiki/people/chaofa-yuan.md) — Technical writer, harness engineering hierarchy and co-evolution
-- [金色传说大聪明](wiki/people/jinse-chuanshuo-dacongrming.md) — Tech blogger, harness engineering via Hermès metaphor
-- [msitarzewski](wiki/people/msitarzewski.md) — Creator of Agency Agents (50+ specialized AI agent prompts)
-- [Alejandro Balderas](wiki/people/alejandro-balderas.md) — Author of "Claude Code from Source" (18-chapter architecture book)
-- [Martin Kleppmann](wiki/people/martin-kleppmann.md) — 剑桥大学研究员，DDIA 第一/二版作者，分布式系统与 CRDT 专家
-- [Gleb Rodionov](wiki/people/gleb-rodionov.md) — Yandex 研究员，发现上下文条件静默压缩 LLM 推理链
-|- [Ryan Carson](wiki/people/ryan-carson.md) — Creator of Ralph, autonomous AI coding agent loop
-- [Geoffrey Huntley](wiki/people/geoffrey-huntley.md) — Proposed the Ralph pattern for AI agent loops
-- [Ralph](wiki/people/ralph.md) — Autonomous AI coding agent loop (bash), PRD-driven, Amp + Claude Code
-- [Aparna Dhinakaran](wiki/people/aparna-dhinakaran.md) — AI 工程研究者，提出"Sandbox 是 harness 的服务器"，trajectory 是最有价值的 artifact
-|- [Chaoyue He](wiki/people/chaoyue-he.md) — Alibaba-NTU ANGEL Lab 研究员，CAR 框架与 HarnessCard 提出者
-
-- [Arize AI & Alyx](wiki/people/arize-alyx.md) — AI 可观测性公司，其内部 Agent Alyx 独立复现了四大 harness 的 context 管理模式
-- [Scale AI](wiki/people/scale-ai.md) — AI 数据基础设施公司，发布 SWE-Atlas 等评测基准
+- [[alejandro-balderas]] — 《Claude Code from Source》作者，18 章技术书详解 Claude Code 架构
+- [[andrej-karpathy]] — AI researcher, former Tesla AI Director, OpenAI co-founder
+- [[aparna-dhinakaran]] — AI engineering researcher, wrote "Sandboxes Are the Key to Unlocking Coding Agents"
+- [[arize-alyx]] — Arize AI 及其内部 Agent Alyx，独立复现了四大 harness 的 context 管理模式
+- [[barry-zhang]] — Anthropic engineer, co-author of "Building Effective Agents"
+- [[birgitta-bockeler]] — Software engineer/consultant at Thoughtworks, wrote "Harness Engineering" on Martin Fowler's blog
+- [[chaofa-yuan]] — 技术博主，撰写 AI agent engineering 和 LLM 基础设施文章
+- [[chaoyue-he]] — Alibaba-NTU 研究者，CAR Framework 和 HarnessCard 论文作者
+- [[chelsea-finn]] — Stanford professor, foundational work on meta-learning (MAML)
+- [[erik-schluntz]] — Anthropic engineer, co-author of "Building Effective Agents"
+- [[garry-tan]] — YC CEO，"Thin Harness, Fat Skills" 理念提出者
+- [[geoffrey-huntley]] — 提出 Ralph 模式——用文件系统作为 AI 编码 Agent 的外部记忆
+- [[gleb-rodionov]] — Yandex 研究者，研究 LLM 推理行为和 Reasoning Shift
+- [[jinse-chuanshuo-dacongrming]] — 技术博主，通过爱马仕比喻解释 Harness 工程哲学
+- [[justin-young]] — Anthropic engineer, authored "Effective Harnesses for Long-Running Agents"
+- [[luongnv89]] — 开发者，创建 "Claude How To" 开源教程
+- [[martin-fowler]] — Thoughtworks Chief Scientist, software engineering thought leader
+- [[martin-kleppmann]] — 剑桥大学研究员，《设计数据密集型应用》作者
+- [[msitarzewski]] — Agency Agents 开源项目创建者
+- [[omar-khattab]] — AI researcher, creator of DSPy
+- [[prithvi-rajasekaran]] — Anthropic Labs engineer, authored harness design research
+- [[ralph]] — 自主 AI 编码 Agent 循环，反复调用 AI 工具直到 PRD 完成
+- [[rosa]] — 技术博主，撰写 AI agent engineering 和工具使用文章
+- [[ryan-carson]] — Ralph 自主 AI 编码 Agent 循环的作者
+- [[scale-ai]] — AI 数据基础设施公司，发布 SWE-Atlas 等评测基准
+- [[shashikant-jagtap]] — 创建 superagentic-metaharness Python 库
+- [[thariq-shihipar]] — Anthropic MTS, working on Claude Code
 
 ## Projects
 
-- [Claude Code Workflow](wiki/projects/claude-code-workflow.md) — Feature composition and harness engineering mapping for Claude Code
-- [Claude Code Architecture](wiki/projects/claude-code-architecture.md) — Full architectural analysis from "Claude Code from Source" book (18 chapters)
-- [DDIA 第二版](wiki/projects/ddia.md) — 设计数据密集型应用第二版综合笔记：存储引擎、分布式事务、流式处理全书14章精华
-- [GBrain](wiki/projects/gbrain.md) — Open-source knowledge engine for AI agents with skill verification and quality gates
-
-- [Claude Code Harness](wiki/projects/claude-code-harness.md) — Anthropic 的 Claude Code harness，两层预读防护 + 每次 API 调用前的工具结果优化管线
-- [Harbor](wiki/projects/harbor.md) — laude-institute 出品的开源 AI Agent 评测任务运行框架，SWE-Atlas 使用
-- [Letta Code](wiki/projects/letta-code.md) — 开源 (Apache 2.0) Agent harness，核心特色为 git 版本化 MemFS 持久记忆
-- [OpenClaw](wiki/projects/openclaw.md) — 基于 Pi 构建的 Agent harness，纵深防御 context 管理（bootstrap cap + 工具结果预算 + 压缩前状态保存）
-- [Pi (pi-mono)](wiki/projects/pi-mono.md) — 开源 Agent harness，OpenClaw 的上游，采用 harness-first 的文件读取截断策略
-- [SWE-Atlas](wiki/projects/swe-atlas.md) — Scale AI 发布的 AI 编程 Agent 多维度评测基准（496 QnA + 360 TW 任务）
+- [[claude-code-architecture]] — 《Claude Code from Source》18 章技术书，详解架构、模式与内部实现
+- [[claude-code-harness]] — Claude Code Agent Harness，两层预读防护 + 工具结果优化管线
+- [[claude-code-workflow]] — Claude Code 工作流与功能特性
+- [[ddia]] — 《设计数据密集型应用》第二版，系统讲解现代数据系统的设计原则
+- [[gbrain]] — Garry Tan 开源的 AI Agent 框架，实现 "Thin Harness, Fat Skills"
+- [[harbor]] — laude-institute 开源任务运行框架，专为 AI Agent 评测基准设计
+- [[letta-code]] — 开源 Agent harness，核心特色为 git 版本化 MemFS 持久记忆
+- [[openclaw]] — 基于 Pi 的 Agent harness，纵深防御 context 管理
+- [[pi-mono]] — 开源 Agent harness，OpenClaw 的上游
+- [[swe-atlas]] — Scale AI 发布的 AI 编程 Agent 多维度评测基准
 
 ## Synthesis
 
-- [Agentic RAG as Harness](wiki/synthesis/agentic-rag-as-harness.md) — 用 harness engineering 框架重设计 Agentic RAG：可控检索 + RL 训练数据桥梁
+- [[agentic-rag-as-harness]] — 将 Agentic RAG 用 harness engineering 框架重新设计，实现可控的智能检索
