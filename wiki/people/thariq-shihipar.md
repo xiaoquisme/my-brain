@@ -6,6 +6,7 @@ type: entity
 tags: [anthropic, software-engineering]
 sources:
   - ../../sources/articles/claude-code-session-management.md
+confidence: medium
 related:
   - ../concepts/coding-agents.md
   - ../projects/claude-code-workflow.md
@@ -29,3 +30,8 @@ Member of Technical Staff at Anthropic, working on Claude Code. Authored the ses
 ## Evidence Timeline
 
 - **2026-04-17**: Created from "Using Claude Code: session management and 1M context" article
+
+## 相关页面
+
+[[birgitta-bockeler]], [[chaoyue-he]], [[chelsea-finn]], [[jinse-chuanshuo-dacongrming]], [[martin-kleppmann]], [[omar-khattab]], [[scale-ai]]
+

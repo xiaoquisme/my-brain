@@ -4,7 +4,8 @@ created: 2026-04-23
 updated: 2026-04-23
 type: entity
 tags: [projects, ai-agents, knowledge-base, open-source]
-sources: [../sources/articles/thin-harness-fat-skills.md]
+sources: [../../sources/articles/thin-harness-fat-skills.md]
+confidence: medium
 related: [thin-harness-fat-skills.md, garry-tan.md, openclaw.md, skill-file.md]
 ---
 

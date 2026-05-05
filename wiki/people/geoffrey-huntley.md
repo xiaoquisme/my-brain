@@ -4,7 +4,7 @@ created: 2026-05-02
 updated: 2026-05-02
 type: entity
 tags: [person, agent]
-sources: [raw/articles/snarktank-ralph-github-2026.md]
+sources: [../../sources/articles/snarktank-ralph-github-2026.md]
 confidence: medium
 ---
 

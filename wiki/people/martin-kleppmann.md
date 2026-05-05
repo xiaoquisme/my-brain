@@ -5,6 +5,7 @@ updated: 2026-04-20
 type: entity
 tags: [distributed-systems, databases, system-design]
 sources: [../../sources/books/ddia/ddia-preface.md]
+confidence: medium
 related: [../projects/ddia.md]
 ---
 
@@ -33,4 +34,4 @@ Martin Kleppmann 是英国计算机科学家，剑桥大学研究员，《设计
 ## 相关页面
 
 [[ddia]]
-
+- [[martin-fowler]]

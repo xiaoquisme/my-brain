@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/snarktank/ralph/blob/main/prompt.md
 ingested: 2026-05-02
-sha256: ece4a98cc96ba79b12637a8e653d1fa7ec41caf053a0ba809e8e93f0788101e9
+sha256: 3ca28f54958ab33efb42324115e540617cb785190fcbef7a1bd44e24cf7b433e
 ---
 
 # Ralph Agent Instructions

@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/snarktank/ralph
 ingested: 2026-05-02
-sha256: 56698a2d5ede1eef6879aec27dce3f0edf38a199658746fab9a303810b67af5c
+sha256: f0d40e1a5f5189a270be05422e8a2845f6b0c468816d09c850c87f78b05f59d0
 ---
 
 # Ralph

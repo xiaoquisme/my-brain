@@ -6,6 +6,7 @@ type: concept
 tags: [rag, ai-agents, tool-use, reinforcement-learning]
 sources:
   - ../../sources/articles/yuanchaofa-native-rag-to-agentic-rag.md
+confidence: medium
 related:
   - agentic-patterns.md
   - coding-agents.md
@@ -70,4 +71,4 @@ Exemplified by Search-R1:
 ## 相关页面
 
 [[tool-use-as-meta-ability]], [[chaofa-yuan]]
-
+- [[agentic-patterns]]

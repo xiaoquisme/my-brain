@@ -6,6 +6,7 @@ type: concept
 tags: [claude-code, session-management, context-window, compaction, context-rot, coding-agents]
 sources:
   - ../../sources/articles/claude-code-session-management.md
+confidence: medium
 related:
   - ../concepts/coding-agents.md
   - ../concepts/harness-engineering.md
@@ -64,4 +65,4 @@ Claude Code 提供一百万 token 上下文窗口，上下文管理（session、
 ## 相关页面
 
 [[thariq-shihipar]]
-
+- [[harness]]

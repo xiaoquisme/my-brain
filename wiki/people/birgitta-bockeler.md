@@ -6,6 +6,7 @@ type: entity
 tags: [software-engineering, thoughtworks, ai-agents]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
+confidence: medium
 related:
   - martin-fowler.md
   - ../concepts/harness-engineering.md
@@ -33,4 +34,4 @@ Software engineer/consultant, author on Martin Fowler's blog. Wrote the influent
 ## 相关页面
 
 [[martin-fowler]]
-
+- [[martin-kleppmann]]

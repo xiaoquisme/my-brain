@@ -6,6 +6,7 @@ type: entity
 tags: [claude-code, tutorial, open-source]
 sources:
   - ../../sources/articles/claude-howto-guide.md
+confidence: medium
 related:
   - ../projects/claude-code-workflow.md
   - ../concepts/coding-agents.md
@@ -30,3 +31,7 @@ Open-source developer. Created "Claude How To — Master Claude Code in a Weeken
 ## Evidence Timeline
 
 - **2026-04-07**: Created from claude-howto guide repository
+
+## 相关页面
+
+[[shashikant-jagtap]], [[msitarzewski]]

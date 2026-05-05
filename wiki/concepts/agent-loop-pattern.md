@@ -4,7 +4,7 @@ created: 2026-05-02
 updated: 2026-05-02
 type: concept
 tags: [agent, code-gen]
-sources: [sources/articles/snarktank-ralph-github-2026.md]
+sources: [../../sources/articles/snarktank-ralph-github-2026.md]
 confidence: high
 ---
 
@@ -57,3 +57,4 @@ Agent Loop（迭代隔离）vs. Context Management（长会话维护）是两种
 - [[agent-context-management]] — 迭代隔离 vs. 上下文维护的对比
 - [[coding-agents]] — 更广泛的 AI 编码 Agent 概念
 - [[harness]] — Agent 运行时框架
+- [[ai-coding-benchmark]], [[codebase-qna]]

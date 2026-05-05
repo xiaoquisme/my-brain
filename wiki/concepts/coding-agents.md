@@ -78,4 +78,4 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 ## 相关页面
 
 [[agentic-patterns]], [[meta-harness]], [[tool-use-as-meta-ability]], [[justin-young]], [[msitarzewski]]
-
+- [[ashbys-law]], [[claude-opus-4-7]], [[llm-wiki-pattern]], [[rosa]]

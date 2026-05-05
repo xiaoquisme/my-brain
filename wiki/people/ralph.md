@@ -4,7 +4,7 @@ created: 2026-05-02
 updated: 2026-05-02
 type: entity
 tags: [agent, swe-tool, code-gen]
-sources: [sources/articles/snarktank-ralph-github-2026.md, sources/articles/snarktank-ralph-ralph-sh-2026.md]
+sources: [../../sources/articles/snarktank-ralph-github-2026.md, ../../sources/articles/snarktank-ralph-ralph-sh-2026.md]
 confidence: high
 ---
 
@@ -63,3 +63,4 @@ Ralph 的核心是一个 113 行的 bash 脚本 `ralph.sh`：
 - [[agent-loop-pattern]] — Ralph 体现的 Agent 循环迭代模式
 - [[agent-context-management]] — 每轮清空 context 的设计选择
 - [[coding-agents]] — 更广泛的 AI 编码 Agent 概念
+- [[codebase-qna]]

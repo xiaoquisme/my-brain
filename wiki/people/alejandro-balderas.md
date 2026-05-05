@@ -6,6 +6,7 @@ type: entity
 tags: [person, author, claude-code, ai-agents, reverse-engineering]
 sources:
   - ../../sources/books/claude-code-from-source/claude-code-from-source-ch01.md
+confidence: medium
 related:
   - ../projects/claude-code-architecture.md
   - ../concepts/coding-agents.md
@@ -37,4 +38,4 @@ Author of "Claude Code from Source — Architecture, Patterns & Internals", an 1
 ## 相关页面
 
 [[claude-code-architecture]]
-
+- [[luongnv89]]

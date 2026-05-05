@@ -5,6 +5,7 @@ updated: 2026-04-28
 type: project
 tags: [agent, open-source]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
+confidence: medium
 related:
   - agent-context-management
   - claude-code-harness
@@ -42,4 +43,4 @@ openclaw.md inherits Pi's read tool (2K line / 50KB cap) and compaction architec
 ## 相关页面
 
 [[harbor]], [[openclaw]]
-
+- [[ddia]]

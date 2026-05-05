@@ -5,6 +5,7 @@ updated: 2026-04-28
 type: concept
 tags: [benchmark, agent, code-gen, testing]
 sources: [../../sources/articles/swe-atlas-github-2026.md]
+confidence: medium
 ---
 
 # AI Coding Benchmark
@@ -42,3 +43,4 @@ AI 编程基准（AI Coding Benchmark）是用于评测 AI 代码生成/编程 A
 - codebase-qna.md — 代码库问答这一具体评测形式
 - swe-bench.md — 影响力最大的同类基准之一
 - [[codebase-qna]]
+- [[swe-atlas]]

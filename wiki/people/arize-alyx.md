@@ -5,6 +5,7 @@ updated: 2026-04-28
 type: entity
 tags: [company, agent]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
+confidence: medium
 related:
   - ../concepts/agent-context-management.md
   - ../projects/claude-code-harness.md

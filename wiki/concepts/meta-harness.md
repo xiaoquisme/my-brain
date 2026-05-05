@@ -74,4 +74,4 @@ Shashikant Jagtap built `superagentic-metaharness`, an open-source Python librar
 ## 相关页面
 
 [[claude-opus-4-7]], [[reasoning-shift]], [[chelsea-finn]], [[omar-khattab]], [[shashikant-jagtap]], [[agentic-rag-as-harness]]
-
+- [[ai-coding-benchmark]], [[openai-codex-2026]]

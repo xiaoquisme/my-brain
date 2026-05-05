@@ -6,6 +6,7 @@ type: concept
 tags: [openai, codex, coding-agents, computer-use, multimodal, autonomous-agents]
 sources:
   - ../../sources/articles/codex-update-2026.md
+confidence: medium
 related:
   - ../concepts/coding-agents.md
   - ../concepts/agentic-patterns.md
@@ -58,4 +59,4 @@ OpenAI 于 2026年4月16日发布 Codex 重大更新，将一个编码助手扩�
 ## 相关页面
 
 [[claude-opus-4-7]]
-
+- [[tool-use-as-meta-ability]]

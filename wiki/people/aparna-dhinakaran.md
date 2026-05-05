@@ -6,6 +6,7 @@ type: entity
 tags: [ai-agents, coding-agents]
 sources:
   - ../../sources/articles/2045925288908046570.md
+confidence: medium
 related:
   - ../concepts/harness-engineering.md
 ---
@@ -33,3 +34,7 @@ Aparna Dhinakaran is an AI engineering researcher and thought leader who wrote "
 ## Evidence Timeline
 
 - **2026-04-20**: Ingested "Sandboxes Are the Servers of the Harness Era" — defines sandbox as server, trajectory as durable artifact
+
+## 相关页面
+
+[[sandbox]], [[arize-alyx]]

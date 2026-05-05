@@ -6,6 +6,7 @@ type: entity
 tags: [software-engineering, thoughtworks, author]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
+confidence: medium
 related:
   - birgitta-bockeler.md
   - ../concepts/harness-engineering.md
@@ -33,4 +34,4 @@ Software engineering thought leader. Chief Scientist at Thoughtworks. Author of 
 ## 相关页面
 
 [[birgitta-bockeler]], [[martin-kleppmann]]
-
+- [[thariq-shihipar]]

@@ -6,6 +6,7 @@ type: entity
 tags: [ai-researcher, dspy, language-models]
 sources:
   - ../../sources/articles/meta-harness-optimization.md
+confidence: medium
 related:
   - ../concepts/meta-harness.md
   - ../concepts/harness-engineering.md
@@ -30,4 +31,4 @@ AI researcher, creator of DSPy — a framework for programming (rather than prom
 ## 相关页面
 
 [[chelsea-finn]]
-
+- [[meta-harness]]

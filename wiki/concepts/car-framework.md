@@ -6,6 +6,7 @@ type: concept
 tags: [harness-engineering, agent-architecture, control-theory, language-agents]
 sources:
   - ../../sources/articles/harness-engineering-car-harnesscard.md
+confidence: medium
 related:
   - harness-engineering.md
   - coding-agents.md
@@ -118,4 +119,4 @@ The performance difference is **harness-driven**, not model-driven.
 ## 相关页面
 
 [[ashbys-law]], [[harnesscard]]
-
+- [[sandbox]], [[chaoyue-he]]

@@ -6,6 +6,7 @@ type: entity
 tags: [anthropic, ai-agents, software-engineering]
 sources:
   - ../../sources/articles/anthropic-effective-harnesses-long-running.md
+confidence: medium
 related:
   - ../concepts/harness-engineering.md
   - ../concepts/coding-agents.md
@@ -37,4 +38,4 @@ Engineer at Anthropic. Authored "Effective Harnesses for Long-Running Agents" (2
 ## 相关页面
 
 [[prithvi-rajasekaran]], [[thariq-shihipar]]
-
+- [[barry-zhang]], [[birgitta-bockeler]]

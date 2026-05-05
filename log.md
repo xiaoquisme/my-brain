@@ -1,3 +1,76 @@
+## 2026-05-05 — Maintenance (follow-up)
+
+**Action**: maintain (continued)
+
+**Fixes applied**:
+- **Cross-links: +31 wikilinks** across 25 remaining pages (all pages now have ≥2 outbound links)
+- **Confidence field: added `confidence: medium`** to all 52 single-source pages
+- **Source drift: fixed 4 remaining hashes** (snarktank ralph x3, swe-atlas) + 1 placeholder (aparna)
+- **Broken source refs: 0** (14 fixed in previous pass)
+
+**Final state**:
+- Broken wikilinks: 0 ✅
+- Broken source refs: 0 ✅
+- Orphan pages: 0 ✅
+- Pages with <2 links: 0 ✅
+- Single-source no confidence: 0 ✅
+- Source drift: 0 ✅
+- Tags not in taxonomy: 0 ✅
+- Unused taxonomy tags: 7 (comparison, controversy, fine-tuning, lab, prediction, timeline, training — kept for future use)
+---
+
+## 2026-05-05 — Maintenance
+
+**Action**: maintain
+
+**Scope**: Full wiki maintenance pass (68 pages, 39 sources)
+
+**Fixes applied**:
+- **Broken source refs: 14 → 0** — Fixed incorrect relative paths across 14 pages:
+  - 6 pages in wiki/concepts/ used `../sources/` instead of `../../sources/`
+  - 2 people pages with wrong `raw/` or `../` prefixes
+  - 1 filename typo (karpathy-llms-wiki.md → karpathy-llm-wiki.md)
+  - 5 more with missing `../../` prefix
+- **Cross-links: added 74 wikilinks** across 34 pages (37 pages with <2 links → 25 remaining)
+- **Source drift: 1 fixed** (kv-cache-hidden-engine-jayanth.md sha256 corrected)
+
+**Remaining items** (non-critical):
+- 25 pages with <2 outbound links (niche topics, low overlap with other pages)
+- 52 single-source pages without `confidence` field (informational, no action needed now)
+- 5 pre-existing source drift issues (placeholder hashes from early ingests)
+- 1 large page: harness-engineering.md (281 lines) — content-dense, acceptable
+- 7 unused taxonomy tags (comparison, controversy, fine-tuning, lab, prediction, timeline, training)
+---
+
+## 2026-05-05 — Lint
+
+**Action**: lint
+
+**Results** (68 pages, 445 log lines):
+- Broken wikilinks: 0 ✅
+- Malformed frontmatter: 0 ✅
+- Orphan pages: 0 ✅
+- Missing fields: 0 ✅
+- Index completeness: 0 missing, 0 stale ✅
+- Tags in taxonomy: 0 missing ✅
+- Large pages (>200 lines): 1 (harness-engineering.md: 281 lines)
+- Source drift: 5 pre-existing (snarktank ralph x3, aparna, swe-atlas) + 1 fixed (kv-cache-hidden-engine-jayanth.md)
+- Contested/low-confidence: 0 ✅
+
+**Fixes applied**: Corrected sha256 for kv-cache-hidden-engine-jayanth.md
+**Remaining**: 5 pre-existing source drift (placeholder hashes from earlier ingests), 1 large page (acceptable)
+---
+
+## 2026-05-05 — Ingest: Jayanth Sanku - KV Cache Hidden Engine
+**Action**: ingest
+**Scope**: sources/articles/ + wiki/concepts/ (update)
+**Source**: Twitter Notes (x.com/JayanthSanku01/status/2050963464915743150)
+**Changes**:
+- Saved source: sources/articles/kv-cache-hidden-engine-jayanth.md
+- Updated wiki/concepts/kv-cache-and-prompt-caching.md: added Trade-offs, Optimizations, Real-World Use Cases sections
+- Key additions: Paged KV Cache, Quantized KV Cache, Eviction Strategies, Flash Attention
+---
+
 ## 2026-04-23 — Ingest: He et al. - Harness Engineering (CAR & HarnessCard)
 
 **Action**: ingest

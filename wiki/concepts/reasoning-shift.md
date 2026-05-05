@@ -6,6 +6,7 @@ type: concept
 tags: [reasoning, llms, context-management, test-time-scaling]
 sources:
   - ../../sources/articles/reasoning-shift-rodionov.md
+confidence: medium
 related:
   - kv-cache-and-prompt-caching.md
   - claude-code-session-management.md

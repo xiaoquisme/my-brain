@@ -6,6 +6,7 @@ type: concept
 tags: [ai-agents, coding-agents, harness-engineering]
 sources:
   - ../../sources/articles/2045925288908046570.md
+confidence: medium
 related:
   - harness-engineering.md
   - coding-agents.md
@@ -56,4 +57,4 @@ Sandbox（沙箱）是 harness 的执行环境，类比于服务器在传统应�
 ## 相关页面
 
 [[aparna-dhinakaran]]
-
+- [[claude-code-session-management]]

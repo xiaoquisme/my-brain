@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/scaleapi/SWE-Atlas/tree/main
 ingested: 2026-04-28
-sha256: 4f0645c62de71e7fa294c954dab33c99ddf363c1f54ad9287e7dce80eb8586d1
+sha256: 6884c99323fe6c435fab95bff80698d7e8042750ebaac282b49ec290d3cde35c
 ---
 
 # SWE-Atlas README

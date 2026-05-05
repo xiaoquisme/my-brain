@@ -6,6 +6,7 @@ type: entity
 tags: [anthropic, ai-agents, frontend-design]
 sources:
   - ../../sources/articles/anthropic-harness-design-long-running.md
+confidence: medium
 related:
   - ../concepts/harness-engineering.md
   - ../concepts/coding-agents.md
@@ -35,4 +36,4 @@ Engineer at Anthropic Labs. Authored "Harness Design for Long-Running Applicatio
 ## 相关页面
 
 [[barry-zhang]], [[erik-schluntz]], [[rosa]]
-
+- [[andrej-karpathy]], [[msitarzewski]], [[thariq-shihipar]]

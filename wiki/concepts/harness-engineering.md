@@ -277,4 +277,4 @@ Software Engineering → Prompt Engineering → Context Engineering → Harness 
 ## 相关页面
 
 [[car-framework]], [[harnesscard]], [[llm-wiki-pattern]], [[meta-harness]], [[openai-codex-2026]], [[sandbox]], [[skillify]], [[birgitta-bockeler]], [[justin-young]], [[martin-fowler]], [[shashikant-jagtap]]
-
+- [[agentic-patterns]], [[ashbys-law]], [[claude-opus-4-7]], [[jinse-chuanshuo-dacongrming]]

@@ -4,7 +4,8 @@ created: 2026-04-23
 updated: 2026-04-23
 type: entity
 tags: [people, yc, ai-agents, investors]
-sources: [../sources/articles/thin-harness-fat-skills.md]
+sources: [../../sources/articles/thin-harness-fat-skills.md]
+confidence: medium
 related: [thin-harness-fat-skills.md, gbrain.md, openclaw.md]
 ---
 

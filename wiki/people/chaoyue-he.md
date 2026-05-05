@@ -6,6 +6,7 @@ type: entity
 tags: [researchers, harness-engineering, language-agents, alibaba-ntu]
 sources:
   - ../../sources/articles/harness-engineering-car-harnesscard.md
+confidence: medium
 related:
   - ../concepts/car-framework.md
   - ../concepts/harnesscard.md
@@ -43,4 +44,4 @@ Chaoyue He is a researcher at Alibaba-NTU Global e-Sustainability CorpLab (ANGEL
 ## 相关页面
 
 [[jinse-chuanshuo-dacongrming]]
-
+- [[harnesscard]]

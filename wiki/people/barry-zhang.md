@@ -6,6 +6,7 @@ type: entity
 tags: [anthropic, ai-agents]
 sources:
   - ../../sources/articles/anthropic-building-effective-agents.md
+confidence: medium
 related:
   - erik-schluntz.md
   - ../concepts/agentic-patterns.md
@@ -30,4 +31,4 @@ Engineer at Anthropic. Co-author (with Erik Schluntz) of "Building Effective Age
 ## 相关页面
 
 [[erik-schluntz]]
-
+- [[prithvi-rajasekaran]]

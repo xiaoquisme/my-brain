@@ -4,7 +4,8 @@ created: 2026-04-23
 updated: 2026-04-23
 type: concept
 tags: [ai-agents, architecture, system-design]
-sources: [../sources/articles/thin-harness-fat-skills.md]
+sources: [../../sources/articles/thin-harness-fat-skills.md]
+confidence: medium
 related: [thin-harness-fat-skills.md, harness.md, skill-file.md]
 ---
 
@@ -53,3 +54,7 @@ Your App（底层）       → Deterministic: DB、搜索、时间线
 ## Evidence Timeline
 
 - **2026-04-23**: 从 gbrain 仓库 ingest，Garry Tan 定义
+
+## 相关页面
+
+[[thin-harness-fat-skills]], [[harness]]

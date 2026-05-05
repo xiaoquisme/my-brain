@@ -4,7 +4,8 @@ created: 2026-04-23
 updated: 2026-04-23
 type: concept
 tags: [ai-agents, harness-engineering, architecture]
-sources: [../sources/articles/thin-harness-fat-skills.md]
+sources: [../../sources/articles/thin-harness-fat-skills.md]
+confidence: medium
 related: [thin-harness-fat-skills.md, skill-file.md, resolver.md, harness-engineering.md]
 ---
 
@@ -60,3 +61,8 @@ Harness 是运行 LLM 的程序，负责四件事：循环运行模型、读写�
 ## Evidence Timeline
 
 - **2026-04-23**: 从 gbrain 仓库 ingest，Garry Tan 定义
+
+## 相关页面
+
+[[kv-cache-and-prompt-caching]], [[resolver]]
+

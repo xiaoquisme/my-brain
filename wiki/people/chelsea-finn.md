@@ -6,6 +6,7 @@ type: entity
 tags: [ai-researcher, stanford, meta-learning]
 sources:
   - ../../sources/articles/meta-harness-optimization.md
+confidence: medium
 related:
   - ../concepts/meta-harness.md
   - ../concepts/harness-engineering.md
@@ -30,4 +31,4 @@ Stanford professor and AI researcher. Known for foundational work on meta-learni
 ## 相关页面
 
 [[omar-khattab]]
-
+- [[meta-harness]]

@@ -4,7 +4,8 @@ created: 2026-04-23
 updated: 2026-04-23
 type: concept
 tags: [ai-agents, skills, architecture]
-sources: [../sources/articles/thin-harness-fat-skills.md]
+sources: [../../sources/articles/thin-harness-fat-skills.md]
+confidence: medium
 related: [thin-harness-fat-skills.md, harness.md, resolver.md]
 ---
 
@@ -70,4 +71,4 @@ Skill File 是可复用的 Markdown 流程文件，教 AI 模型 **HOW** 做某�
 ## 相关页面
 
 [[diarization]], [[latent-vs-deterministic]], [[resolver]]
-
+- [[harness]], [[skillify]]

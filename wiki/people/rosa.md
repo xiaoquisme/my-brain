@@ -36,4 +36,4 @@ Technical writer at isrosa.com. Writes about AI agent engineering, with a focus 
 ## 相关页面
 
 [[andrej-karpathy]]
-
+- [[alejandro-balderas]], [[aparna-dhinakaran]], [[gleb-rodionov]], [[msitarzewski]]

@@ -6,6 +6,7 @@ type: concept
 tags: [ai-agents, software-engineering, architecture-pattern]
 sources:
   - ../../sources/articles/anthropic-building-effective-agents.md
+confidence: medium
 related:
   - ../projects/claude-code-architecture.md
   - coding-agents.md
@@ -68,3 +69,8 @@ The evaluator-optimizer pattern is directly related to Anthropic's GAN-inspired 
 
 - **2026-04-07**: Initial compilation from Anthropic's "Building Effective Agents" (Schluntz & Zhang, 2024-12-19)
 - **2026-04-07**: Added cross-ref to tool-use-as-meta-ability — tool use is the foundation of the Augmented LLM pattern
+
+## 相关页面
+
+[[barry-zhang]]
+- [[agentic-rag]]

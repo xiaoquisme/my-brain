@@ -6,6 +6,7 @@ type: entity
 tags: [harness-engineering, essay, metaphor]
 sources:
   - ../../sources/articles/hermes-harness-metaphor.md
+confidence: medium
 related:
   - ../concepts/harness-engineering.md
 ---
@@ -33,4 +34,4 @@ related:
 ## 相关页面
 
 [[chaoyue-he]]
-
+- [[harness]]

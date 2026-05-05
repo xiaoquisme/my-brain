@@ -6,6 +6,7 @@ type: concept
 tags: [harness-engineering, agent-evaluation, reproducibility, reporting-standards]
 sources:
   - ../../sources/articles/harness-engineering-car-harnesscard.md
+confidence: medium
 related:
   - harness-engineering.md
   - car-framework.md
@@ -100,4 +101,4 @@ He et al. audit 63 harness-relevant works and find:
 ## 相关页面
 
 [[sandbox]]
-
+- [[harness-engineering]]

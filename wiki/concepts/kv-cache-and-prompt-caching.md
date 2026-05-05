@@ -1,13 +1,14 @@
 ---
 title: KV Cache and Prompt Caching
 created: 2026-04-07
-updated: 2026-04-20
+updated: 2026-05-05
 type: concept
 tags: [llms, transformer, inference, kv-cache, prompt-caching]
 sources:
   - ../../sources/articles/yuanchaofa-kv-cache-prompt-caching.md
   - ../../sources/articles/yuanchaofa-prompt-cache-design.md
   - ../../sources/articles/yuanchaofa-agent-context-management.md
+  - ../../sources/articles/kv-cache-hidden-engine-jayanth.md
 related:
   - ../projects/claude-code-architecture.md
   - coding-agents.md
@@ -43,6 +44,27 @@ KV Cache and Prompt Caching are two complementary inference acceleration techniq
 - Production implementations: vLLM (`--enable-prefix-caching`, hash-based blocks), SGLang (RadixAttention with Radix Trees, enabled by default)
 - **Architectural implication**: the prefix-exact-matching constraint fundamentally shapes how Agent systems structure their prompts (system prompt first, shared context next, variable parts last)
 
+### Trade-offs
+
+KV cache is not free — key constraints:
+
+- **Memory usage** grows with sequence length; long contexts consume significant GPU memory
+- **Batch complexity** — managing KV cache across parallel sequences requires careful memory management
+- **Context limits** — cache size is tied to max context window; longer contexts = larger cache
+
+### Optimizations
+
+Modern systems employ several techniques to improve KV cache efficiency:
+
+- **Paged KV Cache** — memory allocated in chunks/pages rather than contiguously (vLLM's core innovation)
+- **Quantized KV Cache** — reduce precision (FP16 → INT8) to shrink memory footprint
+- **Eviction strategies** — drop less important tokens in long contexts (e.g., H2O, StreamingLLM)
+- **Flash Attention** — fused attention kernel with better memory locality, reduces HBM reads
+
+### Real-World Use Cases
+
+KV cache is critical for: chatbots (multi-turn conversations), code generation tools, autocomplete systems, and streaming API responses. Without it, real-time LLM deployment would be prohibitively expensive.
+
 ## Open Questions
 
 - How does Prompt Caching interact with techniques like DeepSeek MLA (Multi-head Latent Attention)?
@@ -52,6 +74,8 @@ KV Cache and Prompt Caching are two complementary inference acceleration techniq
 ---
 ## Evidence Timeline
 
+- **2026-05-05**: Jayanth Sanku 的 Twitter Notes 入门文章补充了 KV Cache 的 trade-offs（内存、batch 复杂度、上下文限制）和优化技术（Paged KV Cache、量化、eviction、Flash Attention）
+
 - **2026-04-10**: "Claude Code from Source" Ch 9 — Fork agents achieve 95% prompt cache hit rate via byte-identical prefix trick. Slot reservation saves context in 99% of requests (Ch 17).
 
 - **2026-04-07**: Initial compilation from Chaofa Yuan's article (published 2026-02-21, updated 2026-03-22)
@@ -59,4 +83,4 @@ KV Cache and Prompt Caching are two complementary inference acceleration techniq
 ## 相关页面
 
 [[chaofa-yuan]]
-
+- [[llm-wiki-pattern]], [[openai-codex-2026]]

@@ -6,6 +6,7 @@ type: concept
 tags: [ai-agents, reliability, testing, skills]
 sources:
   - ../../sources/articles/2046876981711769720.md
+confidence: medium
 related:
   - ../people/garry-tan.md
   - thin-harness-fat-skills.md
@@ -71,3 +72,8 @@ A practice introduced by Garry Tan where every AI agent failure is transformed i
 ## Evidence Timeline
 
 - **2026-04-22**: Introduced in "How to really stop your agents from making the same mistakes" article with 10-step checklist and examples
+
+## 相关页面
+
+[[diarization]], [[latent-vs-deterministic]], [[resolver]]
+

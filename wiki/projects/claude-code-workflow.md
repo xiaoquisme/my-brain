@@ -6,6 +6,7 @@ type: entity
 tags: [claude-code, coding-agents, tool-use, workflow]
 sources:
   - ../../sources/articles/claude-howto-guide.md
+confidence: medium
 related:
   - ../concepts/harness-engineering.md
   - ../concepts/coding-agents.md

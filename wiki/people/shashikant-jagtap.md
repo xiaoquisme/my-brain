@@ -6,6 +6,7 @@ type: entity
 tags: [ai-agents, open-source, python]
 sources:
   - ../../sources/articles/meta-harness-library-jagtap.md
+confidence: medium
 related:
   - ../concepts/meta-harness.md
   - ../concepts/harness-engineering.md
@@ -33,4 +34,4 @@ Author and developer who created the open-source `superagentic-metaharness` Pyth
 ## 相关页面
 
 [[alejandro-balderas]], [[andrej-karpathy]], [[luongnv89]], [[msitarzewski]], [[rosa]]
-
+- [[aparna-dhinakaran]], [[chelsea-finn]], [[gleb-rodionov]], [[omar-khattab]], [[scale-ai]], [[agentic-rag-as-harness]]

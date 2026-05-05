@@ -6,6 +6,7 @@ type: concept
 tags: [anthropic, claude, llms, coding-models, multimodal, opus]
 sources:
   - ../../sources/articles/claude-opus-4-7.md
+confidence: medium
 related:
   - ../concepts/coding-agents.md
   - ../concepts/agentic-patterns.md
@@ -61,4 +62,4 @@ Claude Opus 4.7 是 Anthropic 于 2026年4月16日发布的新模型，在高级
 ## 相关页面
 
 [[openai-codex-2026]]
-
+- [[claude-code-session-management]]

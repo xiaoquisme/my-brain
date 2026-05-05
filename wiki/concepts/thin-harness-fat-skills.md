@@ -4,7 +4,8 @@ created: 2026-04-23
 updated: 2026-04-23
 type: concept
 tags: [ai-agents, harness-engineering, skills, architecture]
-sources: [../sources/articles/thin-harness-fat-skills.md]
+sources: [../../sources/articles/thin-harness-fat-skills.md]
+confidence: medium
 related: [skill-file.md, harness.md, resolver.md, latent-vs-deterministic.md, diarization.md, harness-engineering.md]
 ---
 
@@ -70,4 +71,4 @@ YC Startup School 案例：
 ## 相关页面
 
 [[car-framework]], [[diarization]], [[latent-vs-deterministic]], [[resolver]], [[skill-file]], [[skillify]], [[garry-tan]], [[gbrain]]
-
+- [[harness]], [[harnesscard]]

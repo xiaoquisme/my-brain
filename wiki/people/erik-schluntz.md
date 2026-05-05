@@ -6,6 +6,7 @@ type: entity
 tags: [anthropic, ai-agents]
 sources:
   - ../../sources/articles/anthropic-building-effective-agents.md
+confidence: medium
 related:
   - barry-zhang.md
   - ../concepts/agentic-patterns.md

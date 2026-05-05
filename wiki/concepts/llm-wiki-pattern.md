@@ -5,7 +5,7 @@ updated: 2026-04-22
 type: concept
 tags: [knowledge-management, llms, architecture-pattern]
 sources:
-  - ../../sources/articles/karpathy-llms-wiki.md
+  - ../../sources/articles/karpathy-llm-wiki.md
   - ../../sources/articles/garry-tan-gbrain.md
 related:
   - harness-engineering.md
@@ -42,3 +42,7 @@ A pattern where LLMs incrementally build and maintain a structured, interlinked 
 ## Evidence Timeline
 
 - **2026-04-07**: Initial compilation from Karpathy's LLM Wiki gist and Garry Tan's GBrain spec
+
+## 相关页面
+
+[[harness]], [[andrej-karpathy]]

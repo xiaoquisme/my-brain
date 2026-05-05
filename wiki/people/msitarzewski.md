@@ -6,6 +6,7 @@ type: entity
 tags: [ai-agents, open-source, tool-integration]
 sources:
   - ../../sources/articles/agency-agents.md
+confidence: medium
 related:
   - ../concepts/coding-agents.md
 ---
@@ -28,3 +29,8 @@ GitHub 用户， creator of Agency Agents — 一个收集了 50+ 个专业 AI a
 ## Evidence Timeline
 
 - **2026-04-08**: Created from Agency Agents repository
+
+## 相关页面
+
+[[andrej-karpathy]], [[luongnv89]]
+

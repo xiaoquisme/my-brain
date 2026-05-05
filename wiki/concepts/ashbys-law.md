@@ -6,6 +6,7 @@ type: concept
 tags: [cybernetics, systems-thinking, control-theory]
 sources:
   - ../../sources/articles/martin-fowler-harness-engineering.md
+confidence: medium
 related:
   - harness-engineering.md
   - coding-agents.md
@@ -50,3 +51,7 @@ A control system must have at least as much variety (number of possible states) 
 ## Evidence Timeline
 
 - **2026-04-07**: Created from query; referenced in Böckeler's harness engineering article as applied principle
+
+## 相关页面
+
+[[harness]], [[harness-engineering]]

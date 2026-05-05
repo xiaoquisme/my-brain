@@ -5,6 +5,7 @@ updated: 2026-04-28
 type: entity
 tags: [benchmark, agent, swe-tool, open-source, dataset]
 sources: [../../sources/articles/swe-atlas-github-2026.md]
+confidence: medium
 ---
 
 # SWE-Atlas

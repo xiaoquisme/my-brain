@@ -5,6 +5,7 @@ updated: 2026-04-28
 type: project
 tags: [agent]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
+confidence: medium
 related:
   - agent-context-management
   - claude-code-harness
@@ -42,3 +43,8 @@ OpenClaw is an AI agent harness built on top of pi-mono.md, extending its file r
 - Fresh isolated sessions by default — no parent transcript
 - **Fork mode**: copies parent's transcript into child, but only for same-agent spawns
 - Workspace context filtered to a minimal allowlist: `AGENTS.md`, `TOOLS.md`, `SOUL.md`
+
+## 相关页面
+
+[[harbor]], [[letta-code]]
+

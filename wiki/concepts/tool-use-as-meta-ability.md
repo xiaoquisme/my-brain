@@ -6,6 +6,7 @@ type: concept
 tags: [ai-agents, tool-use, coding-agents]
 sources:
   - ../../sources/articles/rosa-bash-tools-agents.md
+confidence: medium
 related:
   - ../projects/claude-code-architecture.md
   - coding-agents.md
@@ -49,4 +50,4 @@ An agent's coding/scripting ability is its "meta-ability" — the capacity to co
 ## 相关页面
 
 [[agentic-patterns]], [[ashbys-law]], [[claude-code-workflow]]
-
+- [[claude-code-session-management]], [[diarization]], [[skillify]], [[rosa]]

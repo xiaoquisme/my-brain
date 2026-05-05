@@ -4,7 +4,8 @@ created: 2026-04-23
 updated: 2026-04-23
 type: concept
 tags: [ai-agents, knowledge-work, analysis]
-sources: [../sources/articles/thin-harness-fat-skills.md]
+sources: [../../sources/articles/thin-harness-fat-skills.md]
+confidence: medium
 related: [thin-harness-fat-skills.md, skill-file.md, latent-vs-deterministic.md]
 ---
 
@@ -66,3 +67,8 @@ retrieve → read → diarize → count → synthesize
 ## Evidence Timeline
 
 - **2026-04-23**: 从 gbrain 仓库 ingest，Garry Tan 定义
+
+## 相关页面
+
+[[latent-vs-deterministic]]
+- [[tool-use-as-meta-ability]]

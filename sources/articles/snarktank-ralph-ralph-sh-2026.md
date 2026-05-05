@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/snarktank/ralph/blob/main/ralph.sh
 ingested: 2026-05-02
-sha256: b42738266de696a2807ae6af6a7f588bd7c8c8a1c01b71b0f4eece207b9e8d76
+sha256: f6d700d24eb832378914d4d552d9718de8568bab8ba6974b74bb1626bdb464b1
 ---
 
 #!/bin/bash

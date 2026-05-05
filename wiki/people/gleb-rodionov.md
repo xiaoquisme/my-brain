@@ -5,6 +5,7 @@ updated: 2026-04-20
 type: entity
 tags: [llms, reasoning, ai-agents]
 sources: [../../sources/articles/reasoning-shift-rodionov.md]
+confidence: medium
 related: [../concepts/reasoning-shift.md]
 ---
 
@@ -31,4 +32,4 @@ Gleb Rodionov 是来自 Yandex 的研究人员，研究 LLM 推理行为。发�
 ## 相关页面
 
 [[reasoning-shift]]
-
+- [[chaofa-yuan]]

@@ -5,6 +5,7 @@ updated: 2026-04-28
 type: project
 tags: [agent, open-source]
 sources: [../../sources/articles/aparna-context-management-agent-harnesses-2026.md]
+confidence: medium
 related:
   - agent-context-management
   - pi-mono
@@ -70,4 +71,4 @@ Fully open source under Apache 2.0 — every design decision is visible and audi
 ## 相关页面
 
 [[pi-mono]]
-
+- [[harbor]], [[openclaw]]

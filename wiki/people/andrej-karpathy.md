@@ -6,6 +6,7 @@ type: entity
 tags: [ai-agents, researcher, entrepreneur]
 sources:
   - ../../sources/articles/karpathy-llm-wiki.md
+confidence: medium
 related:
   - ../concepts/llm-wiki-pattern.md
   - garry-tan.md
@@ -33,4 +34,4 @@ AI researcher and educator. Former Tesla AI Director, OpenAI co-founder. Known f
 ## 相关页面
 
 [[llm-wiki-pattern]]
-
+- [[shashikant-jagtap]]
