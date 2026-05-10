@@ -1,3 +1,19 @@
+## 2026-05-10 — Ingest: MCP vs CLI was the wrong debate
+
+**Source**: @akshay_pachaar X Article (https://x.com/akshay_pachaar/status/2053166970166772052)
+**Type**: article
+
+**Files created**:
+- sources/articles/mcp-vs-cli-wrong-debate.md — 原始来源
+- wiki/concepts/code-mode.md — Code Mode 概念：agent 写代码调工具的运行时模式
+- wiki/concepts/mcp-model-context-protocol.md — MCP 协议概述及 context 开销分析
+- wiki/people/akshay-pachaar.md — 作者实体页
+
+**Files updated**:
+- index.md — +3 条目，页面总数 68→71
+
+---
+
 ## 2026-05-05 — Maintenance (follow-up)
 
 **Action**: maintain (continued)
