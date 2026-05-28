@@ -1,7 +1,7 @@
 ---
 title: Skillify
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-05-28
 type: concept
 tags: [ai-agents, reliability, testing, skills]
 sources:
@@ -75,5 +75,5 @@ A practice introduced by Garry Tan where every AI agent failure is transformed i
 
 ## 相关页面
 
-[[diarization]], [[latent-vs-deterministic]], [[resolver]]
+[[diarization]], [[latent-vs-deterministic]], [[resolver]], [[curator]], [[self-evolving-harness]]
 

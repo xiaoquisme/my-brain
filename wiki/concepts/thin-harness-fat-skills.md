@@ -70,5 +70,5 @@ YC Startup School 案例：
 
 ## 相关页面
 
-[[car-framework]], [[diarization]], [[latent-vs-deterministic]], [[resolver]], [[skill-file]], [[skillify]], [[garry-tan]], [[gbrain]]
+[[car-framework]], [[diarization]], [[latent-vs-deterministic]], [[resolver]], [[skill-file]], [[skillify]], [[curator]], [[garry-tan]], [[gbrain]]
 - [[harness]], [[harnesscard]]

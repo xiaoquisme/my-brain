@@ -1,7 +1,7 @@
 ---
 title: Harness Engineering
 created: 2026-04-07
-updated: 2026-04-22
+updated: 2026-05-28
 type: concept
 tags: [ai-agents, coding-agents, software-engineering, quality]
 sources:
@@ -276,5 +276,5 @@ Software Engineering → Prompt Engineering → Context Engineering → Harness 
 
 ## 相关页面
 
-[[car-framework]], [[harnesscard]], [[llm-wiki-pattern]], [[meta-harness]], [[openai-codex-2026]], [[sandbox]], [[skillify]], [[birgitta-bockeler]], [[justin-young]], [[martin-fowler]], [[shashikant-jagtap]]
-- [[agentic-patterns]], [[ashbys-law]], [[claude-opus-4-7]], [[jinse-chuanshuo-dacongrming]]
+[[car-framework]], [[harnesscard]], [[llm-wiki-pattern]], [[meta-harness]], [[openai-codex-2026]], [[sandbox]], [[skillify]], [[curator]], [[birgitta-bockeler]], [[justin-young]], [[martin-fowler]], [[shashikant-jagtap]]
+- [[agentic-patterns]], [[ashbys-law]], [[claude-opus-4-7]], [[jinse-chuanshuo-dacongrming]], [[self-evolving-harness]], [[agent-operation-tracing]], [[arvin-xu]], [[lobehub]]

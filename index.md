@@ -2,12 +2,13 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-05-10 | Total pages: 71 | All maintenance issues resolved
+> Last updated: 2026-05-28 | Total pages: 78 | All maintenance issues resolved
 
 ## Concepts
 
 - [[agent-context-management]] — Agent harnesses share a fundamental constraint: the context window is finite. As sessions grow,...
 - [[agent-loop-pattern]] — 一种 AI 编码 Agent 架构：将大型任务拆分为独立子任务，每轮迭代启动一个全新的 AI 实例完成一个子任务，通过外部状态文件传递记忆
+- [[agent-operation-tracing]] — Agent Operation Tracing: LobeHub 的 Agent 可观测性基础设施，为每次执行生成 Execution Snapshot
 - [[agentic-patterns]] — Six composable design patterns for building LLM-powered agentic systems, from simple augmentation to autonomous agents
 - [[agentic-rag]] — Agentic RAG is the evolution of traditional RAG that adds agentic capabilities like tool use and multi-step reasoning
 - [[agile]] — 敏捷是一种软件开发方法论，强调增量交付、团队协作、持续规划和持续学习
@@ -20,6 +21,7 @@
 - [[claude-opus-4-7]] — Claude Opus 4.7 是 Anthropic 于 2026-04-16 发布的新模型，在高级软件工程任务上有显著提升
 - [[codebase-qna]] — 代码库问答评测形式：让 Agent 探索真实代码库并回答自然语言问题
 - [[coding-agents]] — AI agents that autonomously write, modify, and test code
+- [[curator]] — Hermes Agent 的后台维护系统，管理 agent 创建的 skills：追踪使用频率、自动状态流转、LLM 审查合并
 - [[diarization]] — 让模型读取某个主题的所有内容，然后输出结构化摘要。读 50 份文档，产出 1 页判断
 - [[harness]] — Harness 是运行 LLM 的程序，负责循环运行模型、读写文件、管理上下文、执行安全检查
 - [[harness-engineering]] — 构建围绕 AI 编码 Agent 的系统性控制——安全、可观测性、错误恢复
@@ -34,8 +36,10 @@
 - [[resolver]] — Resolver 是上下文的路由表：当任务类型 X 出现时，首先加载文档 Y
 - [[sandbox]] — Sandbox 是 harness 的执行环境，提供隔离的计算环境、文件系统和状态管理
 - [[scrum]] — Scrum 是最流行的敏捷框架之一，将敏捷原则实现为具体的项目、实践和角色
+- [[self-evolving-harness]] — Self-Evolving Harness: Harness 通过 Tracing 数据自动进化，而非被动执行环境
 - [[skill-file]] — Skill File 是可复用的 Markdown 流程文件，教 AI 模型 HOW 做某事
 - [[skillify]] — Garry Tan 提出的实践：每次 AI agent 失败都转化为永久修复
+- [[the-bitter-lesson]] — Rich Sutton 的经典论述：通用方法+大规模计算 终将胜过人类知识驱动的方法
 - [[thin-harness-fat-skills]] — Garry Tan 提出的 AI Agent 架构原则：保持框架精简，将智能封装在技能文件中
 - [[tool-use-as-meta-ability]] — Agent 的编码/脚本能力是其"元能力"——构建可靠工具的能力
 
@@ -45,6 +49,7 @@
 - [[alejandro-balderas]] — 《Claude Code from Source》作者，18 章技术书详解 Claude Code 架构
 - [[andrej-karpathy]] — AI researcher, former Tesla AI Director, OpenAI co-founder
 - [[aparna-dhinakaran]] — AI engineering researcher, wrote "Sandboxes Are the Key to Unlocking Coding Agents"
+- [[arvin-xu]] — LobeHub 创始人，提出 Self-Evolving Harness 理念，Ant Design 核心成员
 - [[arize-alyx]] — Arize AI 及其内部 Agent Alyx，独立复现了四大 harness 的 context 管理模式
 - [[barry-zhang]] — Anthropic engineer, co-author of "Building Effective Agents"
 - [[birgitta-bockeler]] — Software engineer/consultant at Thoughtworks, wrote "Harness Engineering" on Martin Fowler's blog
@@ -64,6 +69,7 @@
 - [[omar-khattab]] — AI researcher, creator of DSPy
 - [[prithvi-rajasekaran]] — Anthropic Labs engineer, authored harness design research
 - [[ralph]] — 自主 AI 编码 Agent 循环，反复调用 AI 工具直到 PRD 完成
+- [[rich-sutton]] — 强化学习先驱，Alberta 大学教授，《The Bitter Lesson》作者
 - [[rosa]] — 技术博主，撰写 AI agent engineering 和工具使用文章
 - [[ryan-carson]] — Ralph 自主 AI 编码 Agent 循环的作者
 - [[scale-ai]] — AI 数据基础设施公司，发布 SWE-Atlas 等评测基准
@@ -79,6 +85,7 @@
 - [[gbrain]] — Garry Tan 开源的 AI Agent 框架，实现 "Thin Harness, Fat Skills"
 - [[harbor]] — laude-institute 开源任务运行框架，专为 AI Agent 评测基准设计
 - [[letta-code]] — 开源 Agent harness，核心特色为 git 版本化 MemFS 持久记忆
+- [[lobehub]] — 开源 AI 聊天平台，Self-Evolving Harness 的首个生产级实践，接入 70+ 模型 provider
 - [[openclaw]] — 基于 Pi 的 Agent harness，纵深防御 context 管理
 - [[pi-mono]] — 开源 Agent harness，OpenClaw 的上游
 - [[swe-atlas]] — Scale AI 发布的 AI 编程 Agent 多维度评测基准

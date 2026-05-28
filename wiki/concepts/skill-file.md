@@ -71,4 +71,4 @@ Skill File 是可复用的 Markdown 流程文件，教 AI 模型 **HOW** 做某�
 ## 相关页面
 
 [[diarization]], [[latent-vs-deterministic]], [[resolver]]
-- [[harness]], [[skillify]]
+- [[harness]], [[skillify]], [[curator]]

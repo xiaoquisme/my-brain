@@ -1,3 +1,61 @@
+## 2026-05-28 — Ingest: Arvin Xu - Self-Evolving Harness
+
+**Source**: https://x.com/arvin17x/status/2059489592097849698
+**Type**: article (Twitter Article)
+
+**Files created**:
+- sources/articles/self-evolving-harness-arvin-xu.md — 原始来源
+- wiki/concepts/self-evolving-harness.md — 核心概念：Harness 通过 Tracing 数据自动进化
+- wiki/concepts/agent-operation-tracing.md — 技术概念：Agent 可观测性基础设施
+- wiki/people/arvin-xu.md — 作者：LobeHub 创始人
+- wiki/projects/lobehub.md — 项目：开源 AI 聊天平台
+
+**Files updated**:
+- wiki/concepts/harness-engineering.md — 添加 [[self-evolving-harness]]、[[agent-operation-tracing]] 交叉引用
+- wiki/concepts/harness.md — 添加 [[self-evolving-harness]] 交叉引用
+- wiki/concepts/skillify.md — 添加 [[self-evolving-harness]] 交叉引用
+- index.md — +4 条目，页面总数 74→78
+
+**Key Concepts Extracted**:
+- Self-Evolving Harness: 模型+Harness=产品，Harness 应具备自我进化能力
+- Agent Operation Tracing: 单步执行 = trace event，Execution Snapshot 记录完整执行数据
+- Error Pattern 自动巡检: Agent 批量解析 tracing，9 轮后 Pattern 库饱和（31→104→新增 0），成功率 75%→95%+
+- 自进化四层次: L0 纯人工 → L1 Agent 辅助 → L2 Agent 主导 → L3 人监督 → L4 自主优化
+- Consumer Product 护城河: 不是模型，而是 Harness 中沉淀的 pattern 和 trajectory
+
+---
+
+## 2026-05-20 — Ingest: Hermes Agent Curator
+
+**Source**: https://hermes-agent.nousresearch.com/docs/user-guide/features/curator
+**Type**: article (documentation)
+
+**Files created**:
+- sources/articles/hermes-agent-curator.md — 原始来源
+- wiki/concepts/curator.md — 核心概念：Hermes Agent 的后台 skill 维护系统
+
+**Files updated**:
+- wiki/concepts/skill-file.md — 添加 [[curator]] 交叉引用
+- wiki/concepts/harness-engineering.md — 添加 [[curator]] 交叉引用
+- wiki/concepts/thin-harness-fat-skills.md — 添加 [[curator]] 交叉引用
+- wiki/concepts/skillify.md — 添加 [[curator]] 交叉引用
+- index.md — 添加 curator 概念条目，更新页面计数
+
+## 2026-05-12 — Ingest: The Bitter Lesson
+
+**Source**: Rich Sutton, http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+**Type**: article (essay)
+
+**Files created**:
+- sources/articles/the-bitter-lesson.md — 原始来源
+- wiki/concepts/the-bitter-lesson.md — 核心概念：通用方法+大规模计算 > 人类知识驱动
+- wiki/people/rich-sutton.md — 作者实体页
+
+**Files updated**:
+- index.md — +2 条目，页面总数 71→73
+
+---
+
 ## 2026-05-10 — Ingest: MCP vs CLI was the wrong debate
 
 **Source**: @akshay_pachaar X Article (https://x.com/akshay_pachaar/status/2053166970166772052)
