@@ -41,3 +41,7 @@ Code Mode 是一种 Agent 运行时模式：模型写代码调用工具，而非
 ## Evidence Timeline
 
 - **2026-05-10**: 从 @akshay_pachaar 的 X Article 了解到 Code Mode 概念，Anthropic 2025.11.4 发布 "Code execution with MCP" 是关键转折点
+
+## 相关页面
+
+[[akshay-pachaar]]

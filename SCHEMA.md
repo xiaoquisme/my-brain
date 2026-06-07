@@ -75,6 +75,7 @@ contradictions: [other-page-slug]
 - `dspy` — DSPy 框架
 - `codex` — OpenAI Codex
 - `mcp` — Model Context Protocol
+- `protocol` — 协议设计
 
 ### 软件工程
 - `swe-tool` — 软件工程工具（IDE、linter、测试框架等）
@@ -111,6 +112,9 @@ contradictions: [other-page-slug]
 - `autonomous-agents` — 自主 Agent
 - `multi-agent` — 多 Agent 系统
 - `agent-evaluation` — Agent 评测
+- `self-evolution` — 自进化能力
+- `harness` — Harness 通用标签
+- `observability` — 可观测性
 
 ### 方法论
 - `agile` — 敏捷方法论
@@ -173,6 +177,7 @@ contradictions: [other-page-slug]
 - `controversy` — 争议、未解决问题
 - `prediction` — 预测、展望
 - `synthesis` — 综合分析
+- `hermes-agent` — Hermes Agent 相关
 - `people` — 人物集合/群体
 - `projects` — 项目集合/群体
 

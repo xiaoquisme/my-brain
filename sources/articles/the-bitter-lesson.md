@@ -3,7 +3,7 @@ source_url: http://www.incompleteideas.net/IncIdeas/BitterLesson.html
 ingested: 2026-05-12
 type: article
 tags: [essay, ai-researcher, optimization, training]
-sha256: 3b25bae796bd96f974b45f2646fe1b7454b5eae5d7db9bbcec81a076cb49c84c
+sha256: 71fd194ab9a9e3bcf2f241881bbde13766731c79791a86c0440f7189115b8b43
 ---
 
 ## The Bitter Lesson

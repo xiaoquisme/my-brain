@@ -34,6 +34,7 @@ Evo 是一个开源的 autoresearch orchestrator，由 [Alok Bishoyi](../people/
 - LawBench 结果挑战了 [[the-bitter-lesson]] 的隐含假设——更大更强的模型不一定是最优解
 - 奥卡姆剃刀结果与 [[latent-vs-deterministic]] 框架呼应——最终方案是确定性的经典管线
 - 属于 [[coding-agents]] 生态中的自改进子类别
+- [[alok-bishoyi]] 是 Evo 的核心构建者
 
 ## Open Questions
 

@@ -38,3 +38,7 @@ MCP (Model Context Protocol) 是 Anthropic 发布的 Agent-工具连接协议，
 ## Evidence Timeline
 
 - **2026-05-10**: 从 @akshay_pachaar 的文章了解到 MCP 的 token 开销数据和 SDK 下载增长
+
+## 相关页面
+
+[[akshay-pachaar]]

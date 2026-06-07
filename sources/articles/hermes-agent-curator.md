@@ -4,7 +4,7 @@ source_url: https://hermes-agent.nousresearch.com/docs/user-guide/features/curat
 ingested: 2026-05-20
 type: article
 tags: [skills, agent, swe-tool, knowledge-management, hermes-agent]
-sha256: ec012ac207f69b4717de58de03aa8b5c19cf0eaf8d04c804c789b8b052566fa4
+sha256: b6e20a81b2d3fcb8de664c9e21a6ca4a3f4945f4dc8154b20ba270486ba48b51
 ---
 
 # Curator
