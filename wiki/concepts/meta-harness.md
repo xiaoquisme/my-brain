@@ -1,7 +1,7 @@
 ---
 title: Meta-Harness
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-06-07
 type: concept
 tags: [harness-engineering, optimization, ai-agents, automated-search]
 sources:
@@ -75,3 +75,4 @@ Shashikant Jagtap built `superagentic-metaharness`, an open-source Python librar
 
 [[claude-opus-4-7]], [[reasoning-shift]], [[chelsea-finn]], [[omar-khattab]], [[shashikant-jagtap]], [[agentic-rag-as-harness]]
 - [[ai-coding-benchmark]], [[openai-codex-2026]]
+- [[autoresearch]], [[evo]] — Evo 将 meta-harness 思路扩展到同时搜索模型和 harness 空间

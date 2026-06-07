@@ -1,9 +1,9 @@
 ---
 title: Thin Harness, Fat Skills
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-06-07
 type: concept
-tags: [ai-agents, harness-engineering, skills, architecture]
+tags: [harness-engineering, agent-architecture, skills]
 sources: [../../sources/articles/thin-harness-fat-skills.md]
 confidence: medium
 related: [skill-file.md, harness.md, resolver.md, latent-vs-deterministic.md, diarization.md, harness-engineering.md]
@@ -72,3 +72,4 @@ YC Startup School 案例：
 
 [[car-framework]], [[diarization]], [[latent-vs-deterministic]], [[resolver]], [[skill-file]], [[skillify]], [[curator]], [[garry-tan]], [[gbrain]]
 - [[harness]], [[harnesscard]]
+- [[compound-engineering]] — CE 是 Thin Harness Fat Skills 理念的完整工程实践

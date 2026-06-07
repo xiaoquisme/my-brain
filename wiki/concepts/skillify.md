@@ -1,9 +1,9 @@
 ---
 title: Skillify
 created: 2026-04-22
-updated: 2026-05-28
+updated: 2026-06-07
 type: concept
-tags: [ai-agents, reliability, testing, skills]
+tags: [skills, agent, harness-engineering]
 sources:
   - ../../sources/articles/2046876981711769720.md
 confidence: medium
@@ -76,4 +76,5 @@ A practice introduced by Garry Tan where every AI agent failure is transformed i
 ## 相关页面
 
 [[diarization]], [[latent-vs-deterministic]], [[resolver]], [[curator]], [[self-evolving-harness]]
+- [[compound-engineering]] — CE 的 compound 步骤与 skillify 的"每次失败转化为永久修复"异曲同工
 

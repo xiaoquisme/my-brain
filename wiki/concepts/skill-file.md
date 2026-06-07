@@ -1,9 +1,9 @@
 ---
 title: Skill File
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-06-07
 type: concept
-tags: [ai-agents, skills, architecture]
+tags: [skills, harness-engineering, agent]
 sources: [../../sources/articles/thin-harness-fat-skills.md]
 confidence: medium
 related: [thin-harness-fat-skills.md, harness.md, resolver.md]
@@ -72,3 +72,4 @@ Skill File 是可复用的 Markdown 流程文件，教 AI 模型 **HOW** 做某�
 
 [[diarization]], [[latent-vs-deterministic]], [[resolver]]
 - [[harness]], [[skillify]], [[curator]]
+- [[compound-engineering]] — CE 的 35+ skills 就是 skill file 的大规模实践

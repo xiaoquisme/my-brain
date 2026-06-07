@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-05-28 | Total pages: 78 | All maintenance issues resolved
+> Last updated: 2026-06-07 | Total pages: 84
 
 ## Concepts
 
@@ -14,6 +14,7 @@
 - [[agile]] — 敏捷是一种软件开发方法论，强调增量交付、团队协作、持续规划和持续学习
 - [[ai-coding-benchmark]] — AI 编程基准是用于评测 AI 代码生成/编程 Agent 能力的标准化测试集
 - [[ashbys-law]] — A control system must have at least as much variety as the system it seeks to control
+- [[autoresearch]] — Autoresearch 自改进循环模式：同时优化 harness 和模型权重，base model × harness × verifiable loop
 - [[car-framework]] — CAR (Control, Agency, Runtime) is a formal decomposition of the harness layer in language agents
 - [[code-mode]] — Code Mode: agent 写代码调工具而非通过 context 调工具，结合 MCP 类型契约与 CLI 懒加载
 - [[mcp-model-context-protocol]] — MCP (Model Context Protocol): Anthropic 发布的 Agent-工具连接协议，提供类型契约但有 context 开销
@@ -21,6 +22,7 @@
 - [[claude-opus-4-7]] — Claude Opus 4.7 是 Anthropic 于 2026-04-16 发布的新模型，在高级软件工程任务上有显著提升
 - [[codebase-qna]] — 代码库问答评测形式：让 Agent 探索真实代码库并回答自然语言问题
 - [[coding-agents]] — AI agents that autonomously write, modify, and test code
+- [[compound-engineering]] — Every 团队的 AI 原生工程哲学：七步循环，每个工作单元让后续更容易
 - [[curator]] — Hermes Agent 的后台维护系统，管理 agent 创建的 skills：追踪使用频率、自动状态流转、LLM 审查合并
 - [[diarization]] — 让模型读取某个主题的所有内容，然后输出结构化摘要。读 50 份文档，产出 1 页判断
 - [[harness]] — Harness 是运行 LLM 的程序，负责循环运行模型、读写文件、管理上下文、执行安全检查
@@ -47,6 +49,7 @@
 
 - [[akshay-pachaar]] — AI 工程技术博主，Daily Dose of DS 联合创始人，前 LightningAI 工程师
 - [[alejandro-balderas]] — 《Claude Code from Source》作者，18 章技术书详解 Claude Code 架构
+- [[alok-bishoyi]] — Evo HQ 创始人，IIT Bombay 校友，构建开源 autoresearch orchestrator
 - [[andrej-karpathy]] — AI researcher, former Tesla AI Director, OpenAI co-founder
 - [[aparna-dhinakaran]] — AI engineering researcher, wrote "Sandboxes Are the Key to Unlocking Coding Agents"
 - [[arvin-xu]] — LobeHub 创始人，提出 Self-Evolving Harness 理念，Ant Design 核心成员
@@ -62,6 +65,7 @@
 - [[gleb-rodionov]] — Yandex 研究者，研究 LLM 推理行为和 Reasoning Shift
 - [[jinse-chuanshuo-dacongrming]] — 技术博主，通过爱马仕比喻解释 Harness 工程哲学
 - [[justin-young]] — Anthropic engineer, authored "Effective Harnesses for Long-Running Agents"
+- [[kieran-klaassen]] — Every 团队工程师，Compound Engineering 理念提出者
 - [[luongnv89]] — 开发者，创建 "Claude How To" 开源教程
 - [[martin-fowler]] — Thoughtworks Chief Scientist, software engineering thought leader
 - [[martin-kleppmann]] — 剑桥大学研究员，《设计数据密集型应用》作者
@@ -82,6 +86,8 @@
 - [[claude-code-harness]] — Claude Code Agent Harness，两层预读防护 + 工具结果优化管线
 - [[claude-code-workflow]] — Claude Code 工作流与功能特性
 - [[ddia]] — 《设计数据密集型应用》第二版，系统讲解现代数据系统的设计原则
+- [[evo]] — 开源 autoresearch orchestrator，同时优化 harness 和模型权重，LawBench SOTA 0.776
+- [[every]] — AI 媒体+产品公司，Compound Engineering 提出者，运营 6 个产品
 - [[gbrain]] — Garry Tan 开源的 AI Agent 框架，实现 "Thin Harness, Fat Skills"
 - [[harbor]] — laude-institute 开源任务运行框架，专为 AI Agent 评测基准设计
 - [[letta-code]] — 开源 Agent harness，核心特色为 git 版本化 MemFS 持久记忆

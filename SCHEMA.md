@@ -102,6 +102,7 @@ contradictions: [other-page-slug]
 - `python` — Python 语言/生态
 - `typescript` — TypeScript 语言/生态
 - `automated-search` — 自动化搜索
+- `autoresearch` — Autoresearch 自改进循环
 
 ### Agent 架构
 - `agent-architecture` — Agent 架构设计

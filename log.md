@@ -580,3 +580,33 @@ Append-only record of operations.
 - 1 页面超 200 行 (harness-engineering.md) — 候选拆分
 - 49 页面单来源无 confidence 设置 — 建议后续补充或降低 confidence
 - log.md 408 行, 接近 500 行轮转阈值
+## [2026-06-07] ingest | Evo Autoresearch + LawBench SOTA
+
+来源：Alok Bishoyi Twitter Article (https://x.com/alokbishoyi97/status/2063193533930942605)
+
+### 新建文件
+- sources/articles/evo-autoresearch-lawbench-2026.md — 原始文章
+- wiki/projects/evo.md — Evo 项目页：开源 autoresearch orchestrator，LawBench 0.776 SOTA
+- wiki/people/alok-bishoyi.md — Alok Bishoyi 人物页
+- wiki/concepts/autoresearch.md — Autoresearch 概念页：base model × harness × verifiable loop
+
+### 更新文件
+- wiki/concepts/self-evolving-harness.md — 添加反向链接到 autoresearch 和 evo
+- wiki/concepts/meta-harness.md — 添加反向链接到 autoresearch 和 evo
+- index.md — 添加 3 个新页面条目，总页数 78→81
+
+## [2026-06-07] ingest | Compound Engineering (Every.to)
+
+来源：Kieran Klaassen, Every.to (https://every.to/guides/compound-engineering)
+
+### 新建文件
+- sources/articles/compound-engineering-every-2026.md — 原始文章（约 40K 字符）
+- wiki/concepts/compound-engineering.md — 核心概念：七步循环、50/50 规则、五级成熟度、40+ 审查 agent
+- wiki/people/kieran-klaassen.md — 作者页面
+- wiki/projects/every.md — Every 公司页面（6 个产品）
+
+### 更新文件
+- wiki/concepts/skill-file.md — 添加反向链接
+- wiki/concepts/skillify.md — 添加反向链接
+- wiki/concepts/thin-harness-fat-skills.md — 添加反向链接
+- index.md — 添加 3 个新页面条目，总页数 81→84
