@@ -4,7 +4,7 @@ created: 2026-06-07
 updated: 2026-06-07
 type: entity
 tags: [autoresearch, agent, open-source, harness, fine-tuning, benchmark]
-sources: [sources/articles/evo-autoresearch-lawbench-2026.md]
+sources: [../../sources/articles/evo-autoresearch-lawbench-2026.md]
 confidence: medium
 ---
 

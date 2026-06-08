@@ -4,7 +4,7 @@ created: 2026-06-07
 updated: 2026-06-07
 type: entity
 tags: [company, open-source, agent, coding-agents]
-sources: [sources/articles/compound-engineering-every-2026.md]
+sources: [../../sources/articles/compound-engineering-every-2026.md]
 confidence: medium
 ---
 

@@ -1,3 +1,29 @@
+## 2026-06-08 — Lint: Source 引用修复
+
+**Type**: maintenance (lint)
+
+**Issues found & fixed**:
+- 7 个页面的 `sources:` frontmatter 路径缺少 `../../` 前缀（新增页面遗漏）
+  - wiki/people/alok-bishoyi.md
+  - wiki/concepts/autoresearch.md
+  - wiki/concepts/compound-engineering.md
+  - wiki/concepts/curator.md
+  - wiki/projects/every.md
+  - wiki/projects/evo.md
+  - wiki/people/kieran-klaassen.md
+
+**Lint results (post-fix)**:
+- Broken wikilinks: 0
+- Orphan pages: 0
+- Index completeness: 100%
+- Broken source refs: 0
+- Unknown tags: 0
+- Large pages: wiki/concepts/harness-engineering.md (280 lines — 建议后续拆分)
+
+**Note**: log.md 已有 612 条，接近 500 条轮转阈值（实际超了，下次维护时轮转）
+
+---
+
 ## 2026-05-28 — Ingest: Arvin Xu - Self-Evolving Harness
 
 **Source**: https://x.com/arvin17x/status/2059489592097849698

@@ -4,7 +4,7 @@ created: 2026-05-20
 updated: 2026-05-20
 type: concept
 tags: [skills, agent, swe-tool, knowledge-management, hermes-agent]
-sources: [sources/articles/hermes-agent-curator.md]
+sources: [../../sources/articles/hermes-agent-curator.md]
 confidence: high
 ---
 

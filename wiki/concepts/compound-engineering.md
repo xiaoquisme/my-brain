@@ -4,7 +4,7 @@ created: 2026-06-07
 updated: 2026-06-07
 type: concept
 tags: [workflow, agent, harness-engineering, skills, software-engineering, coding-agents]
-sources: [sources/articles/compound-engineering-every-2026.md]
+sources: [../../sources/articles/compound-engineering-every-2026.md]
 confidence: medium
 ---
 

@@ -4,7 +4,7 @@ created: 2026-06-07
 updated: 2026-06-07
 type: concept
 tags: [autoresearch, agent, harness, fine-tuning, optimization]
-sources: [sources/articles/evo-autoresearch-lawbench-2026.md]
+sources: [../../sources/articles/evo-autoresearch-lawbench-2026.md]
 confidence: medium
 ---
 
