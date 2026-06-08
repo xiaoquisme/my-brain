@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-06-07 | Total pages: 84
+> Last updated: 2026-06-08 | Total pages: 85
 
 ## Concepts
 
@@ -27,6 +27,7 @@
 - [[diarization]] — 让模型读取某个主题的所有内容，然后输出结构化摘要。读 50 份文档，产出 1 页判断
 - [[harness]] — Harness 是运行 LLM 的程序，负责循环运行模型、读写文件、管理上下文、执行安全检查
 - [[harness-engineering]] — 构建围绕 AI 编码 Agent 的系统性控制——安全、可观测性、错误恢复
+- [[harness-engineering-case-studies]] — Harness 工程案例：OpenAI Codex、Anthropic 多 Agent、CAR 框架、HarnessCard、Meta-Harness
 - [[harnesscard]] — HarnessCard: 轻量级报告格式，用于披露 harness 配置以保证可复现性
 - [[kanban]] — 看板最初由丰田汽车公司开发，用于提高制造效率，后被引入软件开发
 - [[kv-cache-and-prompt-caching]] — KV Cache 和 Prompt Caching: 两种互补的 LLM 推理加速技术

@@ -1,3 +1,20 @@
+## 2026-06-08 — Split: harness-engineering.md
+
+**Type**: maintenance (page split)
+
+**Action**: 拆分 280 行的 `harness-engineering.md` 为两个页面：
+- `harness-engineering.md` (115 行) — 核心概念：定义、关键原则、工程层级、Transient vs Persistent、模型共同演化
+- `harness-engineering-case-studies.md` (175 行) — 案例与框架：OpenAI Codex、Anthropic 多 Agent/Session Continuity、LangChain Bench、CAR Framework、HarnessCard、Meta-Harness、Sandbox、Visibility Gap
+
+**Files created**:
+- wiki/concepts/harness-engineering-case-studies.md
+
+**Files updated**:
+- wiki/concepts/harness-engineering.md — 移除案例/框架/sandbox 内容，保留核心概念
+- index.md — 添加 harness-engineering-case-studies 条目，总页数 84→85
+
+---
+
 ## 2026-06-08 — Lint: Source 引用修复
 
 **Type**: maintenance (lint)
