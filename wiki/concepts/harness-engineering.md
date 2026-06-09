@@ -87,3 +87,4 @@ This directly relates to how we set up this knowledge base:
 [[harness-engineering-case-studies]], [[car-framework]], [[harnesscard]], [[llm-wiki-pattern]], [[meta-harness]], [[sandbox]], [[skillify]], [[curator]], [[birgitta-bockeler]], [[martin-fowler]], [[jinse-chuanshuo-dacongrming]], [[self-evolving-harness]], [[agent-operation-tracing]]
 - [[agentic-patterns]], [[ashbys-law]], [[claude-opus-4-7]], [[thin-harness-fat-skills]], [[coding-agents]]
 - [[human-on-the-loop]], [[attenuation-amplification]], [[gemba-go-see]]
+- [[loop-engineering]], [[factory-model]]

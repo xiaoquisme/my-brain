@@ -684,3 +684,20 @@ Append-only record of operations.
 - Broken source refs: 0
 - Unknown tags: 0
 - Large pages: 1 (harness-engineering-case-studies: 207 lines)
+
+## [2026-06-09] ingest | Loop Engineering (Addy Osmani)
+
+来源：Addy Osmani (https://addyosmani.com/blog/loop-engineering/)
+
+### 新建文件
+- sources/articles/loop-engineering-osmani-2026.md — 原始文章
+- wiki/concepts/loop-engineering.md — 核心概念：五原语循环架构（Automations, Worktrees, Skills, Plugins, Sub-agents）
+- wiki/people/addy-osmani.md — Addy Osmani 人物页
+- wiki/concepts/factory-model.md — Factory Model 概念页
+
+### 更新文件
+- wiki/concepts/harness-engineering.md — 添加反向链接
+- wiki/concepts/human-on-the-loop.md — 添加反向链接
+- wiki/concepts/skill-file.md — 添加反向链接
+- wiki/concepts/compound-engineering.md — 添加相关页面 section
+- index.md — 添加 3 个新页面条目，总页数 88->91

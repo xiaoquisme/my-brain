@@ -64,3 +64,4 @@ HotL 中的"衰减与放大"机制正是 [[harness-engineering]] 的核心实践
 - [[gemba-go-see]] — 现地现物，HotL 的校准机制
 - [[coding-agents]] — AI 编码 Agent，HotL 的控制对象
 - [[agile]] — 敏捷方法论，HotL 管理学灵感来源之一
+- [[loop-engineering]] — 循环工程是 HotL 的技术实现形式

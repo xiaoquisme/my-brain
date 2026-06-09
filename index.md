@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-06-09 | Total pages: 88
+> Last updated: 2026-06-09 | Total pages: 91
 
 ## Concepts
 
@@ -27,6 +27,7 @@
 - [[curator]] — Hermes Agent 的后台维护系统，管理 agent 创建的 skills：追踪使用频率、自动状态流转、LLM 审查合并
 - [[diarization]] — 让模型读取某个主题的所有内容，然后输出结构化摘要。读 50 份文档，产出 1 页判断
 - [[gemba-go-see]] — 现地现物：精益管理实践，在 Agent SDLC 中用于校准控制模型的次级反馈闭环
+- [[factory-model]] — Factory Model：Addy Osmani 提出的 AI 软件构建系统模型，Loop 的上层抽象
 - [[harness]] — Harness 是运行 LLM 的程序，负责循环运行模型、读写文件、管理上下文、执行安全检查
 - [[harness-engineering]] — 构建围绕 AI 编码 Agent 的系统性控制——安全、可观测性、错误恢复
 - [[harness-engineering-case-studies]] — Harness 工程案例：OpenAI Codex、Anthropic 多 Agent、CAR 框架、HarnessCard、Meta-Harness
@@ -36,6 +37,7 @@
 - [[kv-cache-and-prompt-caching]] — KV Cache 和 Prompt Caching: 两种互补的 LLM 推理加速技术
 - [[latent-vs-deterministic]] — 系统中的每一步要么是 Latent（模型判断）要么是 Deterministic（确定性），好的架构把正确的工作放在正确的层级
 - [[llm-wiki-pattern]] — LLM 增量构建和维护结构化、互链接的知识库模式
+- [[loop-engineering]] — Loop Engineering：设计自动化循环代替手动 prompt Agent 的实践，五原语架构
 - [[meta-harness]] — Meta-Harness: 自动搜索最优 harness 配置的系统
 - [[openai-codex-2026]] — OpenAI 于 2026-04-16 发布 Codex 重大更新，扩展为可在电脑上自主操作的全面开发伴侣
 - [[reasoning-shift]] — 推理型 LLM 在非隔离上下文条件下推理链显著缩短（最多 50%）的现象
@@ -51,6 +53,7 @@
 
 ## People
 
+- [[addy-osmani]] — Google Chrome 工程经理，AI Agent 工程实践博主，提出 Loop Engineering、Factory Model 等概念
 - [[akshay-pachaar]] — AI 工程技术博主，Daily Dose of DS 联合创始人，前 LightningAI 工程师
 - [[alejandro-balderas]] — 《Claude Code from Source》作者，18 章技术书详解 Claude Code 架构
 - [[alok-bishoyi]] — Evo HQ 创始人，IIT Bombay 校友，构建开源 autoresearch orchestrator
