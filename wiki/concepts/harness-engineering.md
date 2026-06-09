@@ -1,7 +1,7 @@
 ---
 title: Harness Engineering
 created: 2026-04-07
-updated: 2026-06-08
+updated: 2026-06-09
 type: concept
 tags: [ai-agents, coding-agents, software-engineering, quality]
 sources:
@@ -86,3 +86,4 @@ This directly relates to how we set up this knowledge base:
 
 [[harness-engineering-case-studies]], [[car-framework]], [[harnesscard]], [[llm-wiki-pattern]], [[meta-harness]], [[sandbox]], [[skillify]], [[curator]], [[birgitta-bockeler]], [[martin-fowler]], [[jinse-chuanshuo-dacongrming]], [[self-evolving-harness]], [[agent-operation-tracing]]
 - [[agentic-patterns]], [[ashbys-law]], [[claude-opus-4-7]], [[thin-harness-fat-skills]], [[coding-agents]]
+- [[human-on-the-loop]], [[attenuation-amplification]], [[gemba-go-see]]

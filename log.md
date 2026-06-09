@@ -653,3 +653,34 @@ Append-only record of operations.
 - wiki/concepts/skillify.md — 添加反向链接
 - wiki/concepts/thin-harness-fat-skills.md — 添加反向链接
 - index.md — 添加 3 个新页面条目，总页数 81→84
+
+## [2026-06-09] ingest | 控制论与智能体编码中的"人在环上"
+
+来源：Dirk Lässig, 微信公众号 (https://mp.weixin.qq.com/s/OqbXqE8Go-vsLTX-O-JwbA)
+
+### 新建文件
+- sources/articles/cybernetics-human-on-the-loop-2026.md — 原始文章
+- wiki/concepts/human-on-the-loop.md — 核心概念：人类退居元维度引导 Agent 系统
+- wiki/concepts/attenuation-amplification.md — 衰减与放大：HotL 的两个核心控制机制
+- wiki/concepts/gemba-go-see.md — 现地现物：精益管理在 Agent SDLC 中的校准实践
+
+### 更新文件
+- wiki/concepts/ashbys-law.md — 添加反向链接到 human-on-the-loop、attenuation-amplification
+- wiki/concepts/harness-engineering.md — 添加反向链接到三个新概念页
+- index.md — 添加 3 个新页面条目，总页数 85→88
+
+## [2026-06-09] lint | 3 broken source refs fixed
+
+**Issues found and fixed**:
+- 3 broken source refs in new pages (missing ../../ prefix)
+  - wiki/concepts/human-on-the-loop.md
+  - wiki/concepts/attenuation-amplification.md
+  - wiki/concepts/gemba-go-see.md
+
+**Lint results (post-fix)**:
+- Broken wikilinks: 0
+- Orphan pages: 0
+- Index completeness: 100%
+- Broken source refs: 0
+- Unknown tags: 0
+- Large pages: 1 (harness-engineering-case-studies: 207 lines)

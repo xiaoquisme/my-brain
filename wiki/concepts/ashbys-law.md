@@ -1,7 +1,7 @@
 ---
 title: Ashby's Law (Law of Requisite Variety)
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-06-09
 type: concept
 tags: [cybernetics, systems-thinking, control-theory]
 sources:
@@ -54,4 +54,4 @@ A control system must have at least as much variety (number of possible states) 
 
 ## 相关页面
 
-[[harness]], [[harness-engineering]]
+[[harness]], [[harness-engineering]], [[human-on-the-loop]], [[attenuation-amplification]]

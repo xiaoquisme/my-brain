@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-06-08 | Total pages: 85
+> Last updated: 2026-06-09 | Total pages: 88
 
 ## Concepts
 
@@ -14,6 +14,7 @@
 - [[agile]] — 敏捷是一种软件开发方法论，强调增量交付、团队协作、持续规划和持续学习
 - [[ai-coding-benchmark]] — AI 编程基准是用于评测 AI 代码生成/编程 Agent 能力的标准化测试集
 - [[ashbys-law]] — A control system must have at least as much variety as the system it seeks to control
+- [[attenuation-amplification]] — 衰减与放大：控制论中实现 Human-on-the-Loop 的两个核心机制
 - [[autoresearch]] — Autoresearch 自改进循环模式：同时优化 harness 和模型权重，base model × harness × verifiable loop
 - [[car-framework]] — CAR (Control, Agency, Runtime) is a formal decomposition of the harness layer in language agents
 - [[code-mode]] — Code Mode: agent 写代码调工具而非通过 context 调工具，结合 MCP 类型契约与 CLI 懒加载
@@ -25,9 +26,11 @@
 - [[compound-engineering]] — Every 团队的 AI 原生工程哲学：七步循环，每个工作单元让后续更容易
 - [[curator]] — Hermes Agent 的后台维护系统，管理 agent 创建的 skills：追踪使用频率、自动状态流转、LLM 审查合并
 - [[diarization]] — 让模型读取某个主题的所有内容，然后输出结构化摘要。读 50 份文档，产出 1 页判断
+- [[gemba-go-see]] — 现地现物：精益管理实践，在 Agent SDLC 中用于校准控制模型的次级反馈闭环
 - [[harness]] — Harness 是运行 LLM 的程序，负责循环运行模型、读写文件、管理上下文、执行安全检查
 - [[harness-engineering]] — 构建围绕 AI 编码 Agent 的系统性控制——安全、可观测性、错误恢复
 - [[harness-engineering-case-studies]] — Harness 工程案例：OpenAI Codex、Anthropic 多 Agent、CAR 框架、HarnessCard、Meta-Harness
+- [[human-on-the-loop]] — Human-on-the-Loop：人类退居元维度引导 Agent 系统的控制范式，源自控制论与管理科学
 - [[harnesscard]] — HarnessCard: 轻量级报告格式，用于披露 harness 配置以保证可复现性
 - [[kanban]] — 看板最初由丰田汽车公司开发，用于提高制造效率，后被引入软件开发
 - [[kv-cache-and-prompt-caching]] — KV Cache 和 Prompt Caching: 两种互补的 LLM 推理加速技术
