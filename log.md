@@ -701,3 +701,17 @@ Append-only record of operations.
 - wiki/concepts/skill-file.md — 添加反向链接
 - wiki/concepts/compound-engineering.md — 添加相关页面 section
 - index.md — 添加 3 个新页面条目，总页数 88->91
+
+## [2026-06-09] ingest | Stop Using /init for AGENTS.md (Addy Osmani)
+
+来源：Addy Osmani (https://addyosmani.com/blog/agents-md/)
+
+### 新建文件
+- sources/articles/agents-md-osmani-2026.md — 原始文章
+- wiki/concepts/agents-md-best-practices.md — AGENTS.md 最佳实践：只写不可发现信息、三层架构、诊断工具心智模型
+
+### 更新文件
+- wiki/concepts/agent-context-management.md — 添加反向链接
+- wiki/concepts/harness-engineering.md — 添加反向链接
+- wiki/people/addy-osmani.md — 添加新文章引用
+- index.md — 添加 1 个新页面条目，总页数 91->92

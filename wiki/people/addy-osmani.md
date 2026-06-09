@@ -35,3 +35,4 @@ Addy Osmani 是 Google Chrome 团队的工程经理，专注于 Web 性能和开
 - [[loop-engineering]] — Osmani 阐述的核心概念
 - [[harness-engineering]] — Osmani 的 Agent Harness Engineering 系列
 - [[factory-model]] — Osmani 提出的软件构建系统模型
+- [[agents-md-best-practices]] — Osmani 的 AGENTS.md 最佳实践分析

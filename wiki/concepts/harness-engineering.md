@@ -88,3 +88,4 @@ This directly relates to how we set up this knowledge base:
 - [[agentic-patterns]], [[ashbys-law]], [[claude-opus-4-7]], [[thin-harness-fat-skills]], [[coding-agents]]
 - [[human-on-the-loop]], [[attenuation-amplification]], [[gemba-go-see]]
 - [[loop-engineering]], [[factory-model]]
+- [[agents-md-best-practices]]

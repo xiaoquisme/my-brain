@@ -2,11 +2,12 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-06-09 | Total pages: 91
+> Last updated: 2026-06-09 | Total pages: 92
 
 ## Concepts
 
 - [[agent-context-management]] — Agent harnesses share a fundamental constraint: the context window is finite. As sessions grow,...
+- [[agents-md-best-practices]] — AGENTS.md 最佳实践：只写不可发现信息，三层架构，作为诊断工具而非永久配置
 - [[agent-loop-pattern]] — 一种 AI 编码 Agent 架构：将大型任务拆分为独立子任务，每轮迭代启动一个全新的 AI 实例完成一个子任务，通过外部状态文件传递记忆
 - [[agent-operation-tracing]] — Agent Operation Tracing: LobeHub 的 Agent 可观测性基础设施，为每次执行生成 Execution Snapshot
 - [[agentic-patterns]] — Six composable design patterns for building LLM-powered agentic systems, from simple augmentation to autonomous agents

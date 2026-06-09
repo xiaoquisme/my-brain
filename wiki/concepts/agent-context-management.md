@@ -81,3 +81,4 @@ The parallel with OS memory management is apt: registers → cache → RAM → s
 - [[agent-loop-pattern]] — 迭代隔离模式的抽象概念
 - [[arize-alyx]]
 - [[kv-cache-and-prompt-caching]]
+- [[agents-md-best-practices]] — AGENTS.md 写什么、不写什么、三层架构
