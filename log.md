@@ -1,3 +1,21 @@
+## 2026-06-20 — Ingest: HarnessX
+
+**Source**: arXiv:2606.14249 (https://arxiv.org/abs/2606.14249)
+**Type**: paper (Xiaomi Darwin Agent Team)
+
+**Files created**:
+- sources/articles/harnessx-agent-harness-foundry.md — 原始来源（论文结构化摘要）
+- wiki/concepts/harnessx.md — HarnessX 概念页
+
+**Files updated**:
+- wiki/concepts/self-evolving-harness.md — 添加 HarnessX 引用 + 证据时间线条目
+- wiki/concepts/meta-harness.md — 添加 HarnessX 交叉引用
+- wiki/concepts/autoresearch.md — 添加 HarnessX 交叉引用
+- index.md — 添加 harnessx 条目，总页数 92→93
+
+---
+
+
 ## 2026-06-08 — Split: harness-engineering.md
 
 **Type**: maintenance (page split)

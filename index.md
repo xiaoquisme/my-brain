@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-06-09 | Total pages: 92
+> Last updated: 2026-06-20 | Total pages: 93
 
 ## Concepts
 
@@ -32,6 +32,7 @@
 - [[harness]] — Harness 是运行 LLM 的程序，负责循环运行模型、读写文件、管理上下文、执行安全检查
 - [[harness-engineering]] — 构建围绕 AI 编码 Agent 的系统性控制——安全、可观测性、错误恢复
 - [[harness-engineering-case-studies]] — Harness 工程案例：OpenAI Codex、Anthropic 多 Agent、CAR 框架、HarnessCard、Meta-Harness
+- [[harnessx]] — HarnessX：小米提出的可组合/可适应/可进化 harness foundry，AEGIS 多 Agent 进化引擎 + cross-harness GRPO 协同进化，5 benchmark 平均 +14.5%
 - [[human-on-the-loop]] — Human-on-the-Loop：人类退居元维度引导 Agent 系统的控制范式，源自控制论与管理科学
 - [[harnesscard]] — HarnessCard: 轻量级报告格式，用于披露 harness 配置以保证可复现性
 - [[kanban]] — 看板最初由丰田汽车公司开发，用于提高制造效率，后被引入软件开发
