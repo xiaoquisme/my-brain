@@ -1,3 +1,17 @@
+## 2026-07-09 — Maintenance
+
+**Action**: maintain
+
+**Fixes applied**:
+- Broken source refs: 0 (already clean)
+- Cross-links: +1 on dan-koe.md (was 1 link, now 2)
+- Confidence: added to kanban.md, scrum.md (single-source pages, also fixed frontmatter from JSON to YAML format)
+- Source drift: fixed 1 hash on harnessx-agent-harness-foundry.md
+
+**Result**: 0 issues remaining across all 4 phases
+
+---
+
 ## 2026-07-09 — Ingest: KV Cache Management infographic (Akshay Pachaar)
 
 **Source**: @akshay_pachaar (https://x.com/akshay_pachaar/status/2074502882812952666)

@@ -1,7 +1,13 @@
 ---
-{created: 2026-04-17, related: [../concepts/agile.md], sources: [../../sources/articles/what-is-kanban.md],
-  tags: [agile, kanban, software-development], title: 看板 (Kanban), type: concept,
-  updated: 2026-04-17}
+title: 看板 (Kanban)
+created: 2026-04-17
+updated: 2026-07-09
+type: concept
+tags: [agile, kanban, software-development]
+sources: [../../sources/articles/what-is-kanban.md]
+confidence: medium
+related:
+  - ../concepts/agile.md
 ---
 
 ## Summary

@@ -1,6 +1,13 @@
 ---
-{created: 2026-04-17, related: [../concepts/agile.md], sources: [../../sources/articles/what-is-scrum.md],
-  tags: [agile, scrum, software-development], title: Scrum, type: concept, updated: 2026-04-17}
+title: Scrum
+created: 2026-04-17
+updated: 2026-07-09
+type: concept
+tags: [agile, scrum, software-development]
+sources: [../../sources/articles/what-is-scrum.md]
+confidence: medium
+related:
+  - ../concepts/agile.md
 ---
 
 ## Summary

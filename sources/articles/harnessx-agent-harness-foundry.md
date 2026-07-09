@@ -4,7 +4,7 @@ source_url: https://arxiv.org/abs/2606.14249
 ingested: 2026-06-20
 type: paper
 tags: [harness-engineering, agent, self-evolution, reinforcement-learning, benchmark]
-sha256: 2f0c55acd1fbf10a6e54cb85e5f7dae6fbdf69d0528aac7ae94d29f896dd07f6
+sha256: f7b2239c372ae4f0fb889b8db9c6d16d50ea2851ae7149953ba0d8c0a173daef
 ---
 
 # HarnessX: A Composable, Adaptive, and Evolvable Agent Harness Foundry
