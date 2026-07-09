@@ -1,7 +1,7 @@
 ---
 title: KV Cache and Prompt Caching
 created: 2026-04-07
-updated: 2026-05-05
+updated: 2026-07-09
 type: concept
 tags: [llms, transformer, inference, kv-cache, prompt-caching]
 sources:
@@ -84,3 +84,4 @@ KV cache is critical for: chatbots (multi-turn conversations), code generation t
 
 [[chaofa-yuan]]
 - [[llm-wiki-pattern]], [[openai-codex-2026]]
+- [[lmcache]] — 分层 KV cache 管理：GPU → CPU → SSD → Cloud，跨引擎复用

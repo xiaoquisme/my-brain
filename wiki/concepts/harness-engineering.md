@@ -1,10 +1,10 @@
 ---
 title: Harness Engineering
 created: 2026-04-07
-updated: 2026-06-09
+updated: 2026-07-08
 type: concept
 tags: [ai-agents, coding-agents, software-engineering, quality]
-sources:
+sources: [../../sources/articles/lilian-weng-harness-self-improvement-2026.md]
   - ../../sources/articles/martin-fowler-harness-engineering.md
   - ../../sources/articles/yuanchaofa-harness-engineering.md
   - ../../sources/articles/hermes-harness-metaphor.md
@@ -89,3 +89,5 @@ This directly relates to how we set up this knowledge base:
 - [[human-on-the-loop]], [[attenuation-amplification]], [[gemba-go-see]]
 - [[loop-engineering]], [[factory-model]]
 - [[agents-md-best-practices]]
+- [[govctl]] — 从治理制品（RFC/ADR）角度切入 AI Agent 治理
+- [[lilian-weng]] — 2026 年最全面的 Harness Engineering 综述，将 harness 与 RSI 联系

@@ -1,3 +1,57 @@
+## 2026-07-09 — Ingest: KV Cache Management infographic (Akshay Pachaar)
+
+**Source**: @akshay_pachaar (https://x.com/akshay_pachaar/status/2074502882812952666)
+**Type**: tweet + infographic, 163 likes, 89K views
+
+### New Files
+- sources/articles/akshay-lmcache-kv-cache-management-2026.md — 原始推文 + LMCache 架构摘要
+- wiki/projects/lmcache.md — LMCache 项目页
+
+### Updated Files
+- wiki/people/akshay-pachaar.md — 添加新推文引用和 LMCache 反向链接
+- wiki/concepts/kv-cache-and-prompt-caching.md — 添加 LMCache 反向链接
+- index.md — 添加 1 个新页面条目，总页数 98->99
+
+---
+
+## 2026-07-08 — Ingest: Harness Engineering for Self-Improvement (Lilian Weng)
+
+**Source**: Lilian Weng, Lil'Log (https://lilianweng.github.io/posts/2026-07-04-harness/)
+**Type**: blog post, 28 min read, comprehensive survey
+
+### New Files
+- sources/articles/lilian-weng-harness-self-improvement-2026.md — 原始文章摘要
+- wiki/people/lilian-weng.md — Lilian Weng 人物页
+
+### Updated Files
+- wiki/concepts/harness-engineering.md — 添加 Lilian Weng 来源和反向链接
+- wiki/concepts/self-evolving-harness.md — 添加 Lilian Weng 来源和反向链接
+- wiki/concepts/meta-harness.md — 添加反向链接
+- wiki/concepts/autoresearch.md — 更新日期
+- wiki/concepts/harness.md — 添加反向链接
+- index.md — 添加 1 个新页面条目，总页数 97->98
+
+---
+
+## 2026-07-08 — Ingest: govctl (Tom Dörr tweet)
+
+**Source**: Tom Dörr @tom_doerr (https://x.com/tom_doerr/status/2073089713771106703)
+**Type**: tweet + GitHub repo (https://github.com/govctl-org/govctl)
+**Stats**: 268 likes, 313 bookmarks, 17K views
+
+### New Files
+- sources/articles/govctl-tweet-2026.md — 原始推文 + GitHub README 摘要
+- wiki/projects/govctl.md — 项目页：governance-as-code CLI
+- wiki/people/tom-doerr.md — 人物页：Tom Dörr
+
+### Updated Files
+- wiki/concepts/coding-agents.md — 添加反向链接
+- wiki/concepts/harness-engineering.md — 添加反向链接
+- SCHEMA.md — 添加 governance-as-code tag
+- index.md — 添加 2 个新页面条目，总页数 95->97
+
+---
+
 ## 2026-06-20 — Ingest: HarnessX
 
 **Source**: arXiv:2606.14249 (https://arxiv.org/abs/2606.14249)
@@ -733,3 +787,20 @@ Append-only record of operations.
 - wiki/concepts/harness-engineering.md — 添加反向链接
 - wiki/people/addy-osmani.md — 添加新文章引用
 - index.md — 添加 1 个新页面条目，总页数 91->92
+
+## [2026-06-30] ingest | Human 3.0 – Dan Koe (Twitter Article)
+
+来源：Dan Koe @thedankoe (https://x.com/thedankoe/status/2023779299367809063)
+Twitter Article, 4M views, 12.5K likes, 33.6K bookmarks
+
+### 新建文件
+- sources/articles/human-3.0-dan-koe-2026.md — 原始文章（Twitter Article 长文）
+- wiki/concepts/human-3.0.md — 核心概念：四象限 × 三层级 × 三阶段个人发展框架，AI 作为 Glitch
+- wiki/people/dan-koe.md — Dan Koe 人物页
+
+### 更新文件
+- SCHEMA.md — 添加个人发展 tag 分类（personal-development, philosophy, human-potential, psychology）
+- wiki/concepts/the-bitter-lesson.md — 添加反向链接
+- wiki/concepts/skill-file.md — 添加反向链接
+- wiki/concepts/llm-wiki-pattern.md — 添加反向链接
+- index.md — 添加 2 个新页面条目，总页数 93->95

@@ -1,7 +1,7 @@
 ---
 title: Harness
 created: 2026-04-23
-updated: 2026-04-23
+updated: 2026-07-08
 type: concept
 tags: [ai-agents, harness-engineering, architecture]
 sources: [../../sources/articles/thin-harness-fat-skills.md]
@@ -65,4 +65,5 @@ Harness 是运行 LLM 的程序，负责四件事：循环运行模型、读写�
 ## 相关页面
 
 [[kv-cache-and-prompt-caching]], [[resolver]], [[self-evolving-harness]]
+- [[lilian-weng]] — 定义 harness 为"围绕 base model 的执行编排系统"
 

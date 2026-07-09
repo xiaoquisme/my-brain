@@ -46,3 +46,4 @@ A pattern where LLMs incrementally build and maintain a structured, interlinked 
 ## 相关页面
 
 [[harness]], [[andrej-karpathy]]
+- [[human-3.0]] — Human 3.0 的 Synthesist 理念与 LLM Wiki 的知识综合实践呼应

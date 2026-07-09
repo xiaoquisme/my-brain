@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-06-20 | Total pages: 93
+> Last updated: 2026-07-09 | Total pages: 99
 
 ## Concepts
 
@@ -33,6 +33,7 @@
 - [[harness-engineering]] — 构建围绕 AI 编码 Agent 的系统性控制——安全、可观测性、错误恢复
 - [[harness-engineering-case-studies]] — Harness 工程案例：OpenAI Codex、Anthropic 多 Agent、CAR 框架、HarnessCard、Meta-Harness
 - [[harnessx]] — HarnessX：小米提出的可组合/可适应/可进化 harness foundry，AEGIS 多 Agent 进化引擎 + cross-harness GRPO 协同进化，5 benchmark 平均 +14.5%
+- [[human-3.0]] — Dan Koe 的个人发展四象限框架：Mind/Body/Spirit/Vocation × 3 Levels × 3 Phases，AI 作为跨领域发展加速器
 - [[human-on-the-loop]] — Human-on-the-Loop：人类退居元维度引导 Agent 系统的控制范式，源自控制论与管理科学
 - [[harnesscard]] — HarnessCard: 轻量级报告格式，用于披露 harness 配置以保证可复现性
 - [[kanban]] — 看板最初由丰田汽车公司开发，用于提高制造效率，后被引入软件开发
@@ -67,6 +68,7 @@
 - [[birgitta-bockeler]] — Software engineer/consultant at Thoughtworks, wrote "Harness Engineering" on Martin Fowler's blog
 - [[chaofa-yuan]] — 技术博主，撰写 AI agent engineering 和 LLM 基础设施文章
 - [[chaoyue-he]] — Alibaba-NTU 研究者，CAR Framework 和 HarnessCard 论文作者
+- [[dan-koe]] — 个人发展内容创作者，95 万+ 粉丝，提出 Human 3.0 四象限发展框架
 - [[chelsea-finn]] — Stanford professor, foundational work on meta-learning (MAML)
 - [[erik-schluntz]] — Anthropic engineer, co-author of "Building Effective Agents"
 - [[garry-tan]] — YC CEO，"Thin Harness, Fat Skills" 理念提出者
@@ -75,6 +77,7 @@
 - [[jinse-chuanshuo-dacongrming]] — 技术博主，通过爱马仕比喻解释 Harness 工程哲学
 - [[justin-young]] — Anthropic engineer, authored "Effective Harnesses for Long-Running Agents"
 - [[kieran-klaassen]] — Every 团队工程师，Compound Engineering 理念提出者
+- [[lilian-weng]] — OpenAI 研究科学家，Lil'Log 博客作者，Harness Engineering 综述 (2026)
 - [[luongnv89]] — 开发者，创建 "Claude How To" 开源教程
 - [[martin-fowler]] — Thoughtworks Chief Scientist, software engineering thought leader
 - [[martin-kleppmann]] — 剑桥大学研究员，《设计数据密集型应用》作者
@@ -88,6 +91,7 @@
 - [[scale-ai]] — AI 数据基础设施公司，发布 SWE-Atlas 等评测基准
 - [[shashikant-jagtap]] — 创建 superagentic-metaharness Python 库
 - [[thariq-shihipar]] — Anthropic MTS, working on Claude Code
+- [[tom-doerr]] — govctl 创建者，专注于 AI 辅助软件开发的治理工具
 
 ## Projects
 
@@ -98,8 +102,10 @@
 - [[evo]] — 开源 autoresearch orchestrator，同时优化 harness 和模型权重，LawBench SOTA 0.776
 - [[every]] — AI 媒体+产品公司，Compound Engineering 提出者，运营 6 个产品
 - [[gbrain]] — Garry Tan 开源的 AI Agent 框架，实现 "Thin Harness, Fat Skills"
+- [[govctl]] — governance-as-code CLI，为 AI coding 团队提供 RFC/ADR/Work Items/Verification Guards
 - [[harbor]] — laude-institute 开源任务运行框架，专为 AI Agent 评测基准设计
 - [[letta-code]] — 开源 Agent harness，核心特色为 git 版本化 MemFS 持久记忆
+- [[lmcache]] — KV Cache 分层管理层，GPU→CPU→SSD→Cloud，跨引擎复用，PyTorch Foundation 成员
 - [[lobehub]] — 开源 AI 聊天平台，Self-Evolving Harness 的首个生产级实践，接入 70+ 模型 provider
 - [[openclaw]] — 基于 Pi 的 Agent harness，纵深防御 context 管理
 - [[pi-mono]] — 开源 Agent harness，OpenClaw 的上游

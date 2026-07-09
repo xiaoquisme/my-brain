@@ -1,7 +1,7 @@
 ---
 title: Coding Agents
 created: 2026-04-07
-updated: 2026-04-17
+updated: 2026-07-08
 type: concept
 tags: [ai-agents, software-engineering, tool-use]
 sources:
@@ -79,3 +79,4 @@ AI agents that autonomously write, modify, and test code. Their effectiveness de
 
 [[agentic-patterns]], [[meta-harness]], [[tool-use-as-meta-ability]], [[justin-young]], [[msitarzewski]]
 - [[ashbys-law]], [[claude-opus-4-7]], [[llm-wiki-pattern]], [[rosa]]
+- [[govctl]] — governance-as-code CLI，为 AI coding 场景提供治理控制面

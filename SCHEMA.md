@@ -79,6 +79,7 @@ contradictions: [other-page-slug]
 
 ### 软件工程
 - `swe-tool` — 软件工程工具（IDE、linter、测试框架等）
+- `governance-as-code` — 治理即代码，将开发治理（RFC/ADR/门控）嵌入代码仓库
 - `code-gen` — 代码生成、程序合成
 - `agent` — AI 编程 Agent、自主编程系统
 - `ai-agents` — AI Agent 通用话题
@@ -170,6 +171,12 @@ contradictions: [other-page-slug]
 
 ### 数据
 - `dataset` — 数据集
+
+### 个人发展
+- `personal-development` — 个人发展、自我提升
+- `philosophy` — 哲学、世界观
+- `human-potential` — 人类潜能、自我实现
+- `psychology` — 心理学
 
 ### 元信息
 - `comparison` — 横向对比分析
