@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-07-09 | Total pages: 99
+> Last updated: 2026-07-13 | Total pages: 99
 
 ## Concepts
 
@@ -24,7 +24,7 @@
 - [[claude-opus-4-7]] — Claude Opus 4.7 是 Anthropic 于 2026-04-16 发布的新模型，在高级软件工程任务上有显著提升
 - [[codebase-qna]] — 代码库问答评测形式：让 Agent 探索真实代码库并回答自然语言问题
 - [[coding-agents]] — AI agents that autonomously write, modify, and test code
-- [[compound-engineering]] — Every 团队的 AI 原生工程哲学：七步循环，每个工作单元让后续更容易
+- [[compound-engineering]] — Every 团队的 AI 原生工程哲学：四步循环（Plan→Work→Review→Compound），每个工作单元让后续更容易
 - [[curator]] — Hermes Agent 的后台维护系统，管理 agent 创建的 skills：追踪使用频率、自动状态流转、LLM 审查合并
 - [[diarization]] — 让模型读取某个主题的所有内容，然后输出结构化摘要。读 50 份文档，产出 1 页判断
 - [[gemba-go-see]] — 现地现物：精益管理实践，在 Agent SDLC 中用于校准控制模型的次级反馈闭环

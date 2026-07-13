@@ -59,7 +59,7 @@ Loop Engineering 位于 [[harness-engineering]] 之上一层：
 - [[human-on-the-loop]] — 循环是 HotL 的技术实现形式
 - [[factory-model]] — 循环的上层抽象
 - [[skill-file]] — Skills 原语的载体
-- [[compound-engineering]] — Every.to 的七步循环，类似理念
+- [[compound-engineering]] — Every.to 的四步循环（Plan→Work→Review→Compound），类似理念
 - [[coding-agents]] — 循环控制的对象
 - [[attenuation-amplification]] — 循环 = 自动化的衰减机制
 - [[gemba-go-see]] — "验证仍在人" = 现地现物

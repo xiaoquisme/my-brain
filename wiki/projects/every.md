@@ -1,7 +1,7 @@
 ---
 title: Every
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-07-13
 type: entity
 tags: [company, open-source, agent, coding-agents]
 sources: [../../sources/articles/compound-engineering-every-2026.md]
@@ -23,8 +23,8 @@ Every（every.to）是一家 AI 媒体 + 产品公司，运营 6 个产品（Cor
 
 ## Key Contributions
 
-- 发布 Compound Engineering 指南和 plugin（40+ agents, 30+ slash commands, 35+ skills）
-- Plugin 支持 Claude Code、Cursor、Codex 等主流工具
+- 发布 Compound Engineering 指南和 plugin（14+ review agents, 14 skills, /workflows:* 命令体系）
+- Plugin 支持 Claude Code、OpenCode、Codex 等主流工具
 - 开源：[GitHub 上的 compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)
 
 ## Connections
@@ -36,4 +36,5 @@ Every（every.to）是一家 AI 媒体 + 产品公司，运营 6 个产品（Cor
 ---
 ## Evidence Timeline
 
-- **2026-06-07**: 发布 Compound Engineering 指南 ^[sources/articles/compound-engineering-every-2026.md]
+- **2026-06-07**: 发布 Compound Engineering 指南初版（七步循环） ^[sources/articles/compound-engineering-every-2026.md]
+- **2026-07-13**: 指南大幅重写——简化为四步循环，新增 Design/Vibe Coding/Team Collaboration 等章节 ^[sources/articles/compound-engineering-every-2026.md]

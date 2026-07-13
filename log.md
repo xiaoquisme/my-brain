@@ -818,3 +818,24 @@ Twitter Article, 4M views, 12.5K likes, 33.6K bookmarks
 - wiki/concepts/skill-file.md — 添加反向链接
 - wiki/concepts/llm-wiki-pattern.md — 添加反向链接
 - index.md — 添加 2 个新页面条目，总页数 93->95
+
+## [2026-07-13] update | Compound Engineering — source drift detected & full re-ingest
+
+来源: https://every.to/guides/compound-engineering
+
+### Drift 检测
+源文章自 2026-06-07 首次收录后有重大更新:
+- 主循环从 7 步简化为 4 步 (Plan > Work > Review > Compound)
+- 时间分配新增 80/20 规则 (features) + 保留 50/50 (system improvement)
+- 命令从 /ce-* 更名为 /workflows:*
+- Review agent 从泛称 40+ 细化为 14 个具名专家
+- 新增章节: Getting Started, Design in Code, Vibe Coding, Team Collaboration, User Research, Copy, Marketing
+- Beliefs 从 10-8 条, 新增 Emotional Reactions 小节
+
+### 更新文件
+- sources/articles/compound-engineering-every-2026.md — 完整重写, 更新 sha256
+- wiki/concepts/compound-engineering.md — 重写核心内容 (四步循环 + 新实践领域)
+- wiki/projects/every.md — 更新 plugin 统计数据和证据时间线
+- wiki/people/kieran-klaassen.md — 更新核心贡献描述和证据时间线
+- index.md — 更新摘要描述 (七步 to 四步)
+- wiki/concepts/compound-engineering.md — 清理重复链接
