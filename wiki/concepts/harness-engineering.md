@@ -4,7 +4,8 @@ created: 2026-04-07
 updated: 2026-07-08
 type: concept
 tags: [ai-agents, coding-agents, software-engineering, quality]
-sources: [../../sources/articles/lilian-weng-harness-self-improvement-2026.md]
+sources:
+  - ../../sources/articles/lilian-weng-harness-self-improvement-2026.md
   - ../../sources/articles/martin-fowler-harness-engineering.md
   - ../../sources/articles/yuanchaofa-harness-engineering.md
   - ../../sources/articles/hermes-harness-metaphor.md
