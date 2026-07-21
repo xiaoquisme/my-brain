@@ -1,3 +1,21 @@
+## 2026-07-06 — Ingest: Graph Engineering with Claude (Codez / @0xCodez)
+
+**Source**: @0xCodez (https://x.com/0xCodez/status/2079165300625330317)
+**Type**: Twitter Article (long-form), 1129 likes, 528K views, 2914 bookmarks
+
+### New Files
+- sources/articles/codez-graph-engineering-claude-2026.md — 14 步图工程路线图原始长文
+- wiki/concepts/graph-engineering.md — Graph Engineering 概念页：节点/边/钻石拓扑/parallel/pipeline/verifier/loop-until-dry
+- wiki/people/codez.md — Codez 人物页
+
+### Updated Files
+- wiki/concepts/coding-agents.md — 添加 graph-engineering 反向链接
+- wiki/concepts/harness-engineering.md — 添加 graph-engineering 反向链接
+- wiki/concepts/loop-engineering.md — 添加 graph-engineering 反向链接
+- index.md — 添加 2 个新页面条目，总页数 99->101
+
+---
+
 ## 2026-07-09 — Maintenance
 
 **Action**: maintain

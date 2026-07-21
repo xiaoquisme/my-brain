@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-07-13 | Total pages: 99
+> Last updated: 2026-07-06 | Total pages: 101
 
 ## Concepts
 
@@ -28,6 +28,7 @@
 - [[curator]] — Hermes Agent 的后台维护系统，管理 agent 创建的 skills：追踪使用频率、自动状态流转、LLM 审查合并
 - [[diarization]] — 让模型读取某个主题的所有内容，然后输出结构化摘要。读 50 份文档，产出 1 页判断
 - [[gemba-go-see]] — 现地现物：精益管理实践，在 Agent SDLC 中用于校准控制模型的次级反馈闭环
+- [[graph-engineering]] — Graph Engineering：将 Agent 线性工作流重构为有向图（fan-out/fan-in/diamond），实现并行化、验证门控和模型分层
 - [[factory-model]] — Factory Model：Addy Osmani 提出的 AI 软件构建系统模型，Loop 的上层抽象
 - [[harness]] — Harness 是运行 LLM 的程序，负责循环运行模型、读写文件、管理上下文、执行安全检查
 - [[harness-engineering]] — 构建围绕 AI 编码 Agent 的系统性控制——安全、可观测性、错误恢复
@@ -74,6 +75,7 @@
 - [[garry-tan]] — YC CEO，"Thin Harness, Fat Skills" 理念提出者
 - [[geoffrey-huntley]] — 提出 Ralph 模式——用文件系统作为 AI 编码 Agent 的外部记忆
 - [[gleb-rodionov]] — Yandex 研究者，研究 LLM 推理行为和 Reasoning Shift
+- [[codez]] — AI 内容创作者和研究者，@0xCodez，提出 Graph Engineering 方法论
 - [[jinse-chuanshuo-dacongrming]] — 技术博主，通过爱马仕比喻解释 Harness 工程哲学
 - [[justin-young]] — Anthropic engineer, authored "Effective Harnesses for Long-Running Agents"
 - [[kieran-klaassen]] — Every 团队工程师，Compound Engineering 理念提出者

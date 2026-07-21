@@ -1,7 +1,7 @@
 ---
 title: Harness Engineering
 created: 2026-04-07
-updated: 2026-07-08
+updated: 2026-07-06
 type: concept
 tags: [ai-agents, coding-agents, software-engineering, quality]
 sources:
@@ -92,3 +92,4 @@ This directly relates to how we set up this knowledge base:
 - [[agents-md-best-practices]]
 - [[govctl]] — 从治理制品（RFC/ADR）角度切入 AI Agent 治理
 - [[lilian-weng]] — 2026 年最全面的 Harness Engineering 综述，将 harness 与 RSI 联系
+- [[graph-engineering]] — Graph Engineering 将 harness 的线性执行升级为图编排（fan-out/fan-in/diamond）

@@ -1,7 +1,7 @@
 ---
 title: Loop Engineering
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-06
 type: concept
 tags: [agent, coding-agents, harness-engineering, workflow, multi-agent]
 sources: [../../sources/articles/loop-engineering-osmani-2026.md]
@@ -64,3 +64,4 @@ Loop Engineering 位于 [[harness-engineering]] 之上一层：
 - [[attenuation-amplification]] — 循环 = 自动化的衰减机制
 - [[gemba-go-see]] — "验证仍在人" = 现地现物
 - [[addy-osmani]] — 文章作者
+- [[graph-engineering]] — Graph Engineering 是 Loop Engineering 的图化演进，从线性循环升级为并行拓扑
