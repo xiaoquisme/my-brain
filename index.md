@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查询前先读此文件以找到相关页面。
-> Last updated: 2026-07-06 | Total pages: 101
+> Last updated: 2026-07-06 | Total pages: 103
 
 ## Concepts
 
@@ -43,6 +43,7 @@
 - [[llm-wiki-pattern]] — LLM 增量构建和维护结构化、互链接的知识库模式
 - [[loop-engineering]] — Loop Engineering：设计自动化循环代替手动 prompt Agent 的实践，五原语架构
 - [[meta-harness]] — Meta-Harness: 自动搜索最优 harness 配置的系统
+- [[model-alignment]] — Model Alignment：让模型按人类期望"正确"行为的过程（model spec → SFT → RL → eval）
 - [[openai-codex-2026]] — OpenAI 于 2026-04-16 发布 Codex 重大更新，扩展为可在电脑上自主操作的全面开发伴侣
 - [[reasoning-shift]] — 推理型 LLM 在非隔离上下文条件下推理链显著缩短（最多 50%）的现象
 - [[resolver]] — Resolver 是上下文的路由表：当任务类型 X 出现时，首先加载文档 Y
@@ -75,6 +76,7 @@
 - [[garry-tan]] — YC CEO，"Thin Harness, Fat Skills" 理念提出者
 - [[geoffrey-huntley]] — 提出 Ralph 模式——用文件系统作为 AI 编码 Agent 的外部记忆
 - [[gleb-rodionov]] — Yandex 研究者，研究 LLM 推理行为和 Reasoning Shift
+- [[lee-robinson]] — Cursor Model Behavior 负责人，前 Vercel VP，用通俗类比解释 AI 训练流程
 - [[codez]] — AI 内容创作者和研究者，@0xCodez，提出 Graph Engineering 方法论
 - [[jinse-chuanshuo-dacongrming]] — 技术博主，通过爱马仕比喻解释 Harness 工程哲学
 - [[justin-young]] — Anthropic engineer, authored "Effective Harnesses for Long-Running Agents"

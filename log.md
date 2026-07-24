@@ -1,3 +1,20 @@
+## 2026-07-06 — Ingest: How we teach AI models (Lee Robinson / @leerob)
+
+**Source**: @leerob (https://x.com/leerob/status/2080467752897146898)
+**Type**: Twitter Article (long-form), 875 likes, 1188 bookmarks, 66K views
+
+### New Files
+- sources/articles/leerob-how-we-teach-ai-models-2026.md — 篮球类比解释 pretraining → SFT → RL → alignment
+- wiki/concepts/model-alignment.md — Model Alignment 概念页：model spec、对齐流程、benchmark 评测、continual learning
+- wiki/people/lee-robinson.md — Lee Robinson 人物页（Cursor Model Behavior, 前 Vercel VP）
+
+### Updated Files
+- wiki/concepts/skill-file.md — 添加 model-alignment 反向链接（agent memory 是 continual learning 方案）
+- wiki/concepts/the-bitter-lesson.md — 添加 model-alignment 反向链接（scale vs alignment 张力）
+- index.md — 添加 2 个新页面条目，总页数 101->103
+
+---
+
 ## 2026-07-06 — Ingest: Graph Engineering with Claude (Codez / @0xCodez)
 
 **Source**: @0xCodez (https://x.com/0xCodez/status/2079165300625330317)
